@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 995438498, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 6
+  lastUpdatedAtString: 2019-08-30T01:47:10.975+12:00
+  initializedAtString: 2019-08-30T01:47:10.975+12:00
+  entries:
+  - path: Decisive Moment\Library\assetDatabase3
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\Library\assetDatabase3
+    projectPath: Library\assetDatabase3
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Decisive Moment\Library\EditorInstance.json
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\Library\EditorInstance.json
+    projectPath: Library\EditorInstance.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Decisive Moment\Library\gfu\cache\gitlocks.yaml
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\Library\gfu\cache\gitlocks.yaml
+    projectPath: Library\gfu\cache\gitlocks.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Decisive Moment\Library\gfu\cache\gitlog.yaml
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\Library\gfu\cache\gitlog.yaml
+    projectPath: Library\gfu\cache\gitlog.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Decisive Moment\Library\gfu\cache\gitstatusentries.yaml
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\Library\gfu\cache\gitstatusentries.yaml
+    projectPath: Library\gfu\cache\gitstatusentries.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Decisive Moment\Library\gfu\cache\gittrackingstatus.yaml
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\Library\gfu\cache\gittrackingstatus.yaml
+    projectPath: Library\gfu\cache\gittrackingstatus.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Decisive Moment\Library\gfu\cache\gituser.yaml
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\Library\gfu\cache\gituser.yaml
+    projectPath: Library\gfu\cache\gituser.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Decisive Moment\Library\gfu\cache\repoinfo.yaml
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\Library\gfu\cache\repoinfo.yaml
+    projectPath: Library\gfu\cache\repoinfo.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Decisive Moment\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Decisive Moment\Library\StateCache\Hierarchy\422cf7-mainStage.json
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\Library\StateCache\Hierarchy\422cf7-mainStage.json
+    projectPath: Library\StateCache\Hierarchy\422cf7-mainStage.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Decisive Moment\ProjectSettings\QualitySettings.asset
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\ProjectSettings\QualitySettings.asset
+    projectPath: ProjectSettings\QualitySettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Decisive Moment\ProjectSettings\UnityConnectSettings.asset
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\ProjectSettings\UnityConnectSettings.asset
+    projectPath: ProjectSettings\UnityConnectSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Decisive Moment\Temp\__Backupscenes\0.backup
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\Temp\__Backupscenes\0.backup
+    projectPath: Temp\__Backupscenes\0.backup
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Decisive Moment\Temp\UnityLockfile
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\Temp\UnityLockfile
+    projectPath: Temp\UnityLockfile
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
