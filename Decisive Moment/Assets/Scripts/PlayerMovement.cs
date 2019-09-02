@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public GameObject diePrefab; 
+
     public float moveSpeed = 5f;
-   
+    private float time_val;
+
     public Rigidbody2D rb;
     public Animator animator;
 
@@ -61,5 +64,57 @@ public class PlayerMovement : MonoBehaviour
         animator.SetBool("isGrounded", grounded);
         animator.SetFloat("verticalSpeed", rb.velocity.y);
 
+        if (time_val >= 0.4f)
+        {
+            Attack(moveInput);
+        }
+        else
+        {
+            time_val += Time.deltaTime;
+        }
+    }
+
+
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        switch (collision.tag)
+        {
+            case "Hero":
+                break;
+            case "Wall":
+                break;
+            case "Monster":
+                break;
+            case "Cliff":
+                Die();
+                break;
+            default:
+                break;
+        }
+    }
+
+    private void Attack(float moveInput)
+    {
+        if (Input.GetKeyDown(KeyCode.J))
+        {
+            //Flip
+            if (moveInput < 0)
+            {
+
+            }
+            else
+            {
+
+            }
+            time_val = 0;
+        }
+    }
+
+    private void Die()
+    {
+        diePrefab.SetActive(true);
+        Instantiate(diePrefab,transform.position,transform.rotation);
+        Destroy(gameObject);
     }
 }
