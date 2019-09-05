@@ -8,8 +8,8 @@ public class CameraFollow : MonoBehaviour
 
     //set the distance which the charactor can most seen
     public float Ahead = 0;
-    public float differnce_x = 2.9f;
-    public float differnce_y = 2.11f;
+    public float differnce_x = 23.9f;
+    public float differnce_y = 0f;
 
     //Set the target position of camera
     public Vector3 targetPos;

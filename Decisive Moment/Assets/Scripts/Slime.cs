@@ -18,4 +18,22 @@ public class Slime : MonoBehaviour
         transform.Translate(-transform.right*move_speed*Time.deltaTime,Space.World);
         
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        switch (collision.tag)
+        {
+            case "Hero":
+                break;
+            case "Wall":
+                transform.eulerAngles = new Vector3(0, transform.position.y+180, 0);
+                break;
+            case "Monster":
+                break;
+            case "Cliff":
+                break;
+            default:
+                break;
+        }
+    }
 }
