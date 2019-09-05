@@ -4,10 +4,14 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public GameObject diePrefab; 
+    public GameObject diePrefab;
+    public GameObject attackPrefab;
+    public GameObject slimeDiePrefab;
+    private AnimatorStateInfo mStateInfo;
+    private bool rightFlg = true;
 
     public float moveSpeed = 5f;
-    private float time_val;
+    private float time_val = 0.2f;
 
     public Rigidbody2D rb;
     public Animator animator;
@@ -21,11 +25,12 @@ public class PlayerMovement : MonoBehaviour
     void Awake()
     {
         animator = GetComponent<Animator>();
+        mStateInfo = animator.GetCurrentAnimatorStateInfo(0);
         rb = GetComponent<Rigidbody2D>();
     }
     void Update()
     {
-        if (grounded && Input.GetAxis("Jump")>0)
+        if (grounded && Input.GetAxis("Jump") > 0)
         {
             grounded = false;
             animator.SetBool("isGrounded", grounded);
@@ -38,6 +43,7 @@ public class PlayerMovement : MonoBehaviour
         //Retrieve keyboard input and calculate run speed
         float moveInput = Input.GetAxisRaw("Horizontal");
         rb.velocity = new Vector2(moveInput * moveSpeed, rb.velocity.y);
+
 
         //Running animation toggle check
         if (moveInput == 0)
@@ -53,10 +59,12 @@ public class PlayerMovement : MonoBehaviour
         if (moveInput < 0)
         {
             transform.eulerAngles = new Vector3(0, 180, 0);
+            rightFlg = false;
         }
         else if (moveInput > 0)
         {
             transform.eulerAngles = new Vector3(0, 0, 0);
+            rightFlg = true;
         }
 
         //Check if grounded
@@ -66,12 +74,14 @@ public class PlayerMovement : MonoBehaviour
 
         if (time_val >= 0.4f)
         {
-            Attack(moveInput);
+            Attack();
         }
         else
         {
+            animator.SetBool("isAttack", false);
             time_val += Time.deltaTime;
         }
+
     }
 
 
@@ -83,6 +93,7 @@ public class PlayerMovement : MonoBehaviour
             case "Hero":
                 break;
             case "Wall":
+
                 break;
             case "Monster":
                 break;
@@ -94,27 +105,38 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    private void Attack(float moveInput)
+    private void Attack()
     {
         if (Input.GetKeyDown(KeyCode.J))
         {
-            //Flip
-            if (moveInput < 0)
+            animator.SetBool("isAttack", true);
+            time_val = 0;
+            Vector2 newPosition;
+            if (rightFlg)
             {
-
+                newPosition = new Vector2(transform.position.x + 1, transform.position.y);
             }
             else
             {
-
+                newPosition = new Vector2(transform.position.x - 1, transform.position.y);
             }
-            time_val = 0;
+
+            int layerMask = LayerMask.GetMask("Monster");
+            RaycastHit2D hit = Physics2D.Raycast(newPosition, rightFlg?Vector2.right:Vector2.left, 1f, layerMask);
+            if(hit)
+            {
+                Destroy(hit.collider.gameObject);
+                slimeDiePrefab.SetActive(true);
+                Instantiate(slimeDiePrefab, hit.collider.gameObject.transform.position, hit.collider.gameObject.transform.rotation);
+            }
+            
         }
     }
 
     private void Die()
     {
         diePrefab.SetActive(true);
-        Instantiate(diePrefab,transform.position,transform.rotation);
+        Instantiate(diePrefab, transform.position, transform.rotation);
         Destroy(gameObject);
     }
 }

@@ -262,8 +262,11 @@ E:\Unity\Decisive-Moment\Decisive Moment\Temp\bin\Debug\UnityEngine.XRModule.xml
 E:\Unity\Decisive-Moment\Decisive Moment\Temp\bin\Debug\UnityEngine.UI.xml
 E:\Unity\Decisive-Moment\Decisive Moment\Temp\bin\Debug\UnityEngine.TestRunner.xml
 E:\Unity\Decisive-Moment\Decisive Moment\Temp\bin\Debug\nunit.framework.xml
-E:\Unity\Decisive-Moment\Decisive Moment\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
 E:\Unity\Decisive-Moment\Decisive Moment\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
 E:\Unity\Decisive-Moment\Decisive Moment\obj\Debug\Assembly-CSharp.csproj.CopyComplete
 E:\Unity\Decisive-Moment\Decisive Moment\obj\Debug\Assembly-CSharp.dll
 E:\Unity\Decisive-Moment\Decisive Moment\obj\Debug\Assembly-CSharp.pdb
+E:\Unity\Decisive-Moment\Decisive Moment\Temp\bin\Debug\Boo.Lang.dll
+E:\Unity\Decisive-Moment\Decisive Moment\Temp\bin\Debug\UnityEditor.UI.dll
+E:\Unity\Decisive-Moment\Decisive Moment\Temp\bin\Debug\UnityEditor.UI.xml
+E:\Unity\Decisive-Moment\Decisive Moment\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache

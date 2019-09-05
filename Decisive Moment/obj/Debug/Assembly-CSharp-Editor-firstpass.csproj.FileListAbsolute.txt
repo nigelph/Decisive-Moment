@@ -287,8 +287,8 @@ E:\Unity\Decisive-Moment\Decisive Moment\Temp\bin\Debug\UnityEngine.TestRunner.x
 E:\Unity\Decisive-Moment\Decisive Moment\Temp\bin\Debug\nunit.framework.xml
 E:\Unity\Decisive-Moment\Decisive Moment\Temp\bin\Debug\UnityEditor.VR.xml
 E:\Unity\Decisive-Moment\Decisive Moment\Temp\bin\Debug\UnityEditor.iOS.Extensions.Xcode.xml
-E:\Unity\Decisive-Moment\Decisive Moment\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojResolveAssemblyReference.cache
 E:\Unity\Decisive-Moment\Decisive Moment\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
 E:\Unity\Decisive-Moment\Decisive Moment\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CopyComplete
 E:\Unity\Decisive-Moment\Decisive Moment\obj\Debug\Assembly-CSharp-Editor-firstpass.dll
 E:\Unity\Decisive-Moment\Decisive Moment\obj\Debug\Assembly-CSharp-Editor-firstpass.pdb
+E:\Unity\Decisive-Moment\Decisive Moment\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojResolveAssemblyReference.cache
