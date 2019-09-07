@@ -13,15 +13,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2019-09-04T19:43:07.554+12:00
-  initializedAtString: 2019-09-03T14:42:11.360+12:00
+  lastUpdatedAtString: 2019-09-07T15:42:03.673+12:00
+  initializedAtString: 2019-09-07T15:36:31.050+12:00
   localBranches:
+  - name: fightingAnim
+    tracking: origin/fightingAnim
+  - name: gameActiveGUI
+    tracking: origin/gameActiveGUI
   - name: master
     tracking: origin/master
   - name: Platform_Dev
-    tracking: 
+    tracking: origin/Platform_Dev
   remoteBranches:
-  - name: origin/fightingAnim
+  - name: origin/gameActiveGUI
     tracking: '[None]'
   - name: origin/HEAD
     tracking: '[None]'
@@ -35,9 +39,21 @@ MonoBehaviour:
     token: 
   localConfigBranches:
     keys:
+    - fightingAnim
+    - gameActiveGUI
     - master
     - Platform_Dev
     values:
+    - name: fightingAnim
+      remote:
+        name: origin
+        url: https://github.com/nigelph/Decisive-Moment.git
+      trackingBranch: fightingAnim
+    - name: gameActiveGUI
+      remote:
+        name: origin
+        url: https://github.com/nigelph/Decisive-Moment.git
+      trackingBranch: gameActiveGUI
     - name: master
       remote:
         name: origin
@@ -45,19 +61,19 @@ MonoBehaviour:
       trackingBranch: master
     - name: Platform_Dev
       remote:
-        name: 
-        url: 
-      trackingBranch: 
+        name: origin
+        url: https://github.com/nigelph/Decisive-Moment.git
+      trackingBranch: Platform_Dev
   remoteConfigBranches:
     keys:
     - origin
     subKeys:
     - Values:
-      - fightingAnim
+      - gameActiveGUI
       - HEAD
     subKeyValues:
     - Values:
-      - name: fightingAnim
+      - name: gameActiveGUI
         remote:
           name: origin
           url: https://github.com/nigelph/Decisive-Moment.git
