@@ -387,11 +387,28 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 3116068812554091769, guid: 1a0ff0ab3875e184a86b6ffa9efc6e21,
         type: 3}
+    - target: {fileID: 6289376988503003252, guid: 27853f11c1702af48bb521eea204ed43,
+        type: 3}
+      propertyPath: groundCheck
+      value: 
+      objectReference: {fileID: 1377402441}
+    - target: {fileID: 6289376988503003252, guid: 27853f11c1702af48bb521eea204ed43,
+        type: 3}
+      propertyPath: skillPrefab
+      value: 
+      objectReference: {fileID: 6279542559463929731, guid: b35c891b52249284ca687325e3d00f32,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 27853f11c1702af48bb521eea204ed43, type: 3}
 --- !u!4 &940704666 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 859963568262977126, guid: 27853f11c1702af48bb521eea204ed43,
+    type: 3}
+  m_PrefabInstance: {fileID: 774428775}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1377402441 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5859407721270796499, guid: 27853f11c1702af48bb521eea204ed43,
     type: 3}
   m_PrefabInstance: {fileID: 774428775}
   m_PrefabAsset: {fileID: 0}
@@ -420,12 +437,12 @@ PrefabInstance:
     - target: {fileID: 4520731393982344133, guid: 97dd4fc1aac2bff429add7f8a338a6d7,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10
+      value: -9.9874
       objectReference: {fileID: 0}
     - target: {fileID: 4520731393982344133, guid: 97dd4fc1aac2bff429add7f8a338a6d7,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.6
+      value: -0.493
       objectReference: {fileID: 0}
     - target: {fileID: 4520731393982344133, guid: 97dd4fc1aac2bff429add7f8a338a6d7,
         type: 3}
@@ -472,6 +489,27 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4520731393982344133, guid: 97dd4fc1aac2bff429add7f8a338a6d7,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 4.18365
+      objectReference: {fileID: 0}
+    - target: {fileID: 4520731393982344133, guid: 97dd4fc1aac2bff429add7f8a338a6d7,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4.151266
+      objectReference: {fileID: 0}
+    - target: {fileID: 4520731393982344138, guid: 97dd4fc1aac2bff429add7f8a338a6d7,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b70924121ad1d314d9181944a5c09272,
+        type: 3}
+    - target: {fileID: 4520731393982344139, guid: 97dd4fc1aac2bff429add7f8a338a6d7,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 35d721bab260fdd4da121ec837ec6fab, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97dd4fc1aac2bff429add7f8a338a6d7, type: 3}
 --- !u!1 &1388366764 stripped
@@ -492,6 +530,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 904cb8494a8fee041a4daea675e32e13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 0}
 --- !u!61 &1388366766
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -502,10 +541,10 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.01}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -516,8 +555,29 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.32, y: 0.25}
+  m_Size: {x: 0.3, y: 0.25}
   m_EdgeRadius: 0
+--- !u!50 &1388366767
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1388366764}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0.5
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1001 &1411163040
 PrefabInstance:
   m_ObjectHideFlags: 0

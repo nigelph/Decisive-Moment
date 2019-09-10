@@ -8,6 +8,8 @@ TagManager:
   - Wall
   - Hero
   - Cliff
+  - Skill
+  - Attack
   layers:
   - Default
   - TransparentFX
