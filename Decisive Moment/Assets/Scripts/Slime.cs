@@ -5,7 +5,11 @@ using UnityEngine;
 public class Slime : MonoBehaviour
 {
     private int move_speed = 1;
-
+    public Animator animator;
+    void Awake()
+    {
+        animator = GetComponent<Animator>();
+    }
     // Start is called before the first frame update
     void Start()
     {
@@ -15,8 +19,7 @@ public class Slime : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(-transform.right*move_speed*Time.deltaTime,Space.World);
-        
+            transform.Translate(-transform.right * move_speed * Time.deltaTime, Space.World);   
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -31,6 +34,11 @@ public class Slime : MonoBehaviour
             case "Monster":
                 break;
             case "Cliff":
+                break;
+            case "Skill":
+
+                animator.SetBool("dieFlag", true);
+                Destroy(gameObject, 0.5f);
                 break;
             default:
                 break;

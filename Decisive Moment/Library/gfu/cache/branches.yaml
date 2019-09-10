@@ -13,12 +13,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
+<<<<<<< HEAD
   lastUpdatedAtString: 2019-09-07T16:35:08.622+08:00
   initializedAtString: 2019-09-07T16:35:08.595+08:00
+=======
+  lastUpdatedAtString: 2019-09-07T15:42:03.673+12:00
+  initializedAtString: 2019-09-07T15:36:31.050+12:00
+>>>>>>> bce7360eeee6bbbfeee9e3a030f0350c3f78a817
   localBranches:
+  - name: fightingAnim
+    tracking: origin/fightingAnim
+  - name: gameActiveGUI
+    tracking: origin/gameActiveGUI
   - name: master
     tracking: origin/master
+<<<<<<< HEAD
   remoteBranches:
+=======
+  - name: Platform_Dev
+    tracking: origin/Platform_Dev
+  remoteBranches:
+  - name: origin/gameActiveGUI
+    tracking: '[None]'
+>>>>>>> bce7360eeee6bbbfeee9e3a030f0350c3f78a817
   - name: origin/HEAD
     tracking: '[None]'
   - name: origin/master
@@ -48,19 +65,43 @@ MonoBehaviour:
     token: 
   localConfigBranches:
     keys:
+    - fightingAnim
+    - gameActiveGUI
     - master
     values:
+    - name: fightingAnim
+      remote:
+        name: origin
+        url: https://github.com/nigelph/Decisive-Moment.git
+      trackingBranch: fightingAnim
+    - name: gameActiveGUI
+      remote:
+        name: origin
+        url: https://github.com/nigelph/Decisive-Moment.git
+      trackingBranch: gameActiveGUI
     - name: master
       remote:
         name: origin
         url: https://github.com/trowa0304/Decisive-Moment.git
       trackingBranch: master
+<<<<<<< HEAD
+=======
+    - name: Platform_Dev
+      remote:
+        name: origin
+        url: https://github.com/nigelph/Decisive-Moment.git
+      trackingBranch: Platform_Dev
+>>>>>>> bce7360eeee6bbbfeee9e3a030f0350c3f78a817
   remoteConfigBranches:
     keys:
     - origin
     - upstream
     subKeys:
     - Values:
+<<<<<<< HEAD
+=======
+      - gameActiveGUI
+>>>>>>> bce7360eeee6bbbfeee9e3a030f0350c3f78a817
       - HEAD
       - master
     - Values:
@@ -70,7 +111,11 @@ MonoBehaviour:
       - Platform_Dev
     subKeyValues:
     - Values:
+<<<<<<< HEAD
       - name: HEAD
+=======
+      - name: gameActiveGUI
+>>>>>>> bce7360eeee6bbbfeee9e3a030f0350c3f78a817
         remote:
           name: origin
           url: https://github.com/trowa0304/Decisive-Moment.git

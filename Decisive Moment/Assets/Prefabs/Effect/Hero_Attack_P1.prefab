@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 2106413641746289073}
   - component: {fileID: 4303889432831079134}
   - component: {fileID: 5650013750019084985}
+  - component: {fileID: -8915783073277429372}
   m_Layer: 0
   m_Name: Hero_Attack_P1
-  m_TagString: Untagged
+  m_TagString: Attack
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -112,5 +113,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb1ba162d54dcc84da58a3ef61806b3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerPrefab: {fileID: 6289376988503003253, guid: 27853f11c1702af48bb521eea204ed43,
-    type: 3}
+--- !u!65 &-8915783073277429372
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6276778331106902275}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.49999997, y: 0.36999997, z: 0.19999999}
+  m_Center: {x: 0, y: 0, z: 0}

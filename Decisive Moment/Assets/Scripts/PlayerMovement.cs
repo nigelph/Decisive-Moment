@@ -7,21 +7,24 @@ public class PlayerMovement : MonoBehaviour
     public GameObject diePrefab;
     public GameObject attackPrefab;
     public GameObject slimeDiePrefab;
+    public GameObject skillPrefab;
+
+
     private AnimatorStateInfo mStateInfo;
     private bool rightFlg = true;
 
     public float moveSpeed = 5f;
-    private float time_val = 0.2f;
+    private float time_val = 0.4f;
 
     public Rigidbody2D rb;
     public Animator animator;
 
     //Jumping Variables
     private bool grounded = false;
-    private float groundCheckRadius = 0.2f;
+    private float groundCheckRadius = 0.4f;
     public LayerMask groundLayer;
     public Transform groundCheck;
-    public float jumpForce = 5f;
+    public float jumpForce = 8f;
     void Awake()
     {
         animator = GetComponent<Animator>();
@@ -75,10 +78,12 @@ public class PlayerMovement : MonoBehaviour
         if (time_val >= 0.4f)
         {
             Attack();
+            Casting();
         }
         else
         {
             animator.SetBool("isAttack", false);
+            animator.SetBool("isCast", false);
             time_val += Time.deltaTime;
         }
 
@@ -93,7 +98,6 @@ public class PlayerMovement : MonoBehaviour
             case "Hero":
                 break;
             case "Wall":
-
                 break;
             case "Monster":
                 break;
@@ -122,14 +126,25 @@ public class PlayerMovement : MonoBehaviour
             }
 
             int layerMask = LayerMask.GetMask("Monster");
-            RaycastHit2D hit = Physics2D.Raycast(newPosition, rightFlg?Vector2.right:Vector2.left, 1f, layerMask);
-            if(hit)
+            RaycastHit2D hit = Physics2D.Raycast(newPosition, rightFlg ? Vector2.right : Vector2.left, 1f, layerMask);
+            if (hit)
             {
                 Destroy(hit.collider.gameObject);
                 slimeDiePrefab.SetActive(true);
                 Instantiate(slimeDiePrefab, hit.collider.gameObject.transform.position, hit.collider.gameObject.transform.rotation);
             }
-            
+
+        }
+    }
+
+    private void Casting()
+    {
+        if (Input.GetKeyDown(KeyCode.K))
+        {
+            animator.SetBool("isCast", true);
+            skillPrefab.SetActive(true);
+            Instantiate(skillPrefab, transform.position, transform.rotation);//Quaternion.Euler(transform.eulerAngles)
+            time_val = 0;
         }
     }
 
