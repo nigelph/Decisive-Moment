@@ -13,1734 +13,246 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2019-09-10T15:13:45.447+08:00
-  initializedAtString: 2019-09-10T09:59:31.973+08:00
+  lastUpdatedAtString: 2019-09-12T10:21:08.520+12:00
+  initializedAtString: 2019-09-12T10:13:48.780+12:00
   entries:
-  - path: Decisive Moment\Assets\Animations\Player.controller
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Assets\Animations\Player.controller
-    projectPath: Assets\Animations\Player.controller
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Decisive Moment\Assets\Hero_Cast.anim
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Assets\Hero_Cast.anim
-    projectPath: Assets\Hero_Cast.anim
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Assets\Hero_Cast.anim.meta
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Assets\Hero_Cast.anim.meta
-    projectPath: Assets\Hero_Cast.anim.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Assets\Hero_Cast.controller
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Assets\Hero_Cast.controller
-    projectPath: Assets\Hero_Cast.controller
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Assets\Hero_Cast.controller.meta
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Assets\Hero_Cast.controller.meta
-    projectPath: Assets\Hero_Cast.controller.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Assets\ImportAssets\Fire.png
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Assets\ImportAssets\Fire.png
-    projectPath: Assets\ImportAssets\Fire.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Assets\ImportAssets\Fire.png.meta
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Assets\ImportAssets\Fire.png.meta
-    projectPath: Assets\ImportAssets\Fire.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Assets\ImportAssets\Fire_0.controller
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Assets\ImportAssets\Fire_0.controller
-    projectPath: Assets\ImportAssets\Fire_0.controller
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Assets\ImportAssets\Fire_0.controller.meta
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Assets\ImportAssets\Fire_0.controller.meta
-    projectPath: Assets\ImportAssets\Fire_0.controller.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Assets\ImportAssets\FireBall.anim
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Assets\ImportAssets\FireBall.anim
-    projectPath: Assets\ImportAssets\FireBall.anim
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Assets\ImportAssets\FireBall.anim.meta
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Assets\ImportAssets\FireBall.anim.meta
-    projectPath: Assets\ImportAssets\FireBall.anim.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Assets\ImportAssets\slime-idle-0.controller
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Assets\ImportAssets\slime-idle-0.controller
-    projectPath: Assets\ImportAssets\slime-idle-0.controller
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Decisive Moment\Assets\ImportAssets\Slime-Move.controller
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Assets\ImportAssets\Slime-Move.controller
-    projectPath: Assets\ImportAssets\Slime-Move.controller
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Assets\ImportAssets\Slime-Move.controller.meta
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Assets\ImportAssets\Slime-Move.controller.meta
-    projectPath: Assets\ImportAssets\Slime-Move.controller.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Assets\ImportAssets\slime-move-0.controller
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Assets\ImportAssets\slime-move-0.controller
-    projectPath: Assets\ImportAssets\slime-move-0.controller
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Decisive Moment\Assets\ImportAssets\slime-move-0.controller.meta
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Assets\ImportAssets\slime-move-0.controller.meta
-    projectPath: Assets\ImportAssets\slime-move-0.controller.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: Decisive Moment\Assets\Prefabs\Effect\Fire_Ball.prefab
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Assets\Prefabs\Effect\Fire_Ball.prefab
+    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Assets\Prefabs\Effect\Fire_Ball.prefab
     projectPath: Assets\Prefabs\Effect\Fire_Ball.prefab
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Assets\Prefabs\Effect\Fire_Ball.prefab.meta
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Assets\Prefabs\Effect\Fire_Ball.prefab.meta
-    projectPath: Assets\Prefabs\Effect\Fire_Ball.prefab.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Assets\Prefabs\Effect\Hero_Attack_P1.prefab
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Assets\Prefabs\Effect\Hero_Attack_P1.prefab
-    projectPath: Assets\Prefabs\Effect\Hero_Attack_P1.prefab
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Decisive Moment\Assets\Prefabs\Effect\Slime_Die.prefab
+    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Assets\Prefabs\Effect\Slime_Die.prefab
+    projectPath: Assets\Prefabs\Effect\Slime_Die.prefab
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Decisive Moment\Assets\Prefabs\Hero_Cast.prefab
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Assets\Prefabs\Hero_Cast.prefab
-    projectPath: Assets\Prefabs\Hero_Cast.prefab
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Assets\Prefabs\Hero_Cast.prefab.meta
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Assets\Prefabs\Hero_Cast.prefab.meta
-    projectPath: Assets\Prefabs\Hero_Cast.prefab.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Decisive Moment\Assets\Scenes\SampleScene.unity
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Assets\Scenes\SampleScene.unity
+    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Assets\Scenes\SampleScene.unity
     projectPath: Assets\Scenes\SampleScene.unity
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 3
-  - path: Decisive Moment\Assets\Scripts\FireBall.cs
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Assets\Scripts\FireBall.cs
-    projectPath: Assets\Scripts\FireBall.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Assets\Scripts\FireBall.cs.meta
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Assets\Scripts\FireBall.cs.meta
-    projectPath: Assets\Scripts\FireBall.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Assets\Scripts\PlayerMovement.cs
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Assets\Scripts\PlayerMovement.cs
-    projectPath: Assets\Scripts\PlayerMovement.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Decisive Moment\Assets\Scripts\Slime.cs
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Assets\Scripts\Slime.cs
-    projectPath: Assets\Scripts\Slime.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Decisive Moment\Library\APIUpdater\project-dependencies.graph
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\APIUpdater\project-dependencies.graph
+    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\APIUpdater\project-dependencies.graph
     projectPath: Library\APIUpdater\project-dependencies.graph
     originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Decisive Moment\Library\assetDatabase3
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\assetDatabase3
+    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\assetDatabase3
     projectPath: Library\assetDatabase3
     originalPath: 
-    indexStatus: 9
-    workTreeStatus: 9
-  - path: Decisive Moment\Library\CrashedAssetImports.txt
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\CrashedAssetImports.txt
-    projectPath: Library\CrashedAssetImports.txt
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Library\CurrentLayout.dwlt
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\CurrentLayout.dwlt
-    projectPath: Library\CurrentLayout.dwlt
-    originalPath: 
-    indexStatus: 9
-    workTreeStatus: 9
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Decisive Moment\Library\CurrentMaximizeLayout.dwlt
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\CurrentMaximizeLayout.dwlt
+    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\CurrentMaximizeLayout.dwlt
     projectPath: Library\CurrentMaximizeLayout.dwlt
     originalPath: 
-    indexStatus: 9
-    workTreeStatus: 9
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Decisive Moment\Library\EditorInstance.json
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\EditorInstance.json
+    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\EditorInstance.json
     projectPath: Library\EditorInstance.json
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Decisive Moment\Library\expandedItems
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\expandedItems
-    projectPath: Library\expandedItems
-    originalPath: 
-    indexStatus: 9
-    workTreeStatus: 9
-  - path: Decisive Moment\Library\gfu\cache\branches.yaml
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\gfu\cache\branches.yaml
-    projectPath: Library\gfu\cache\branches.yaml
-    originalPath: 
-    indexStatus: 9
-    workTreeStatus: 9
-  - path: Decisive Moment\Library\gfu\cache\gitlocks.yaml
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\gfu\cache\gitlocks.yaml
-    projectPath: Library\gfu\cache\gitlocks.yaml
-    originalPath: 
-    indexStatus: 9
-    workTreeStatus: 9
-  - path: Decisive Moment\Library\gfu\cache\gitlog.yaml
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\gfu\cache\gitlog.yaml
-    projectPath: Library\gfu\cache\gitlog.yaml
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
   - path: Decisive Moment\Library\gfu\cache\gitstatusentries.yaml
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\gfu\cache\gitstatusentries.yaml
+    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\gfu\cache\gitstatusentries.yaml
     projectPath: Library\gfu\cache\gitstatusentries.yaml
     originalPath: 
-    indexStatus: 9
-    workTreeStatus: 9
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Decisive Moment\Library\gfu\cache\gittrackingstatus.yaml
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\gfu\cache\gittrackingstatus.yaml
+    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\gfu\cache\gittrackingstatus.yaml
     projectPath: Library\gfu\cache\gittrackingstatus.yaml
     originalPath: 
-    indexStatus: 9
-    workTreeStatus: 9
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Decisive Moment\Library\gfu\cache\repoinfo.yaml
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\gfu\cache\repoinfo.yaml
+    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\gfu\cache\repoinfo.yaml
     projectPath: Library\gfu\cache\repoinfo.yaml
     originalPath: 
-    indexStatus: 9
-    workTreeStatus: 9
-  - path: Decisive Moment\Library\InspectorExpandedItems.asset
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\InspectorExpandedItems.asset
-    projectPath: Library\InspectorExpandedItems.asset
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Decisive Moment\Library\GridBrush\UnityEditor.GridBrush.asset
+    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\GridBrush\UnityEditor.GridBrush.asset
+    projectPath: Library\GridBrush\UnityEditor.GridBrush.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Decisive Moment\Library\metadata\00\00000000000000002000000000000000
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\00\00000000000000002000000000000000
-    projectPath: Library\metadata\00\00000000000000002000000000000000
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\00\00000000000000003000000000000000
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\00\00000000000000003000000000000000
-    projectPath: Library\metadata\00\00000000000000003000000000000000
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\00\00000000000000004000000000000000
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\00\00000000000000004000000000000000
-    projectPath: Library\metadata\00\00000000000000004000000000000000
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\00\00000000000000004100000000000000
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\00\00000000000000004100000000000000
-    projectPath: Library\metadata\00\00000000000000004100000000000000
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\00\00000000000000005000000000000000
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\00\00000000000000005000000000000000
-    projectPath: Library\metadata\00\00000000000000005000000000000000
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\00\00000000000000005100000000000000
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\00\00000000000000005100000000000000
-    projectPath: Library\metadata\00\00000000000000005100000000000000
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\00\00000000000000006000000000000000
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\00\00000000000000006000000000000000
-    projectPath: Library\metadata\00\00000000000000006000000000000000
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\00\00000000000000006100000000000000
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\00\00000000000000006100000000000000
-    projectPath: Library\metadata\00\00000000000000006100000000000000
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\00\00000000000000007000000000000000
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\00\00000000000000007000000000000000
-    projectPath: Library\metadata\00\00000000000000007000000000000000
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\00\00000000000000007100000000000000
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\00\00000000000000007100000000000000
-    projectPath: Library\metadata\00\00000000000000007100000000000000
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\00\00000000000000008000000000000000
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\00\00000000000000008000000000000000
-    projectPath: Library\metadata\00\00000000000000008000000000000000
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\00\0000000000000000b000000000000000
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\00\0000000000000000b000000000000000
-    projectPath: Library\metadata\00\0000000000000000b000000000000000
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\00\0000000000000000b100000000000000
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\00\0000000000000000b100000000000000
-    projectPath: Library\metadata\00\0000000000000000b100000000000000
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\00\0000000000000000c000000000000000
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\00\0000000000000000c000000000000000
-    projectPath: Library\metadata\00\0000000000000000c000000000000000
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\00\0000000000000000c100000000000000
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\00\0000000000000000c100000000000000
-    projectPath: Library\metadata\00\0000000000000000c100000000000000
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\12\129981337235a6346a1699bd01cbbca9
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\12\129981337235a6346a1699bd01cbbca9
-    projectPath: Library\metadata\12\129981337235a6346a1699bd01cbbca9
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\13\1369382d2c5e64dc5b2ec0b6b0a94531
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\13\1369382d2c5e64dc5b2ec0b6b0a94531
-    projectPath: Library\metadata\13\1369382d2c5e64dc5b2ec0b6b0a94531
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\14\14c902e43ed8fcf4eba970dea012dab1
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\14\14c902e43ed8fcf4eba970dea012dab1
-    projectPath: Library\metadata\14\14c902e43ed8fcf4eba970dea012dab1
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\17\172a494fbaab1de4da27ce7e37ad3d53
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\17\172a494fbaab1de4da27ce7e37ad3d53
-    projectPath: Library\metadata\17\172a494fbaab1de4da27ce7e37ad3d53
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\1a\1a0ff0ab3875e184a86b6ffa9efc6e21.info
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\1a\1a0ff0ab3875e184a86b6ffa9efc6e21.info
-    projectPath: Library\metadata\1a\1a0ff0ab3875e184a86b6ffa9efc6e21.info
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 3
-  - path: Decisive Moment\Library\metadata\1f\1f5c2a5b86d5cb34396393412c5d30dc
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\1f\1f5c2a5b86d5cb34396393412c5d30dc
-    projectPath: Library\metadata\1f\1f5c2a5b86d5cb34396393412c5d30dc
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\21\21c1d0c8a15bc2f489a5cd4d135818dd
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\21\21c1d0c8a15bc2f489a5cd4d135818dd
-    projectPath: Library\metadata\21\21c1d0c8a15bc2f489a5cd4d135818dd
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\24\246d898ec7ff0c04eb4c649f2d861d19
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\24\246d898ec7ff0c04eb4c649f2d861d19
-    projectPath: Library\metadata\24\246d898ec7ff0c04eb4c649f2d861d19
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\24\24bbb51cf37dc964da770e92242a3376
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\24\24bbb51cf37dc964da770e92242a3376
-    projectPath: Library\metadata\24\24bbb51cf37dc964da770e92242a3376
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
   - path: Decisive Moment\Library\metadata\27\27853f11c1702af48bb521eea204ed43
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\27\27853f11c1702af48bb521eea204ed43
+    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\metadata\27\27853f11c1702af48bb521eea204ed43
     projectPath: Library\metadata\27\27853f11c1702af48bb521eea204ed43
     originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\27\27853f11c1702af48bb521eea204ed43.info
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\27\27853f11c1702af48bb521eea204ed43.info
-    projectPath: Library\metadata\27\27853f11c1702af48bb521eea204ed43.info
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\28\28542eca5f1b4c64813acfbd512524b6
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\28\28542eca5f1b4c64813acfbd512524b6
-    projectPath: Library\metadata\28\28542eca5f1b4c64813acfbd512524b6
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\28\28b05472cc011b249ae9549c38d907c1
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\28\28b05472cc011b249ae9549c38d907c1
-    projectPath: Library\metadata\28\28b05472cc011b249ae9549c38d907c1
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\2c\2ce4bbcc4722440890a03312706037fe
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\2c\2ce4bbcc4722440890a03312706037fe
-    projectPath: Library\metadata\2c\2ce4bbcc4722440890a03312706037fe
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\2d\2d4d46c70fdd242668a56e99799e8540
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\2d\2d4d46c70fdd242668a56e99799e8540
-    projectPath: Library\metadata\2d\2d4d46c70fdd242668a56e99799e8540
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\2d\2d7560139b8e8eb41a5fc406e3bddee3.info
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\2d\2d7560139b8e8eb41a5fc406e3bddee3.info
-    projectPath: Library\metadata\2d\2d7560139b8e8eb41a5fc406e3bddee3.info
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\2d\2da27f5fe80a3a549ac7331d9f52f5f0
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\2d\2da27f5fe80a3a549ac7331d9f52f5f0
-    projectPath: Library\metadata\2d\2da27f5fe80a3a549ac7331d9f52f5f0
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\2f\2f5bde583cec4ad48a0579d13d647650
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\2f\2f5bde583cec4ad48a0579d13d647650
-    projectPath: Library\metadata\2f\2f5bde583cec4ad48a0579d13d647650
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\30\300829d7576481f4792a00dc02f40227
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\30\300829d7576481f4792a00dc02f40227
-    projectPath: Library\metadata\30\300829d7576481f4792a00dc02f40227
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Decisive Moment\Library\metadata\35\35d721bab260fdd4da121ec837ec6fab
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\35\35d721bab260fdd4da121ec837ec6fab
-    projectPath: Library\metadata\35\35d721bab260fdd4da121ec837ec6fab
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 3
-  - path: Decisive Moment\Library\metadata\35\35d721bab260fdd4da121ec837ec6fab.info
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\35\35d721bab260fdd4da121ec837ec6fab.info
-    projectPath: Library\metadata\35\35d721bab260fdd4da121ec837ec6fab.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Decisive Moment\Library\metadata\38\38496d2954cb9b441a3d23170d77dbdb
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\38\38496d2954cb9b441a3d23170d77dbdb
-    projectPath: Library\metadata\38\38496d2954cb9b441a3d23170d77dbdb
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\3b\3b07d432cba2a4c4f8a2fdea984620b8
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\3b\3b07d432cba2a4c4f8a2fdea984620b8
-    projectPath: Library\metadata\3b\3b07d432cba2a4c4f8a2fdea984620b8
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\3c\3cebe1a96232b44388b30b2f72dde434
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\3c\3cebe1a96232b44388b30b2f72dde434
-    projectPath: Library\metadata\3c\3cebe1a96232b44388b30b2f72dde434
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\3d\3dc6237efb114694b98898634de7489a
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\3d\3dc6237efb114694b98898634de7489a
-    projectPath: Library\metadata\3d\3dc6237efb114694b98898634de7489a
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\3e\3eca03da5b5d42141943fac168cd85a2
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\3e\3eca03da5b5d42141943fac168cd85a2
-    projectPath: Library\metadata\3e\3eca03da5b5d42141943fac168cd85a2
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\3f\3f21c0706f7930746b1c03d05087adc0
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\3f\3f21c0706f7930746b1c03d05087adc0
-    projectPath: Library\metadata\3f\3f21c0706f7930746b1c03d05087adc0
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\3f\3fede21c8f23e9843a5f9cf19e39ffe9
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\3f\3fede21c8f23e9843a5f9cf19e39ffe9
-    projectPath: Library\metadata\3f\3fede21c8f23e9843a5f9cf19e39ffe9
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
   - path: Decisive Moment\Library\metadata\40\405b9b51bb344a128608d968297df79c
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\40\405b9b51bb344a128608d968297df79c
+    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\metadata\40\405b9b51bb344a128608d968297df79c
     projectPath: Library\metadata\40\405b9b51bb344a128608d968297df79c
     originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Decisive Moment\Library\metadata\41\4113173d5e95493ab8765d7b08371de4
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\41\4113173d5e95493ab8765d7b08371de4
+    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\metadata\41\4113173d5e95493ab8765d7b08371de4
     projectPath: Library\metadata\41\4113173d5e95493ab8765d7b08371de4
     originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\41\414f9a22aace20d48a89a5d235c7325a
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\41\414f9a22aace20d48a89a5d235c7325a
-    projectPath: Library\metadata\41\414f9a22aace20d48a89a5d235c7325a
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\42\42c2a703201e5cb41ab9804527f44768
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\42\42c2a703201e5cb41ab9804527f44768
-    projectPath: Library\metadata\42\42c2a703201e5cb41ab9804527f44768
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\44\4443aa59022f26746bc14654bffc1601
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\44\4443aa59022f26746bc14654bffc1601
-    projectPath: Library\metadata\44\4443aa59022f26746bc14654bffc1601
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\45\4506ac79f5b274cb1b249ed7f4abfb9a
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\45\4506ac79f5b274cb1b249ed7f4abfb9a
-    projectPath: Library\metadata\45\4506ac79f5b274cb1b249ed7f4abfb9a
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\48\48986928cc2a449dbaecdd1654bc9bf6
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\48\48986928cc2a449dbaecdd1654bc9bf6
-    projectPath: Library\metadata\48\48986928cc2a449dbaecdd1654bc9bf6
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\49\4948be9c774f0574bb6870b106f92c28
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\49\4948be9c774f0574bb6870b106f92c28
-    projectPath: Library\metadata\49\4948be9c774f0574bb6870b106f92c28
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\4b\4b21005fb9d693444bef2b03c9a8861e
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\4b\4b21005fb9d693444bef2b03c9a8861e
-    projectPath: Library\metadata\4b\4b21005fb9d693444bef2b03c9a8861e
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Decisive Moment\Library\metadata\4b\4b3fa4bde7f1451a8218c03ee6a8ded8
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\4b\4b3fa4bde7f1451a8218c03ee6a8ded8
+    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\metadata\4b\4b3fa4bde7f1451a8218c03ee6a8ded8
     projectPath: Library\metadata\4b\4b3fa4bde7f1451a8218c03ee6a8ded8
     originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Decisive Moment\Library\metadata\4b\4ba2329b63d54f0187bcaa12486b1b0f
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\4b\4ba2329b63d54f0187bcaa12486b1b0f
+    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\metadata\4b\4ba2329b63d54f0187bcaa12486b1b0f
     projectPath: Library\metadata\4b\4ba2329b63d54f0187bcaa12486b1b0f
     originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\4f\4f234578336894dc081edf696f2ff5f2
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\4f\4f234578336894dc081edf696f2ff5f2
-    projectPath: Library\metadata\4f\4f234578336894dc081edf696f2ff5f2
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\4f\4f5362359d4548b44a34a45f19efb4bf
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\4f\4f5362359d4548b44a34a45f19efb4bf
-    projectPath: Library\metadata\4f\4f5362359d4548b44a34a45f19efb4bf
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\53\539a8e3d3f49c9549a3e081f32705850
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\53\539a8e3d3f49c9549a3e081f32705850
-    projectPath: Library\metadata\53\539a8e3d3f49c9549a3e081f32705850
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Decisive Moment\Library\metadata\53\53ebcfaa2e1e4e2dbc85882cd5a73fa1
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\53\53ebcfaa2e1e4e2dbc85882cd5a73fa1
+    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\metadata\53\53ebcfaa2e1e4e2dbc85882cd5a73fa1
     projectPath: Library\metadata\53\53ebcfaa2e1e4e2dbc85882cd5a73fa1
     originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\54\54501f977f92d9446beb08d4d7b1463f
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\54\54501f977f92d9446beb08d4d7b1463f
-    projectPath: Library\metadata\54\54501f977f92d9446beb08d4d7b1463f
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\55\5551551b91a815a4caabefc97bb960a5
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\55\5551551b91a815a4caabefc97bb960a5
-    projectPath: Library\metadata\55\5551551b91a815a4caabefc97bb960a5
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\58\58915a61b5a8eff43b33a118aca9136e
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\58\58915a61b5a8eff43b33a118aca9136e
-    projectPath: Library\metadata\58\58915a61b5a8eff43b33a118aca9136e
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\5e\5ec95f4d5b2d1f14e9ff8682562553f9
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\5e\5ec95f4d5b2d1f14e9ff8682562553f9
-    projectPath: Library\metadata\5e\5ec95f4d5b2d1f14e9ff8682562553f9
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\5f\5fc988a1d5b04aee9a5222502b201a45
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\5f\5fc988a1d5b04aee9a5222502b201a45
-    projectPath: Library\metadata\5f\5fc988a1d5b04aee9a5222502b201a45
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\63\637db391c906ccb48b08037bcb8a8687
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\63\637db391c906ccb48b08037bcb8a8687
-    projectPath: Library\metadata\63\637db391c906ccb48b08037bcb8a8687
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Library\metadata\63\637db391c906ccb48b08037bcb8a8687.info
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\63\637db391c906ccb48b08037bcb8a8687.info
-    projectPath: Library\metadata\63\637db391c906ccb48b08037bcb8a8687.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Library\metadata\6a\6a03bf8a772a1f7439b9fa1d5af7d611
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\6a\6a03bf8a772a1f7439b9fa1d5af7d611
-    projectPath: Library\metadata\6a\6a03bf8a772a1f7439b9fa1d5af7d611
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\6b\6b1ae1e78552c459d9ce27048ff51c7f
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\6b\6b1ae1e78552c459d9ce27048ff51c7f
-    projectPath: Library\metadata\6b\6b1ae1e78552c459d9ce27048ff51c7f
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\6b\6bc6c8c8da9ef364ea8dce69c20a106a
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\6b\6bc6c8c8da9ef364ea8dce69c20a106a
-    projectPath: Library\metadata\6b\6bc6c8c8da9ef364ea8dce69c20a106a
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\6e\6e7c8cfeedae74eb3a562055e069e441
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\6e\6e7c8cfeedae74eb3a562055e069e441
-    projectPath: Library\metadata\6e\6e7c8cfeedae74eb3a562055e069e441
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\6f\6f7940ef828ce414394f1cf2f6428daf
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\6f\6f7940ef828ce414394f1cf2f6428daf
-    projectPath: Library\metadata\6f\6f7940ef828ce414394f1cf2f6428daf
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Library\metadata\6f\6f7940ef828ce414394f1cf2f6428daf.info
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\6f\6f7940ef828ce414394f1cf2f6428daf.info
-    projectPath: Library\metadata\6f\6f7940ef828ce414394f1cf2f6428daf.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Library\metadata\70\705eff9abc70f224d908440922a22b27
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\70\705eff9abc70f224d908440922a22b27
-    projectPath: Library\metadata\70\705eff9abc70f224d908440922a22b27
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\73\736795d423bf7dc409ee4a6e0bf02633
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\73\736795d423bf7dc409ee4a6e0bf02633
-    projectPath: Library\metadata\73\736795d423bf7dc409ee4a6e0bf02633
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\74\74ec20bed7de47b89058cdca2f952d81
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\74\74ec20bed7de47b89058cdca2f952d81
-    projectPath: Library\metadata\74\74ec20bed7de47b89058cdca2f952d81
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\77\77c1e9b5857db9e4c858c24c259b8af0
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\77\77c1e9b5857db9e4c858c24c259b8af0
-    projectPath: Library\metadata\77\77c1e9b5857db9e4c858c24c259b8af0
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\77\77f987e654d31cb4b9313bb7ebc957e8
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\77\77f987e654d31cb4b9313bb7ebc957e8
-    projectPath: Library\metadata\77\77f987e654d31cb4b9313bb7ebc957e8
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Library\metadata\77\77f987e654d31cb4b9313bb7ebc957e8.info
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\77\77f987e654d31cb4b9313bb7ebc957e8.info
-    projectPath: Library\metadata\77\77f987e654d31cb4b9313bb7ebc957e8.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Library\metadata\79\79bcacdc12404b979ddd7bd92e278008
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\79\79bcacdc12404b979ddd7bd92e278008
-    projectPath: Library\metadata\79\79bcacdc12404b979ddd7bd92e278008
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\7a\7a07efcd2338e2840b0b55cc6f4c6e24
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\7a\7a07efcd2338e2840b0b55cc6f4c6e24
-    projectPath: Library\metadata\7a\7a07efcd2338e2840b0b55cc6f4c6e24
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\7a\7a573b834e2608c4f982daf527bdb47a
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\7a\7a573b834e2608c4f982daf527bdb47a
-    projectPath: Library\metadata\7a\7a573b834e2608c4f982daf527bdb47a
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\7a\7a9bf682da6140747b01a114ca3f90c7
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\7a\7a9bf682da6140747b01a114ca3f90c7
-    projectPath: Library\metadata\7a\7a9bf682da6140747b01a114ca3f90c7
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\7c\7c26ab47fd16faa469d5e3ec658906e2
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\7c\7c26ab47fd16faa469d5e3ec658906e2
-    projectPath: Library\metadata\7c\7c26ab47fd16faa469d5e3ec658906e2
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\7c\7c3a5d6e39b874f468b2691537168513
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\7c\7c3a5d6e39b874f468b2691537168513
-    projectPath: Library\metadata\7c\7c3a5d6e39b874f468b2691537168513
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\7c\7c4814caef304914a95a6545ddc3c680
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\7c\7c4814caef304914a95a6545ddc3c680
-    projectPath: Library\metadata\7c\7c4814caef304914a95a6545ddc3c680
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\7f\7fd5e77e7e7ea4eea8198138cd9cc814
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\7f\7fd5e77e7e7ea4eea8198138cd9cc814
-    projectPath: Library\metadata\7f\7fd5e77e7e7ea4eea8198138cd9cc814
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Decisive Moment\Library\metadata\80\80a3616ca19596e4da0f10f14d241e9f
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\80\80a3616ca19596e4da0f10f14d241e9f
+    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\metadata\80\80a3616ca19596e4da0f10f14d241e9f
     projectPath: Library\metadata\80\80a3616ca19596e4da0f10f14d241e9f
     originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\81\8198773f354b4ca692ad23ed3074c95e
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\81\8198773f354b4ca692ad23ed3074c95e
-    projectPath: Library\metadata\81\8198773f354b4ca692ad23ed3074c95e
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\85\8584aedb603525941a21c47bb70ad826
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\85\8584aedb603525941a21c47bb70ad826
-    projectPath: Library\metadata\85\8584aedb603525941a21c47bb70ad826
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\85\8584aedb603525941a21c47bb70ad826.info
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\85\8584aedb603525941a21c47bb70ad826.info
-    projectPath: Library\metadata\85\8584aedb603525941a21c47bb70ad826.info
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\89\89d29b03dade2d94ea349d90d4002984
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\89\89d29b03dade2d94ea349d90d4002984
-    projectPath: Library\metadata\89\89d29b03dade2d94ea349d90d4002984
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Decisive Moment\Library\metadata\8a\8a811463a086bd947868b5821deb61be.info
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\8a\8a811463a086bd947868b5821deb61be.info
+    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\metadata\8a\8a811463a086bd947868b5821deb61be.info
     projectPath: Library\metadata\8a\8a811463a086bd947868b5821deb61be.info
     originalPath: 
-    indexStatus: 3
-    workTreeStatus: 3
-  - path: Decisive Moment\Library\metadata\8a\8aafd27f78c12564281bac0d0067df8d
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\8a\8aafd27f78c12564281bac0d0067df8d
-    projectPath: Library\metadata\8a\8aafd27f78c12564281bac0d0067df8d
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\8f\8f8b55815cc15f64899a34fd907bb9e8
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\8f\8f8b55815cc15f64899a34fd907bb9e8
-    projectPath: Library\metadata\8f\8f8b55815cc15f64899a34fd907bb9e8
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\90\904cb8494a8fee041a4daea675e32e13
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\90\904cb8494a8fee041a4daea675e32e13
-    projectPath: Library\metadata\90\904cb8494a8fee041a4daea675e32e13
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Decisive Moment\Library\metadata\93\931f3395378214a6c94333853bd0659b
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\93\931f3395378214a6c94333853bd0659b
-    projectPath: Library\metadata\93\931f3395378214a6c94333853bd0659b
+  - path: Decisive Moment\Library\metadata\9b\9b19620ce954c2548894b6773dee5d5e.info
+    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\metadata\9b\9b19620ce954c2548894b6773dee5d5e.info
+    projectPath: Library\metadata\9b\9b19620ce954c2548894b6773dee5d5e.info
     originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\95\95bb05cb5589f2343bac550061c3987e
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\95\95bb05cb5589f2343bac550061c3987e
-    projectPath: Library\metadata\95\95bb05cb5589f2343bac550061c3987e
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\96\964d9adbe33d2c442b8aa00380c62537
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\96\964d9adbe33d2c442b8aa00380c62537
-    projectPath: Library\metadata\96\964d9adbe33d2c442b8aa00380c62537
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\97\97dd4fc1aac2bff429add7f8a338a6d7
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\97\97dd4fc1aac2bff429add7f8a338a6d7
-    projectPath: Library\metadata\97\97dd4fc1aac2bff429add7f8a338a6d7
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\97\97f83931a3541c94db7a91d28653aec4
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\97\97f83931a3541c94db7a91d28653aec4
-    projectPath: Library\metadata\97\97f83931a3541c94db7a91d28653aec4
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\99\9971826cbe87baf49a46afc074700d25
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\99\9971826cbe87baf49a46afc074700d25
-    projectPath: Library\metadata\99\9971826cbe87baf49a46afc074700d25
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Library\metadata\99\9971826cbe87baf49a46afc074700d25.info
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\99\9971826cbe87baf49a46afc074700d25.info
-    projectPath: Library\metadata\99\9971826cbe87baf49a46afc074700d25.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Library\metadata\99\99b48d4d4f6a66340ab06bd487d70a45
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\99\99b48d4d4f6a66340ab06bd487d70a45
-    projectPath: Library\metadata\99\99b48d4d4f6a66340ab06bd487d70a45
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\99\99ddb49592ff84811804420a1910cb89
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\99\99ddb49592ff84811804420a1910cb89
-    projectPath: Library\metadata\99\99ddb49592ff84811804420a1910cb89
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\9b\9b19620ce954c2548894b6773dee5d5e
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\9b\9b19620ce954c2548894b6773dee5d5e
-    projectPath: Library\metadata\9b\9b19620ce954c2548894b6773dee5d5e
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\9c\9c8b01dfaa797134f99092025c20c2bd
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\9c\9c8b01dfaa797134f99092025c20c2bd
-    projectPath: Library\metadata\9c\9c8b01dfaa797134f99092025c20c2bd
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\a0\a0ded7adcc817ce489fec07977f16d13
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\a0\a0ded7adcc817ce489fec07977f16d13
-    projectPath: Library\metadata\a0\a0ded7adcc817ce489fec07977f16d13
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\a3\a37e18887fa954edf92bc36bc353b879
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\a3\a37e18887fa954edf92bc36bc353b879
-    projectPath: Library\metadata\a3\a37e18887fa954edf92bc36bc353b879
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\a6\a63043e17632aba4aab2ed7ab24da61a
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\a6\a63043e17632aba4aab2ed7ab24da61a
-    projectPath: Library\metadata\a6\a63043e17632aba4aab2ed7ab24da61a
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\a6\a6ab6fd2b91214e8a9c8ec2224a528de
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\a6\a6ab6fd2b91214e8a9c8ec2224a528de
-    projectPath: Library\metadata\a6\a6ab6fd2b91214e8a9c8ec2224a528de
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\a7\a7278d6d44fae5447934103c6a5ff9dc
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\a7\a7278d6d44fae5447934103c6a5ff9dc
-    projectPath: Library\metadata\a7\a7278d6d44fae5447934103c6a5ff9dc
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\aa\aaf77b73ae898f64c85a80cfc0f255ed
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\aa\aaf77b73ae898f64c85a80cfc0f255ed
-    projectPath: Library\metadata\aa\aaf77b73ae898f64c85a80cfc0f255ed
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\ab\ab51e960ecd5c0b4ea6e1327ac02eb51
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\ab\ab51e960ecd5c0b4ea6e1327ac02eb51
-    projectPath: Library\metadata\ab\ab51e960ecd5c0b4ea6e1327ac02eb51
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\ac\ac71dd2053ac4a748ac06f3152afd39f
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\ac\ac71dd2053ac4a748ac06f3152afd39f
-    projectPath: Library\metadata\ac\ac71dd2053ac4a748ac06f3152afd39f
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\b3\b35c891b52249284ca687325e3d00f32
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\b3\b35c891b52249284ca687325e3d00f32
-    projectPath: Library\metadata\b3\b35c891b52249284ca687325e3d00f32
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Library\metadata\b3\b35c891b52249284ca687325e3d00f32.info
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\b3\b35c891b52249284ca687325e3d00f32.info
-    projectPath: Library\metadata\b3\b35c891b52249284ca687325e3d00f32.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Library\metadata\b3\b36db3ed850b7614eafc24dfdb8c1a98
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\b3\b36db3ed850b7614eafc24dfdb8c1a98
-    projectPath: Library\metadata\b3\b36db3ed850b7614eafc24dfdb8c1a98
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\b5\b5d6c28ed7b94775be9e2560f300247c
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\b5\b5d6c28ed7b94775be9e2560f300247c
-    projectPath: Library\metadata\b5\b5d6c28ed7b94775be9e2560f300247c
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\b5\b5f4343795a0e4626ac1fe4a9e6fce59
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\b5\b5f4343795a0e4626ac1fe4a9e6fce59
-    projectPath: Library\metadata\b5\b5f4343795a0e4626ac1fe4a9e6fce59
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\b6\b61198340e3418443af436b033ed4a10
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\b6\b61198340e3418443af436b033ed4a10
-    projectPath: Library\metadata\b6\b61198340e3418443af436b033ed4a10
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\b6\b6295675042094715ad9cc104210aeb7
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\b6\b6295675042094715ad9cc104210aeb7
-    projectPath: Library\metadata\b6\b6295675042094715ad9cc104210aeb7
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\b7\b70924121ad1d314d9181944a5c09272
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\b7\b70924121ad1d314d9181944a5c09272
-    projectPath: Library\metadata\b7\b70924121ad1d314d9181944a5c09272
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\b7\b75b61e4600852f4f8e7515ad9e62495
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\b7\b75b61e4600852f4f8e7515ad9e62495
-    projectPath: Library\metadata\b7\b75b61e4600852f4f8e7515ad9e62495
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\b8\b86ba5ca632e17e41a4532f68c4fce0e
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\b8\b86ba5ca632e17e41a4532f68c4fce0e
-    projectPath: Library\metadata\b8\b86ba5ca632e17e41a4532f68c4fce0e
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\b8\b8c2f149375033d4d82f5cf20fbce5a9
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\b8\b8c2f149375033d4d82f5cf20fbce5a9
-    projectPath: Library\metadata\b8\b8c2f149375033d4d82f5cf20fbce5a9
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\bc\bcbde52ec2fa6cf45a9fa58afa12aeeb
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\bc\bcbde52ec2fa6cf45a9fa58afa12aeeb
-    projectPath: Library\metadata\bc\bcbde52ec2fa6cf45a9fa58afa12aeeb
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\c0\c05ccfa3c0786154195a65c3eac90e44
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\c0\c05ccfa3c0786154195a65c3eac90e44
-    projectPath: Library\metadata\c0\c05ccfa3c0786154195a65c3eac90e44
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\c1\c18cb9388313e4287ad5895ee735c47d
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\c1\c18cb9388313e4287ad5895ee735c47d
-    projectPath: Library\metadata\c1\c18cb9388313e4287ad5895ee735c47d
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\c2\c282941e6767d1d4d8a2951f12ff2c48
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\c2\c282941e6767d1d4d8a2951f12ff2c48
-    projectPath: Library\metadata\c2\c282941e6767d1d4d8a2951f12ff2c48
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\c3\c3995069c78641a43a719f5158e9af87
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\c3\c3995069c78641a43a719f5158e9af87
-    projectPath: Library\metadata\c3\c3995069c78641a43a719f5158e9af87
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\c4\c495568afe3f20f4e83854bc84ca884f
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\c4\c495568afe3f20f4e83854bc84ca884f
-    projectPath: Library\metadata\c4\c495568afe3f20f4e83854bc84ca884f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Library\metadata\c4\c495568afe3f20f4e83854bc84ca884f.info
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\c4\c495568afe3f20f4e83854bc84ca884f.info
-    projectPath: Library\metadata\c4\c495568afe3f20f4e83854bc84ca884f.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Library\metadata\c9\c9005614cd8cf7044b12af992125feec
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\c9\c9005614cd8cf7044b12af992125feec
-    projectPath: Library\metadata\c9\c9005614cd8cf7044b12af992125feec
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\ca\cad92998c5182496e8b989b406d9f156
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\ca\cad92998c5182496e8b989b406d9f156
-    projectPath: Library\metadata\ca\cad92998c5182496e8b989b406d9f156
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\cd\cd1936a5377ebc94c8f6c8f4ca191440
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\cd\cd1936a5377ebc94c8f6c8f4ca191440
-    projectPath: Library\metadata\cd\cd1936a5377ebc94c8f6c8f4ca191440
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\cf\cf8f3c419493b1a479fdc8d7134cb053
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\cf\cf8f3c419493b1a479fdc8d7134cb053
-    projectPath: Library\metadata\cf\cf8f3c419493b1a479fdc8d7134cb053
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\d0\d014df1bdd751f144983d62b5e81e01f
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\d0\d014df1bdd751f144983d62b5e81e01f
-    projectPath: Library\metadata\d0\d014df1bdd751f144983d62b5e81e01f
-    originalPath: 
-    indexStatus: 3
+    indexStatus: 0
     workTreeStatus: 3
   - path: Decisive Moment\Library\metadata\d0\d014df1bdd751f144983d62b5e81e01f.info
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\d0\d014df1bdd751f144983d62b5e81e01f.info
+    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\metadata\d0\d014df1bdd751f144983d62b5e81e01f.info
     projectPath: Library\metadata\d0\d014df1bdd751f144983d62b5e81e01f.info
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 3
-  - path: Decisive Moment\Library\metadata\d0\d09059b9ef145eb49bcb1a9d2f42a19e
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\d0\d09059b9ef145eb49bcb1a9d2f42a19e
-    projectPath: Library\metadata\d0\d09059b9ef145eb49bcb1a9d2f42a19e
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\d1\d1a0a27327b54c3bac52a08929c33f81
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\d1\d1a0a27327b54c3bac52a08929c33f81
-    projectPath: Library\metadata\d1\d1a0a27327b54c3bac52a08929c33f81
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\d2\d2eed0fae62ca77439100abc9da27112.info
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\d2\d2eed0fae62ca77439100abc9da27112.info
-    projectPath: Library\metadata\d2\d2eed0fae62ca77439100abc9da27112.info
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\d3\d31cdc5fe5f9a2b418365cc3881d64b7.info
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\d3\d31cdc5fe5f9a2b418365cc3881d64b7.info
-    projectPath: Library\metadata\d3\d31cdc5fe5f9a2b418365cc3881d64b7.info
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\d3\d31e5d760880a4e52a3a75322481d0d2
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\d3\d31e5d760880a4e52a3a75322481d0d2
-    projectPath: Library\metadata\d3\d31e5d760880a4e52a3a75322481d0d2
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\d4\d4020fd9bbbf0b643aac56435f8811e5
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\d4\d4020fd9bbbf0b643aac56435f8811e5
-    projectPath: Library\metadata\d4\d4020fd9bbbf0b643aac56435f8811e5
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\d4\d437fe60bb34f45728664a5d930c1635
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\d4\d437fe60bb34f45728664a5d930c1635
-    projectPath: Library\metadata\d4\d437fe60bb34f45728664a5d930c1635
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\d6\d642f9f068f6af94ab3420d5d8622fec
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\d6\d642f9f068f6af94ab3420d5d8622fec
-    projectPath: Library\metadata\d6\d642f9f068f6af94ab3420d5d8622fec
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\d8\d8f48fb6c716de245995a929f7090177
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\d8\d8f48fb6c716de245995a929f7090177
-    projectPath: Library\metadata\d8\d8f48fb6c716de245995a929f7090177
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\d8\d8f48fb6c716de245995a929f7090177.info
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\d8\d8f48fb6c716de245995a929f7090177.info
-    projectPath: Library\metadata\d8\d8f48fb6c716de245995a929f7090177.info
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\d9\d929147d9f78c487397abb40f2c257b0
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\d9\d929147d9f78c487397abb40f2c257b0
-    projectPath: Library\metadata\d9\d929147d9f78c487397abb40f2c257b0
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\da\daee8c444fe524740a7541c7c0c7acf6
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\da\daee8c444fe524740a7541c7c0c7acf6
-    projectPath: Library\metadata\da\daee8c444fe524740a7541c7c0c7acf6
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\df\df26e75535a05b44c815acd282056cc0
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\df\df26e75535a05b44c815acd282056cc0
-    projectPath: Library\metadata\df\df26e75535a05b44c815acd282056cc0
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\df\df3df11c30634bb45baf2f736c44f5c2
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\df\df3df11c30634bb45baf2f736c44f5c2
-    projectPath: Library\metadata\df\df3df11c30634bb45baf2f736c44f5c2
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\e3\e34030b2fe9883a4ea6fc87999a85be2
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\e3\e34030b2fe9883a4ea6fc87999a85be2
-    projectPath: Library\metadata\e3\e34030b2fe9883a4ea6fc87999a85be2
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\e4\e4c48dfaf8f651c4e85c95668a220776
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\e4\e4c48dfaf8f651c4e85c95668a220776
-    projectPath: Library\metadata\e4\e4c48dfaf8f651c4e85c95668a220776
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\e6\e6a1d1e3d2384453a7371b4a07a41ca4
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\e6\e6a1d1e3d2384453a7371b4a07a41ca4
-    projectPath: Library\metadata\e6\e6a1d1e3d2384453a7371b4a07a41ca4
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\e8\e8573558364f019439126fb3e9a800f3
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\e8\e8573558364f019439126fb3e9a800f3
-    projectPath: Library\metadata\e8\e8573558364f019439126fb3e9a800f3
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\e9\e93ec7eb6de342aabd156833e253f838
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\e9\e93ec7eb6de342aabd156833e253f838
-    projectPath: Library\metadata\e9\e93ec7eb6de342aabd156833e253f838
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\e9\e9ae7dfa7bd4e9e4b8be7e224bcd3869
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\e9\e9ae7dfa7bd4e9e4b8be7e224bcd3869
-    projectPath: Library\metadata\e9\e9ae7dfa7bd4e9e4b8be7e224bcd3869
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\ed\ed74a669ce71d264abb630dd05ad8114
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\ed\ed74a669ce71d264abb630dd05ad8114
-    projectPath: Library\metadata\ed\ed74a669ce71d264abb630dd05ad8114
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\ee\eedaa0e70dfba8e408a3924fbc1c9a96
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\ee\eedaa0e70dfba8e408a3924fbc1c9a96
-    projectPath: Library\metadata\ee\eedaa0e70dfba8e408a3924fbc1c9a96
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\ee\eeed6954b3c264ca0b28a92aa6289bf0
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\ee\eeed6954b3c264ca0b28a92aa6289bf0
-    projectPath: Library\metadata\ee\eeed6954b3c264ca0b28a92aa6289bf0
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\ef\ef85fa7fa3795d040b77458436b11b2f
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\ef\ef85fa7fa3795d040b77458436b11b2f
-    projectPath: Library\metadata\ef\ef85fa7fa3795d040b77458436b11b2f
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\f0\f0cdb807a36637143a20eb4d9b9b0679.info
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\f0\f0cdb807a36637143a20eb4d9b9b0679.info
-    projectPath: Library\metadata\f0\f0cdb807a36637143a20eb4d9b9b0679.info
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\f0\f0ff2a9ef81a168468def1a4c607553b
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\f0\f0ff2a9ef81a168468def1a4c607553b
-    projectPath: Library\metadata\f0\f0ff2a9ef81a168468def1a4c607553b
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\f2\f2233ba26b028cc4b9e58681e7a22dac
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\f2\f2233ba26b028cc4b9e58681e7a22dac
-    projectPath: Library\metadata\f2\f2233ba26b028cc4b9e58681e7a22dac
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\f2\f28fcced5af094cf78eb4e1109a71981
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\f2\f28fcced5af094cf78eb4e1109a71981
-    projectPath: Library\metadata\f2\f28fcced5af094cf78eb4e1109a71981
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\f5\f5600e6ae5a1464da659eca36bef9d64
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\f5\f5600e6ae5a1464da659eca36bef9d64
-    projectPath: Library\metadata\f5\f5600e6ae5a1464da659eca36bef9d64
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\f5\f5f67c52d1564df4a8936ccd202a3bd8
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\f5\f5f67c52d1564df4a8936ccd202a3bd8
-    projectPath: Library\metadata\f5\f5f67c52d1564df4a8936ccd202a3bd8
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\f7\f70555f144d8491a825f0804e09c671c
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\f7\f70555f144d8491a825f0804e09c671c
-    projectPath: Library\metadata\f7\f70555f144d8491a825f0804e09c671c
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\f8\f8e6a2d47aba4c6c9b3c5a72d9f48da5
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\f8\f8e6a2d47aba4c6c9b3c5a72d9f48da5
-    projectPath: Library\metadata\f8\f8e6a2d47aba4c6c9b3c5a72d9f48da5
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\f9\f9ad785061d16db4c8f23c40b40938c5
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\f9\f9ad785061d16db4c8f23c40b40938c5
-    projectPath: Library\metadata\f9\f9ad785061d16db4c8f23c40b40938c5
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Library\metadata\f9\f9ad785061d16db4c8f23c40b40938c5.info
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\f9\f9ad785061d16db4c8f23c40b40938c5.info
-    projectPath: Library\metadata\f9\f9ad785061d16db4c8f23c40b40938c5.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Library\metadata\fa\fa5ab4378acc70d43ab16f8bda3a4ce5
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\fa\fa5ab4378acc70d43ab16f8bda3a4ce5
-    projectPath: Library\metadata\fa\fa5ab4378acc70d43ab16f8bda3a4ce5
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Library\metadata\fa\fa5ab4378acc70d43ab16f8bda3a4ce5.info
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\fa\fa5ab4378acc70d43ab16f8bda3a4ce5.info
-    projectPath: Library\metadata\fa\fa5ab4378acc70d43ab16f8bda3a4ce5.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Library\metadata\fa\faccb28966162e44ba2dfcb82030c909
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\fa\faccb28966162e44ba2dfcb82030c909
-    projectPath: Library\metadata\fa\faccb28966162e44ba2dfcb82030c909
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\fa\faccf42f606cd9641853105e885d1c9b
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\fa\faccf42f606cd9641853105e885d1c9b
-    projectPath: Library\metadata\fa\faccf42f606cd9641853105e885d1c9b
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\fc\fc8b370f22bc81049a1097e94bcae74e
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\fc\fc8b370f22bc81049a1097e94bcae74e
-    projectPath: Library\metadata\fc\fc8b370f22bc81049a1097e94bcae74e
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\metadata\fd\fd0a39b4d296d4d509b4f1dbd08d0630
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\metadata\fd\fd0a39b4d296d4d509b4f1dbd08d0630
-    projectPath: Library\metadata\fd\fd0a39b4d296d4d509b4f1dbd08d0630
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\ScriptAssemblies\Assembly-CSharp.dll
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\ScriptAssemblies\Assembly-CSharp.dll
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 3
-  - path: Decisive Moment\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
-    projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\ScriptAssemblies\Unity.Timeline.dll
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\ScriptAssemblies\Unity.Timeline.dll
-    projectPath: Library\ScriptAssemblies\Unity.Timeline.dll
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\shadercompiler-UnityShaderCompiler.exe0.log
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\shadercompiler-UnityShaderCompiler.exe0.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 3
-  - path: Decisive Moment\Library\StateCache\Hierarchy\187b3f-mainStage.json
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\StateCache\Hierarchy\187b3f-mainStage.json
-    projectPath: Library\StateCache\Hierarchy\187b3f-mainStage.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Library\StateCache\Hierarchy\4412dc-f0cdb807a36637143a.json
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\StateCache\Hierarchy\4412dc-f0cdb807a36637143a.json
-    projectPath: Library\StateCache\Hierarchy\4412dc-f0cdb807a36637143a.json
-    originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\StateCache\Hierarchy\4bb187-97dd4fc1aac2bff429.json
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\StateCache\Hierarchy\4bb187-97dd4fc1aac2bff429.json
-    projectPath: Library\StateCache\Hierarchy\4bb187-97dd4fc1aac2bff429.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Library\StateCache\Hierarchy\4bb187-b35c891b52249284ca.json
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\StateCache\Hierarchy\4bb187-b35c891b52249284ca.json
-    projectPath: Library\StateCache\Hierarchy\4bb187-b35c891b52249284ca.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Library\StateCache\Hierarchy\4bb187-d014df1bdd751f1449.json
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\StateCache\Hierarchy\4bb187-d014df1bdd751f1449.json
-    projectPath: Library\StateCache\Hierarchy\4bb187-d014df1bdd751f1449.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Library\StateCache\Hierarchy\4bb187-mainStage.json
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\StateCache\Hierarchy\4bb187-mainStage.json
-    projectPath: Library\StateCache\Hierarchy\4bb187-mainStage.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Library\StateCache\Hierarchy\5dc815-27853f11c1702af48b.json
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\StateCache\Hierarchy\5dc815-27853f11c1702af48b.json
-    projectPath: Library\StateCache\Hierarchy\5dc815-27853f11c1702af48b.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Library\StateCache\Hierarchy\5dc815-mainStage.json
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\StateCache\Hierarchy\5dc815-mainStage.json
-    projectPath: Library\StateCache\Hierarchy\5dc815-mainStage.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Library\StateCache\Hierarchy\e39a2d-mainStage.json
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\StateCache\Hierarchy\e39a2d-mainStage.json
-    projectPath: Library\StateCache\Hierarchy\e39a2d-mainStage.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Library\StateCache\SceneView\490c99-mainStage.json
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\StateCache\SceneView\490c99-mainStage.json
-    projectPath: Library\StateCache\SceneView\490c99-mainStage.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Library\StateCache\SceneView\5ba230-97dd4fc1aac2bff429.json
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\StateCache\SceneView\5ba230-97dd4fc1aac2bff429.json
-    projectPath: Library\StateCache\SceneView\5ba230-97dd4fc1aac2bff429.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Library\StateCache\SceneView\5ba230-b35c891b52249284ca.json
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\StateCache\SceneView\5ba230-b35c891b52249284ca.json
-    projectPath: Library\StateCache\SceneView\5ba230-b35c891b52249284ca.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Library\StateCache\SceneView\5ba230-d014df1bdd751f1449.json
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\StateCache\SceneView\5ba230-d014df1bdd751f1449.json
-    projectPath: Library\StateCache\SceneView\5ba230-d014df1bdd751f1449.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Library\StateCache\SceneView\5ba230-mainStage.json
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\StateCache\SceneView\5ba230-mainStage.json
-    projectPath: Library\StateCache\SceneView\5ba230-mainStage.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Library\StateCache\SceneView\71ea2d-27853f11c1702af48b.json
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\StateCache\SceneView\71ea2d-27853f11c1702af48b.json
-    projectPath: Library\StateCache\SceneView\71ea2d-27853f11c1702af48b.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Library\StateCache\SceneView\71ea2d-mainStage.json
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\StateCache\SceneView\71ea2d-mainStage.json
-    projectPath: Library\StateCache\SceneView\71ea2d-mainStage.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Library\StateCache\SceneView\7dab20-mainStage.json
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\StateCache\SceneView\7dab20-mainStage.json
-    projectPath: Library\StateCache\SceneView\7dab20-mainStage.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Library\StateCache\SceneView\86b6a4-f0cdb807a36637143a.json
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\StateCache\SceneView\86b6a4-f0cdb807a36637143a.json
-    projectPath: Library\StateCache\SceneView\86b6a4-f0cdb807a36637143a.json
-    originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
-  - path: Decisive Moment\Library\StateCache\SceneView\86b6a4-mainStage.json
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Library\StateCache\SceneView\86b6a4-mainStage.json
-    projectPath: Library\StateCache\SceneView\86b6a4-mainStage.json
-    originalPath: 
-    indexStatus: 9
-    workTreeStatus: 9
-  - path: Decisive Moment\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-    projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-    originalPath: 
-    indexStatus: 3
-    workTreeStatus: 3
-  - path: Decisive Moment\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
-  - path: Decisive Moment\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Decisive Moment\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
-    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+  - path: Decisive Moment\Library\metadata\f0\f0cdb807a36637143a20eb4d9b9b0679.info
+    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\metadata\f0\f0cdb807a36637143a20eb4d9b9b0679.info
+    projectPath: Library\metadata\f0\f0cdb807a36637143a20eb4d9b9b0679.info
     originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Decisive Moment\Library\metadata\f5\f5f67c52d1564df4a8936ccd202a3bd8
+    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\metadata\f5\f5f67c52d1564df4a8936ccd202a3bd8
+    projectPath: Library\metadata\f5\f5f67c52d1564df4a8936ccd202a3bd8
     originalPath: 
-    indexStatus: 4
-    workTreeStatus: 0
-  - path: Decisive Moment\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
-    projectPath: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Decisive Moment\Library\metadata\f7\f70555f144d8491a825f0804e09c671c
+    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\metadata\f7\f70555f144d8491a825f0804e09c671c
+    projectPath: Library\metadata\f7\f70555f144d8491a825f0804e09c671c
     originalPath: 
-    indexStatus: 3
-    workTreeStatus: 0
-  - path: Decisive Moment\ProjectSettings\TagManager.asset
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\ProjectSettings\TagManager.asset
-    projectPath: ProjectSettings\TagManager.asset
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Decisive Moment\Library\metadata\f9\f9ad785061d16db4c8f23c40b40938c5.info
+    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\metadata\f9\f9ad785061d16db4c8f23c40b40938c5.info
+    projectPath: Library\metadata\f9\f9ad785061d16db4c8f23c40b40938c5.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Decisive Moment\Library\ScriptAssemblies\Assembly-CSharp.dll
+    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\ScriptAssemblies\Assembly-CSharp.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Decisive Moment\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Decisive Moment\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+    projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Decisive Moment\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Decisive Moment\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Decisive Moment\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Decisive Moment\Library\ScriptAssemblies\Unity.Timeline.dll
+    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\ScriptAssemblies\Unity.Timeline.dll
+    projectPath: Library\ScriptAssemblies\Unity.Timeline.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Decisive Moment\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Decisive Moment\Library\ShaderCache\EditorEncounteredVariants
+    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\ShaderCache\EditorEncounteredVariants
+    projectPath: Library\ShaderCache\EditorEncounteredVariants
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Decisive Moment\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Decisive Moment\Library\StateCache\Hierarchy\4bb187-mainStage.json
+    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\StateCache\Hierarchy\4bb187-mainStage.json
+    projectPath: Library\StateCache\Hierarchy\4bb187-mainStage.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Decisive Moment\Library\StateCache\SceneView\5ba230-mainStage.json
+    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\StateCache\SceneView\5ba230-mainStage.json
+    projectPath: Library\StateCache\SceneView\5ba230-mainStage.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Decisive Moment\Library\TilemapEditorUserSettings.asset
+    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\TilemapEditorUserSettings.asset
+    projectPath: Library\TilemapEditorUserSettings.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Decisive Moment\Temp\__Backupscenes\0.backup
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Temp\__Backupscenes\0.backup
+    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Temp\__Backupscenes\0.backup
     projectPath: Temp\__Backupscenes\0.backup
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: Decisive Moment\Temp\UnityLockfile
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Temp\UnityLockfile
+    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Temp\UnityLockfile
     projectPath: Temp\UnityLockfile
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Temp\UnityTempFile-146d13e77a3feb745b0d6613c7d91467
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Temp\UnityTempFile-146d13e77a3feb745b0d6613c7d91467
-    projectPath: Temp\UnityTempFile-146d13e77a3feb745b0d6613c7d91467
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Temp\UnityTempFile-1b5ca17fcf65afa46911848b021457d3
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Temp\UnityTempFile-1b5ca17fcf65afa46911848b021457d3
-    projectPath: Temp\UnityTempFile-1b5ca17fcf65afa46911848b021457d3
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Temp\UnityTempFile-2cfdf4727f13edb4187b7f78086dd89e
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Temp\UnityTempFile-2cfdf4727f13edb4187b7f78086dd89e
-    projectPath: Temp\UnityTempFile-2cfdf4727f13edb4187b7f78086dd89e
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Temp\UnityTempFile-306693811383bdf47b731e63b465b231
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Temp\UnityTempFile-306693811383bdf47b731e63b465b231
-    projectPath: Temp\UnityTempFile-306693811383bdf47b731e63b465b231
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Temp\UnityTempFile-327c9b16c690a774299c7da96793d300
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Temp\UnityTempFile-327c9b16c690a774299c7da96793d300
-    projectPath: Temp\UnityTempFile-327c9b16c690a774299c7da96793d300
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Temp\UnityTempFile-3453aad0f48b723419406c8623a13a9c
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Temp\UnityTempFile-3453aad0f48b723419406c8623a13a9c
-    projectPath: Temp\UnityTempFile-3453aad0f48b723419406c8623a13a9c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Temp\UnityTempFile-3aaff68647e817a42a4f8590875c8727
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Temp\UnityTempFile-3aaff68647e817a42a4f8590875c8727
-    projectPath: Temp\UnityTempFile-3aaff68647e817a42a4f8590875c8727
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Temp\UnityTempFile-498d81a641cdce84ebea39229eaacf11
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Temp\UnityTempFile-498d81a641cdce84ebea39229eaacf11
-    projectPath: Temp\UnityTempFile-498d81a641cdce84ebea39229eaacf11
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Temp\UnityTempFile-4ab9988f1e3317841ac67c4121df2ba2
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Temp\UnityTempFile-4ab9988f1e3317841ac67c4121df2ba2
-    projectPath: Temp\UnityTempFile-4ab9988f1e3317841ac67c4121df2ba2
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Temp\UnityTempFile-4ecbd6384549c1c4a9c4bff7d808d8d8
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Temp\UnityTempFile-4ecbd6384549c1c4a9c4bff7d808d8d8
-    projectPath: Temp\UnityTempFile-4ecbd6384549c1c4a9c4bff7d808d8d8
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Temp\UnityTempFile-5bf0f2aeac95dec479ff9353518a202e
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Temp\UnityTempFile-5bf0f2aeac95dec479ff9353518a202e
-    projectPath: Temp\UnityTempFile-5bf0f2aeac95dec479ff9353518a202e
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Temp\UnityTempFile-7dfb7f03a8dc46c4495f54aff9fcf9b5
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Temp\UnityTempFile-7dfb7f03a8dc46c4495f54aff9fcf9b5
-    projectPath: Temp\UnityTempFile-7dfb7f03a8dc46c4495f54aff9fcf9b5
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Temp\UnityTempFile-82ef780742d0d5c40a0cfb4132ee3339
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Temp\UnityTempFile-82ef780742d0d5c40a0cfb4132ee3339
-    projectPath: Temp\UnityTempFile-82ef780742d0d5c40a0cfb4132ee3339
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Temp\UnityTempFile-840de96b899787b479c45b9377961a4c
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Temp\UnityTempFile-840de96b899787b479c45b9377961a4c
-    projectPath: Temp\UnityTempFile-840de96b899787b479c45b9377961a4c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Temp\UnityTempFile-8666bed3c43e6834c8cc86b0c4cb4019
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Temp\UnityTempFile-8666bed3c43e6834c8cc86b0c4cb4019
-    projectPath: Temp\UnityTempFile-8666bed3c43e6834c8cc86b0c4cb4019
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Temp\UnityTempFile-8a9927d4c38aacc4592383f505b5106c
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Temp\UnityTempFile-8a9927d4c38aacc4592383f505b5106c
-    projectPath: Temp\UnityTempFile-8a9927d4c38aacc4592383f505b5106c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Temp\UnityTempFile-99f54ced52f4af443a8f4480c694ffe8
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Temp\UnityTempFile-99f54ced52f4af443a8f4480c694ffe8
-    projectPath: Temp\UnityTempFile-99f54ced52f4af443a8f4480c694ffe8
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Temp\UnityTempFile-a07bc92227cf3e248820fd8a3cac83e7
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Temp\UnityTempFile-a07bc92227cf3e248820fd8a3cac83e7
-    projectPath: Temp\UnityTempFile-a07bc92227cf3e248820fd8a3cac83e7
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Temp\UnityTempFile-a5f4caf80c09fb14aba1f9d4158cc81c
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Temp\UnityTempFile-a5f4caf80c09fb14aba1f9d4158cc81c
-    projectPath: Temp\UnityTempFile-a5f4caf80c09fb14aba1f9d4158cc81c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Temp\UnityTempFile-a92dcb02b8c4f9b4a9b665d3990a3c3c
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Temp\UnityTempFile-a92dcb02b8c4f9b4a9b665d3990a3c3c
-    projectPath: Temp\UnityTempFile-a92dcb02b8c4f9b4a9b665d3990a3c3c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Temp\UnityTempFile-acc0d6e61ad99db40933bbe8aacd18e0
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Temp\UnityTempFile-acc0d6e61ad99db40933bbe8aacd18e0
-    projectPath: Temp\UnityTempFile-acc0d6e61ad99db40933bbe8aacd18e0
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Temp\UnityTempFile-adb13e39308618743b4c0160cc319153
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Temp\UnityTempFile-adb13e39308618743b4c0160cc319153
-    projectPath: Temp\UnityTempFile-adb13e39308618743b4c0160cc319153
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Temp\UnityTempFile-af226d867a95e7e4b994255b00f11d89
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Temp\UnityTempFile-af226d867a95e7e4b994255b00f11d89
-    projectPath: Temp\UnityTempFile-af226d867a95e7e4b994255b00f11d89
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Temp\UnityTempFile-af935b63c6712154aa3fb148c0711336
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Temp\UnityTempFile-af935b63c6712154aa3fb148c0711336
-    projectPath: Temp\UnityTempFile-af935b63c6712154aa3fb148c0711336
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Temp\UnityTempFile-b5a03cc5f5c74f84b983d218569543fa
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Temp\UnityTempFile-b5a03cc5f5c74f84b983d218569543fa
-    projectPath: Temp\UnityTempFile-b5a03cc5f5c74f84b983d218569543fa
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Temp\UnityTempFile-bf1f19d4c195fc5449f7efc00b3f1201
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Temp\UnityTempFile-bf1f19d4c195fc5449f7efc00b3f1201
-    projectPath: Temp\UnityTempFile-bf1f19d4c195fc5449f7efc00b3f1201
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Temp\UnityTempFile-cff10955f09490b498468831b29db57b
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Temp\UnityTempFile-cff10955f09490b498468831b29db57b
-    projectPath: Temp\UnityTempFile-cff10955f09490b498468831b29db57b
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Temp\UnityTempFile-d4d5d004d5e49df4f841a5b82da6677a
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Temp\UnityTempFile-d4d5d004d5e49df4f841a5b82da6677a
-    projectPath: Temp\UnityTempFile-d4d5d004d5e49df4f841a5b82da6677a
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Temp\UnityTempFile-de4928dd6e0b6144183dcc778c95cc96
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Temp\UnityTempFile-de4928dd6e0b6144183dcc778c95cc96
-    projectPath: Temp\UnityTempFile-de4928dd6e0b6144183dcc778c95cc96
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Temp\UnityTempFile-e23d9a4681528bf43b3d03514df69571
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Temp\UnityTempFile-e23d9a4681528bf43b3d03514df69571
-    projectPath: Temp\UnityTempFile-e23d9a4681528bf43b3d03514df69571
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Temp\UnityTempFile-e3f54d60f7e0bc4409c2e044c367c13d
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Temp\UnityTempFile-e3f54d60f7e0bc4409c2e044c367c13d
-    projectPath: Temp\UnityTempFile-e3f54d60f7e0bc4409c2e044c367c13d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Temp\UnityTempFile-efbd08ed763951d44bd81942055840e6
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Temp\UnityTempFile-efbd08ed763951d44bd81942055840e6
-    projectPath: Temp\UnityTempFile-efbd08ed763951d44bd81942055840e6
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Temp\UnityTempFile-f0b4b1afd3b84dc4095da83e50de554a
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Temp\UnityTempFile-f0b4b1afd3b84dc4095da83e50de554a
-    projectPath: Temp\UnityTempFile-f0b4b1afd3b84dc4095da83e50de554a
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Temp\UnityTempFile-f196ee260d4c10a4ba8e2b1599c71ffe
-    fullPath: E:\Unity\Decisive-Moment\Decisive Moment\Temp\UnityTempFile-f196ee260d4c10a4ba8e2b1599c71ffe
-    projectPath: Temp\UnityTempFile-f196ee260d4c10a4ba8e2b1599c71ffe
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1

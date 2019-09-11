@@ -13,26 +13,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2019-09-10T09:59:31.465+08:00
-  initializedAtString: 2019-09-10T09:59:31.465+08:00
+  lastUpdatedAtString: 2019-09-12T10:13:48.471+12:00
+  initializedAtString: 2019-09-12T10:13:48.471+12:00
   currentGitRemote:
     name: origin
-    url: https://github.com/trowa0304/Decisive-Moment.git
+    url: https://github.com/nigelph/Decisive-Moment.git
     login: 
     user: 
     host: 
     function: 0
     token: 
   currentGitBranch:
-    name: master
-    tracking: origin/master
+    name: Platform_Update
+    tracking: origin/Platform_Update
   currentConfigBranch:
-    name: master
+    name: Platform_Update
     remote:
       name: origin
-      url: https://github.com/trowa0304/Decisive-Moment.git
-    trackingBranch: master
+      url: https://github.com/nigelph/Decisive-Moment.git
+    trackingBranch: Platform_Update
   currentConfigRemote:
     name: origin
-    url: https://github.com/trowa0304/Decisive-Moment.git
+    url: https://github.com/nigelph/Decisive-Moment.git
   currentHead: 
