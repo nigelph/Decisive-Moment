@@ -13,21 +13,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2019-09-07T15:42:03.673+12:00
-  initializedAtString: 2019-09-07T15:36:31.050+12:00
+  lastUpdatedAtString: 2019-09-11T17:22:31.042+12:00
+  initializedAtString: 2019-09-11T17:22:31.005+12:00
   localBranches:
-  - name: fightingAnim
-    tracking: origin/fightingAnim
-  - name: gameActiveGUI
-    tracking: origin/gameActiveGUI
   - name: master
     tracking: origin/master
+  - name: Minotaur_Dev
+    tracking: origin/Minotaur_Dev
   - name: Platform_Dev
     tracking: origin/Platform_Dev
   remoteBranches:
+  - name: origin/fightingAnim
+    tracking: '[None]'
   - name: origin/gameActiveGUI
     tracking: '[None]'
   - name: origin/HEAD
+    tracking: '[None]'
+  - name: origin/master
+    tracking: '[None]'
+  - name: origin/Minotaur_Dev
+    tracking: '[None]'
+  - name: origin/Platform_Dev
     tracking: '[None]'
   remotes:
   - name: origin
@@ -39,26 +45,20 @@ MonoBehaviour:
     token: 
   localConfigBranches:
     keys:
-    - fightingAnim
-    - gameActiveGUI
     - master
+    - Minotaur_Dev
     - Platform_Dev
     values:
-    - name: fightingAnim
-      remote:
-        name: origin
-        url: https://github.com/nigelph/Decisive-Moment.git
-      trackingBranch: fightingAnim
-    - name: gameActiveGUI
-      remote:
-        name: origin
-        url: https://github.com/nigelph/Decisive-Moment.git
-      trackingBranch: gameActiveGUI
     - name: master
       remote:
         name: origin
         url: https://github.com/nigelph/Decisive-Moment.git
       trackingBranch: master
+    - name: Minotaur_Dev
+      remote:
+        name: origin
+        url: https://github.com/nigelph/Decisive-Moment.git
+      trackingBranch: Minotaur_Dev
     - name: Platform_Dev
       remote:
         name: origin
@@ -69,16 +69,40 @@ MonoBehaviour:
     - origin
     subKeys:
     - Values:
+      - fightingAnim
       - gameActiveGUI
       - HEAD
+      - master
+      - Minotaur_Dev
+      - Platform_Dev
     subKeyValues:
     - Values:
+      - name: fightingAnim
+        remote:
+          name: origin
+          url: https://github.com/nigelph/Decisive-Moment.git
+        trackingBranch: 
       - name: gameActiveGUI
         remote:
           name: origin
           url: https://github.com/nigelph/Decisive-Moment.git
         trackingBranch: 
       - name: HEAD
+        remote:
+          name: origin
+          url: https://github.com/nigelph/Decisive-Moment.git
+        trackingBranch: 
+      - name: master
+        remote:
+          name: origin
+          url: https://github.com/nigelph/Decisive-Moment.git
+        trackingBranch: 
+      - name: Minotaur_Dev
+        remote:
+          name: origin
+          url: https://github.com/nigelph/Decisive-Moment.git
+        trackingBranch: 
+      - name: Platform_Dev
         remote:
           name: origin
           url: https://github.com/nigelph/Decisive-Moment.git
