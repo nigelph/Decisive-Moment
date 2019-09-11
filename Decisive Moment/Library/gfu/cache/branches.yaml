@@ -13,50 +13,38 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-<<<<<<< HEAD
-  lastUpdatedAtString: 2019-09-07T16:35:08.622+08:00
-  initializedAtString: 2019-09-07T16:35:08.595+08:00
-=======
-  lastUpdatedAtString: 2019-09-07T15:42:03.673+12:00
-  initializedAtString: 2019-09-07T15:36:31.050+12:00
->>>>>>> bce7360eeee6bbbfeee9e3a030f0350c3f78a817
+  lastUpdatedAtString: 2019-09-12T10:50:45.001+12:00
+  initializedAtString: 2019-09-12T10:50:44.988+12:00
   localBranches:
-  - name: fightingAnim
-    tracking: origin/fightingAnim
-  - name: gameActiveGUI
-    tracking: origin/gameActiveGUI
+  - name: Josh-SecondAttempt
+    tracking: 
   - name: master
     tracking: origin/master
-<<<<<<< HEAD
-  remoteBranches:
-=======
+  - name: Minotaur_Dev
+    tracking: origin/Minotaur_Dev
+  - name: Monster_Dev
+    tracking: origin/Monster_Dev
   - name: Platform_Dev
     tracking: origin/Platform_Dev
+  - name: Platform_Update
+    tracking: origin/Platform_Update
   remoteBranches:
+  - name: origin/fightingAnim
+    tracking: '[None]'
   - name: origin/gameActiveGUI
     tracking: '[None]'
->>>>>>> bce7360eeee6bbbfeee9e3a030f0350c3f78a817
   - name: origin/HEAD
     tracking: '[None]'
   - name: origin/master
     tracking: '[None]'
-  - name: upstream/fightingAnim
+  - name: origin/Monster_Dev
     tracking: '[None]'
-  - name: upstream/gameActiveGUI
+  - name: origin/Platform_Dev
     tracking: '[None]'
-  - name: upstream/master
-    tracking: '[None]'
-  - name: upstream/Platform_Dev
+  - name: origin/Platform_Update
     tracking: '[None]'
   remotes:
   - name: origin
-    url: https://github.com/trowa0304/Decisive-Moment.git
-    login: 
-    user: 
-    host: 
-    function: 0
-    token: 
-  - name: upstream
     url: https://github.com/nigelph/Decisive-Moment.git
     login: 
     user: 
@@ -65,93 +53,95 @@ MonoBehaviour:
     token: 
   localConfigBranches:
     keys:
-    - fightingAnim
-    - gameActiveGUI
+    - Josh-SecondAttempt
     - master
+    - Minotaur_Dev
+    - Monster_Dev
+    - Platform_Dev
+    - Platform_Update
     values:
-    - name: fightingAnim
+    - name: Josh-SecondAttempt
       remote:
-        name: origin
-        url: https://github.com/nigelph/Decisive-Moment.git
-      trackingBranch: fightingAnim
-    - name: gameActiveGUI
-      remote:
-        name: origin
-        url: https://github.com/nigelph/Decisive-Moment.git
-      trackingBranch: gameActiveGUI
+        name: 
+        url: 
+      trackingBranch: 
     - name: master
       remote:
         name: origin
-        url: https://github.com/trowa0304/Decisive-Moment.git
+        url: https://github.com/nigelph/Decisive-Moment.git
       trackingBranch: master
-<<<<<<< HEAD
-=======
+    - name: Minotaur_Dev
+      remote:
+        name: origin
+        url: https://github.com/nigelph/Decisive-Moment.git
+      trackingBranch: Minotaur_Dev
+    - name: Monster_Dev
+      remote:
+        name: origin
+        url: https://github.com/nigelph/Decisive-Moment.git
+      trackingBranch: Monster_Dev
     - name: Platform_Dev
       remote:
         name: origin
         url: https://github.com/nigelph/Decisive-Moment.git
       trackingBranch: Platform_Dev
->>>>>>> bce7360eeee6bbbfeee9e3a030f0350c3f78a817
+    - name: Platform_Update
+      remote:
+        name: origin
+        url: https://github.com/nigelph/Decisive-Moment.git
+      trackingBranch: Platform_Update
   remoteConfigBranches:
     keys:
     - origin
-    - upstream
     subKeys:
-    - Values:
-<<<<<<< HEAD
-=======
-      - gameActiveGUI
->>>>>>> bce7360eeee6bbbfeee9e3a030f0350c3f78a817
-      - HEAD
-      - master
     - Values:
       - fightingAnim
       - gameActiveGUI
+      - HEAD
       - master
+      - Monster_Dev
       - Platform_Dev
+      - Platform_Update
     subKeyValues:
-    - Values:
-<<<<<<< HEAD
-      - name: HEAD
-=======
-      - name: gameActiveGUI
->>>>>>> bce7360eeee6bbbfeee9e3a030f0350c3f78a817
-        remote:
-          name: origin
-          url: https://github.com/trowa0304/Decisive-Moment.git
-        trackingBranch: 
-      - name: master
-        remote:
-          name: origin
-          url: https://github.com/trowa0304/Decisive-Moment.git
-        trackingBranch: 
     - Values:
       - name: fightingAnim
         remote:
-          name: upstream
+          name: origin
           url: https://github.com/nigelph/Decisive-Moment.git
         trackingBranch: 
       - name: gameActiveGUI
         remote:
-          name: upstream
+          name: origin
+          url: https://github.com/nigelph/Decisive-Moment.git
+        trackingBranch: 
+      - name: HEAD
+        remote:
+          name: origin
           url: https://github.com/nigelph/Decisive-Moment.git
         trackingBranch: 
       - name: master
         remote:
-          name: upstream
+          name: origin
+          url: https://github.com/nigelph/Decisive-Moment.git
+        trackingBranch: 
+      - name: Monster_Dev
+        remote:
+          name: origin
           url: https://github.com/nigelph/Decisive-Moment.git
         trackingBranch: 
       - name: Platform_Dev
         remote:
-          name: upstream
+          name: origin
+          url: https://github.com/nigelph/Decisive-Moment.git
+        trackingBranch: 
+      - name: Platform_Update
+        remote:
+          name: origin
           url: https://github.com/nigelph/Decisive-Moment.git
         trackingBranch: 
   configRemotes:
     keys:
     - origin
-    - upstream
     values:
     - name: origin
-      url: https://github.com/trowa0304/Decisive-Moment.git
-    - name: upstream
       url: https://github.com/nigelph/Decisive-Moment.git
