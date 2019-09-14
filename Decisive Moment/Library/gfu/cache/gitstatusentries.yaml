@@ -13,24 +13,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2019-09-12T11:42:41.137+12:00
-  initializedAtString: 2019-09-12T11:42:35.441+12:00
+  lastUpdatedAtString: 2019-09-14T12:16:55.868+12:00
+  initializedAtString: 2019-09-14T12:15:32.817+12:00
   entries:
-  - path: Decisive Moment\Assets\Minotaur_Model\Animations\Attack.anim
-    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Assets\Minotaur_Model\Animations\Attack.anim
-    projectPath: Assets\Minotaur_Model\Animations\Attack.anim
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Decisive Moment\Assets\Minotaur_Model\Animations\Minotaur.controller
-    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Assets\Minotaur_Model\Animations\Minotaur.controller
-    projectPath: Assets\Minotaur_Model\Animations\Minotaur.controller
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Decisive Moment\Assets\Prefabs\Effect\Fire_Ball.prefab
     fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Assets\Prefabs\Effect\Fire_Ball.prefab
     projectPath: Assets\Prefabs\Effect\Fire_Ball.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Decisive Moment\Assets\Prefabs\Effect\Hero_Die.prefab
+    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Assets\Prefabs\Effect\Hero_Die.prefab
+    projectPath: Assets\Prefabs\Effect\Hero_Die.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Decisive Moment\Assets\Prefabs\Effect\Slime_Die.prefab
+    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Assets\Prefabs\Effect\Slime_Die.prefab
+    projectPath: Assets\Prefabs\Effect\Slime_Die.prefab
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -40,30 +40,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Decisive Moment\Assets\Scripts\MinotaurAttack.cs
-    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Assets\Scripts\MinotaurAttack.cs
-    projectPath: Assets\Scripts\MinotaurAttack.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Assets\Scripts\MinotaurAttack.cs.meta
-    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Assets\Scripts\MinotaurAttack.cs.meta
-    projectPath: Assets\Scripts\MinotaurAttack.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Assets\Scripts\MinotaurPatrol.cs
-    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Assets\Scripts\MinotaurPatrol.cs
-    projectPath: Assets\Scripts\MinotaurPatrol.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Assets\Scripts\MinotaurPatrol.cs.meta
-    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Assets\Scripts\MinotaurPatrol.cs.meta
-    projectPath: Assets\Scripts\MinotaurPatrol.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Decisive Moment\Library\assetDatabase3
     fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\assetDatabase3
     projectPath: Library\assetDatabase3
@@ -82,18 +58,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Decisive Moment\Library\gfu\cache\branches.yaml
-    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\gfu\cache\branches.yaml
-    projectPath: Library\gfu\cache\branches.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Decisive Moment\Library\gfu\cache\gitlog.yaml
-    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\gfu\cache\gitlog.yaml
-    projectPath: Library\gfu\cache\gitlog.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Decisive Moment\Library\gfu\cache\gitstatusentries.yaml
     fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\gfu\cache\gitstatusentries.yaml
     projectPath: Library\gfu\cache\gitstatusentries.yaml
@@ -112,30 +76,18 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Decisive Moment\Library\metadata\9c\9c57b1142918bc341ba62d8bb0a2babe
-    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\metadata\9c\9c57b1142918bc341ba62d8bb0a2babe
-    projectPath: Library\metadata\9c\9c57b1142918bc341ba62d8bb0a2babe
+  - path: Decisive Moment\Library\GridBrush\UnityEditor.GridBrush.asset
+    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\GridBrush\UnityEditor.GridBrush.asset
+    projectPath: Library\GridBrush\UnityEditor.GridBrush.asset
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Library\metadata\9c\9c57b1142918bc341ba62d8bb0a2babe.info
-    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\metadata\9c\9c57b1142918bc341ba62d8bb0a2babe.info
-    projectPath: Library\metadata\9c\9c57b1142918bc341ba62d8bb0a2babe.info
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Decisive Moment\Library\metadata\8a\8a811463a086bd947868b5821deb61be.info
+    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\metadata\8a\8a811463a086bd947868b5821deb61be.info
+    projectPath: Library\metadata\8a\8a811463a086bd947868b5821deb61be.info
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Library\metadata\bd\bdd1fb582ccbf614e97978cd3ae5f4d2
-    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\metadata\bd\bdd1fb582ccbf614e97978cd3ae5f4d2
-    projectPath: Library\metadata\bd\bdd1fb582ccbf614e97978cd3ae5f4d2
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Library\metadata\bd\bdd1fb582ccbf614e97978cd3ae5f4d2.info
-    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\metadata\bd\bdd1fb582ccbf614e97978cd3ae5f4d2.info
-    projectPath: Library\metadata\bd\bdd1fb582ccbf614e97978cd3ae5f4d2.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Decisive Moment\Library\ScriptAssemblies\Assembly-CSharp.dll
     fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\ScriptAssemblies\Assembly-CSharp.dll
     projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
@@ -148,27 +100,39 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Decisive Moment\Library\StateCache\Hierarchy\4bb187-b35c891b52249284ca.json
-    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\StateCache\Hierarchy\4bb187-b35c891b52249284ca.json
-    projectPath: Library\StateCache\Hierarchy\4bb187-b35c891b52249284ca.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Decisive Moment\Library\StateCache\Hierarchy\4bb187-mainStage.json
     fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\StateCache\Hierarchy\4bb187-mainStage.json
     projectPath: Library\StateCache\Hierarchy\4bb187-mainStage.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Decisive Moment\Library\StateCache\SceneView\5b5a1a-b35c891b52249284ca.json
-    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\StateCache\SceneView\5b5a1a-b35c891b52249284ca.json
-    projectPath: Library\StateCache\SceneView\5b5a1a-b35c891b52249284ca.json
+  - path: Decisive Moment\Library\StateCache\SceneView\5ba230-mainStage.json
+    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\StateCache\SceneView\5ba230-mainStage.json
+    projectPath: Library\StateCache\SceneView\5ba230-mainStage.json
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Library\UIElements\EditorWindows\UnityEditor.InspectorWindow.pref
-    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\UIElements\EditorWindows\UnityEditor.InspectorWindow.pref
-    projectPath: Library\UIElements\EditorWindows\UnityEditor.InspectorWindow.pref
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Decisive Moment\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Decisive Moment\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Decisive Moment\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Decisive Moment\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
