@@ -153,5 +153,6 @@ public class PlayerMovement : MonoBehaviour
         diePrefab.SetActive(true);
         Instantiate(diePrefab, transform.position, transform.rotation);
         Destroy(gameObject);
+        TakeDamage(maxhitpoint);
     }
 }

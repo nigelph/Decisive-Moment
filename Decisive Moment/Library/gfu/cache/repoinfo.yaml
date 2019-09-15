@@ -13,8 +13,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
+<<<<<<< Updated upstream
   lastUpdatedAtString: 2019-09-14T12:15:32.515+12:00
   initializedAtString: 2019-09-14T12:15:32.515+12:00
+=======
+  lastUpdatedAtString: 2019-09-15T15:03:34.665+12:00
+  initializedAtString: 2019-09-15T15:03:34.665+12:00
+>>>>>>> Stashed changes
   currentGitRemote:
     name: origin
     url: https://github.com/nigelph/Decisive-Moment.git
@@ -24,6 +29,7 @@ MonoBehaviour:
     function: 0
     token: 
   currentGitBranch:
+<<<<<<< Updated upstream
     name: Platform_Update
     tracking: origin/Platform_Update
   currentConfigBranch:
@@ -32,6 +38,16 @@ MonoBehaviour:
       name: origin
       url: https://github.com/nigelph/Decisive-Moment.git
     trackingBranch: Platform_Update
+=======
+    name: HealthBarAndMana_Dev
+    tracking: origin/HealthBarAndMana_Dev
+  currentConfigBranch:
+    name: HealthBarAndMana_Dev
+    remote:
+      name: origin
+      url: https://github.com/nigelph/Decisive-Moment.git
+    trackingBranch: HealthBarAndMana_Dev
+>>>>>>> Stashed changes
   currentConfigRemote:
     name: origin
     url: https://github.com/nigelph/Decisive-Moment.git
