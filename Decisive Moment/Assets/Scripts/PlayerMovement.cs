@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -25,6 +26,19 @@ public class PlayerMovement : MonoBehaviour
     public LayerMask groundLayer;
     public Transform groundCheck;
     public float jumpForce = 8f;
+
+    //HealthBar Variables
+    public Image currentHealthBar;
+    public Image currentManaBar;
+
+    private float hitpoint = 100;
+    private float maxhitpoint = 100;
+
+    private void Start()
+    {
+        UpdateHealthBar();
+    }
+
     void Awake()
     {
         animator = GetComponent<Animator>();
@@ -93,13 +107,18 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        Debug.Log(collision.tag);
         switch (collision.tag)
         {
+            case "Axe":
+                TakeDamage(20);
+                break;
+            case "Monster":
+                TakeDamage(5);
+                break;
             case "Hero":
                 break;
             case "Wall":
-                break;
-            case "Monster":
                 break;
             case "Cliff":
                 Die();
@@ -154,4 +173,37 @@ public class PlayerMovement : MonoBehaviour
         Instantiate(diePrefab, transform.position, transform.rotation);
         Destroy(gameObject);
     }
+
+    //Health Bar Functions
+
+    private void UpdateHealthBar()
+    {
+        float ratio = hitpoint / maxhitpoint;
+        currentHealthBar.rectTransform.localScale = new Vector3(ratio, 1, 1);
+
+    }
+
+    private void TakeDamage(float dmg)
+    {
+        hitpoint -= dmg;
+        if(hitpoint<0)
+        {
+            hitpoint = 0;
+            Die();
+        }
+        UpdateHealthBar();
+
+    }
+
+    private void HealDamage(float heal)
+    {
+        hitpoint += heal;
+        if (hitpoint > maxhitpoint)
+        {
+            hitpoint = maxhitpoint;
+        }
+        UpdateHealthBar();
+    }
+
+
 }
