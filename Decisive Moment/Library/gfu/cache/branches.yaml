@@ -13,57 +13,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-<<<<<<< Updated upstream
-  lastUpdatedAtString: 2019-09-12T11:34:21.981+12:00
-  initializedAtString: 2019-09-12T11:34:21.958+12:00
+  lastUpdatedAtString: 2019-09-15T14:50:21.698+12:00
+  initializedAtString: 2019-09-15T14:50:21.658+12:00
   localBranches:
-  - name: Josh-SecondAttempt
-    tracking: 
   - name: master
     tracking: origin/master
-  - name: Minotaur_Dev
-    tracking: origin/Minotaur_Dev
-  - name: Monster_Dev
-    tracking: origin/Monster_Dev
-  - name: Platform_Dev
-    tracking: origin/Platform_Dev
-  - name: Platform_Update
-    tracking: origin/Platform_Update
-=======
-  lastUpdatedAtString: 2019-09-15T15:17:33.785+12:00
-  initializedAtString: 2019-09-15T15:17:33.771+12:00
-  localBranches:
-  - name: HealthBarAndMana_Dev
-    tracking: origin/HealthBarAndMana_Dev
-  - name: master
-    tracking: origin/master
-  - name: Monster_Dev
-    tracking: origin/Monster_Dev
->>>>>>> Stashed changes
   remoteBranches:
-  - name: origin/fightingAnim
-    tracking: '[None]'
-  - name: origin/gameActiveGUI
-    tracking: '[None]'
   - name: origin/HEAD
-    tracking: '[None]'
-<<<<<<< Updated upstream
-  - name: origin/master
-    tracking: '[None]'
-  - name: origin/Monster_Dev
-    tracking: '[None]'
-  - name: origin/Platform_Dev
-    tracking: '[None]'
-  - name: origin/Platform_Update
-=======
-  - name: origin/HealthBarAndMana_Dev
-    tracking: '[None]'
-  - name: origin/master
->>>>>>> Stashed changes
     tracking: '[None]'
   remotes:
   - name: origin
-    url: https://github.com/nigelph/Decisive-Moment.git
+    url: https://github.com/nigelph/Decisive-Moment
     login: 
     user: 
     host: 
@@ -71,126 +31,29 @@ MonoBehaviour:
     token: 
   localConfigBranches:
     keys:
-<<<<<<< Updated upstream
-    - Josh-SecondAttempt
     - master
-    - Minotaur_Dev
-    - Monster_Dev
-    - Platform_Dev
-    - Platform_Update
     values:
-    - name: Josh-SecondAttempt
-      remote:
-        name: 
-        url: 
-      trackingBranch: 
-=======
-    - HealthBarAndMana_Dev
-    - master
-    - Monster_Dev
-    values:
-    - name: HealthBarAndMana_Dev
-      remote:
-        name: origin
-        url: https://github.com/nigelph/Decisive-Moment.git
-      trackingBranch: HealthBarAndMana_Dev
->>>>>>> Stashed changes
     - name: master
       remote:
         name: origin
-        url: https://github.com/nigelph/Decisive-Moment.git
+        url: https://github.com/nigelph/Decisive-Moment
       trackingBranch: master
-<<<<<<< Updated upstream
-    - name: Minotaur_Dev
-      remote:
-        name: origin
-        url: https://github.com/nigelph/Decisive-Moment.git
-      trackingBranch: Minotaur_Dev
-=======
->>>>>>> Stashed changes
-    - name: Monster_Dev
-      remote:
-        name: origin
-        url: https://github.com/nigelph/Decisive-Moment.git
-      trackingBranch: Monster_Dev
-<<<<<<< Updated upstream
-    - name: Platform_Dev
-      remote:
-        name: origin
-        url: https://github.com/nigelph/Decisive-Moment.git
-      trackingBranch: Platform_Dev
-    - name: Platform_Update
-      remote:
-        name: origin
-        url: https://github.com/nigelph/Decisive-Moment.git
-      trackingBranch: Platform_Update
-=======
->>>>>>> Stashed changes
   remoteConfigBranches:
     keys:
     - origin
     subKeys:
     - Values:
-      - fightingAnim
-      - gameActiveGUI
       - HEAD
-<<<<<<< Updated upstream
-      - master
-      - Monster_Dev
-      - Platform_Dev
-      - Platform_Update
-=======
-      - HealthBarAndMana_Dev
-      - master
->>>>>>> Stashed changes
     subKeyValues:
     - Values:
-      - name: fightingAnim
-        remote:
-          name: origin
-          url: https://github.com/nigelph/Decisive-Moment.git
-        trackingBranch: 
-      - name: gameActiveGUI
-        remote:
-          name: origin
-          url: https://github.com/nigelph/Decisive-Moment.git
-        trackingBranch: 
       - name: HEAD
         remote:
           name: origin
-          url: https://github.com/nigelph/Decisive-Moment.git
-        trackingBranch: 
-<<<<<<< Updated upstream
-      - name: master
-        remote:
-          name: origin
-          url: https://github.com/nigelph/Decisive-Moment.git
-        trackingBranch: 
-      - name: Monster_Dev
-=======
-      - name: HealthBarAndMana_Dev
->>>>>>> Stashed changes
-        remote:
-          name: origin
-          url: https://github.com/nigelph/Decisive-Moment.git
-        trackingBranch: 
-<<<<<<< Updated upstream
-      - name: Platform_Dev
-        remote:
-          name: origin
-          url: https://github.com/nigelph/Decisive-Moment.git
-        trackingBranch: 
-      - name: Platform_Update
-=======
-      - name: master
->>>>>>> Stashed changes
-        remote:
-          name: origin
-          url: https://github.com/nigelph/Decisive-Moment.git
+          url: https://github.com/nigelph/Decisive-Moment
         trackingBranch: 
   configRemotes:
     keys:
     - origin
     values:
     - name: origin
-      url: https://github.com/nigelph/Decisive-Moment.git
+      url: https://github.com/nigelph/Decisive-Moment

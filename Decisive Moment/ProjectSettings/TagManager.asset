@@ -10,6 +10,7 @@ TagManager:
   - Cliff
   - Skill
   - Attack
+  - Axe
   layers:
   - Default
   - TransparentFX
