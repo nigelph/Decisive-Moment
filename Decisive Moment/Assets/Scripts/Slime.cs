@@ -6,42 +6,70 @@ public class Slime : MonoBehaviour
 {
     private int move_speed = 1;
     public Animator animator;
-    void Awake()
-    {
-        animator = GetComponent<Animator>();
-    }
+
+    private float timeValChangeDirection = 0;
+    private int horizontal = -1;
     // Start is called before the first frame update
     void Start()
     {
-      
+        animator = GetComponent<Animator>();
+    }
+
+    void Update()
+    {
+
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-            transform.Translate(-transform.right * move_speed * Time.deltaTime, Space.World);   
+        Move();
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        Debug.Log(collision.tag);
         switch (collision.tag)
         {
-            case "Hero":
-                break;
             case "Wall":
-                transform.eulerAngles = new Vector3(0, transform.position.y+180, 0);
+                transform.eulerAngles = new Vector3(0, transform.position.y + 180, 0);
                 break;
-            case "Monster":
-                break;
-            case "Cliff":
+            case "Attack":
+                animator.SetBool("dieFlag", true);
+                Destroy(gameObject, 0.483f);
                 break;
             case "Skill":
-
                 animator.SetBool("dieFlag", true);
-                Destroy(gameObject, 0.5f);
+                Destroy(gameObject, 0.483f);
                 break;
             default:
                 break;
         }
+    }
+
+    public void Move()
+    {
+        if (timeValChangeDirection >= 2)
+        {
+            horizontal = horizontal * -1;
+            timeValChangeDirection = 0;
+            if (horizontal == -1)
+            {
+                animator.SetBool("moveRight", false);
+                animator.SetBool("moveLeft", true);
+            }
+            else
+            {
+                animator.SetBool("moveLeft", false);
+                animator.SetBool("moveRight", true);
+            }
+        }
+        else
+        {
+            timeValChangeDirection += Time.deltaTime;
+        }
+        transform.Translate(transform.right * move_speed * Time.fixedDeltaTime * horizontal, Space.World);
+
     }
 }

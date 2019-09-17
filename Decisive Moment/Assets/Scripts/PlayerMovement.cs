@@ -12,7 +12,7 @@ public class PlayerMovement : MonoBehaviour
 
 
     private AnimatorStateInfo mStateInfo;
-    private bool rightFlg = true;
+    //private bool rightFlg = true;
 
     public float moveSpeed = 5f;
     private float time_val = 0.4f;
@@ -76,12 +76,12 @@ public class PlayerMovement : MonoBehaviour
         if (moveInput < 0)
         {
             transform.eulerAngles = new Vector3(0, 180, 0);
-            rightFlg = false;
+            //rightFlg = false;
         }
         else if (moveInput > 0)
         {
             transform.eulerAngles = new Vector3(0, 0, 0);
-            rightFlg = true;
+            //rightFlg = true;
         }
 
         //Check if grounded
@@ -99,6 +99,7 @@ public class PlayerMovement : MonoBehaviour
             animator.SetBool("isAttack", false);
             animator.SetBool("isCast", false);
             time_val += Time.deltaTime;
+            //transform.tag = "Hero";
         }
 
     }
@@ -107,7 +108,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log(collision.tag);
+        //Debug.Log(collision.tag);
         switch (collision.tag)
         {
             case "Axe":
@@ -132,26 +133,30 @@ public class PlayerMovement : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.J))
         {
+            //transform.tag = "Attack";
             animator.SetBool("isAttack", true);
-            time_val = 0;
-            Vector2 newPosition;
-            if (rightFlg)
-            {
-                newPosition = new Vector2(transform.position.x + 1, transform.position.y);
-            }
-            else
-            {
-                newPosition = new Vector2(transform.position.x - 1, transform.position.y);
-            }
 
-            int layerMask = LayerMask.GetMask("Monster");
-            RaycastHit2D hit = Physics2D.Raycast(newPosition, rightFlg ? Vector2.right : Vector2.left, 1f, layerMask);
-            if (hit)
-            {
-                Destroy(hit.collider.gameObject);
-                slimeDiePrefab.SetActive(true);
-                Instantiate(slimeDiePrefab, hit.collider.gameObject.transform.position, hit.collider.gameObject.transform.rotation);
-            }
+            attackPrefab.SetActive(true);
+            Instantiate(attackPrefab, transform.position, transform.rotation);
+            time_val = 0;
+            //Vector2 newPosition;
+            //if (rightFlg)
+            //{
+            //    newPosition = new Vector2(transform.position.x + 1, transform.position.y);
+            //}
+            //else
+            //{
+            //    newPosition = new Vector2(transform.position.x - 1, transform.position.y);
+            //}
+
+            //int layerMask = LayerMask.GetMask("Monster");
+            //RaycastHit2D hit = Physics2D.Raycast(newPosition, rightFlg ? Vector2.right : Vector2.left, 1f, layerMask);
+            //if (hit)
+            //{
+            //    Destroy(hit.collider.gameObject);
+            //    slimeDiePrefab.SetActive(true);
+            //    Instantiate(slimeDiePrefab, hit.collider.gameObject.transform.position, hit.collider.gameObject.transform.rotation);
+            //}
 
         }
     }

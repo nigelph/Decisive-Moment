@@ -9,7 +9,7 @@ public class Hero_Attack_P1 : MonoBehaviour
     void Start()
     {
         //Invoke("InitialHero",0.333f);
-        //Destroy(gameObject, 0.333f);
+        Destroy(gameObject, 0.333f);
     }
 
     // Update is called once per frame
@@ -17,7 +17,6 @@ public class Hero_Attack_P1 : MonoBehaviour
     {
 
     }
-
     //void InitialHero()
     //{
     //  Instantiate(playerPrefab, transform.position, transform.rotation);
