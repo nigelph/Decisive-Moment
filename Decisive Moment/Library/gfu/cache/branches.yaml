@@ -13,13 +13,41 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2019-09-17T10:38:29.558+12:00
-  initializedAtString: 2019-09-17T10:38:28.583+12:00
+  lastUpdatedAtString: 2019-09-18T11:43:31.449+12:00
+  initializedAtString: 2019-09-18T11:43:31.323+12:00
   localBranches:
+  - name: Josh-SecondAttempt
+    tracking: 
   - name: master
     tracking: origin/master
+  - name: Minotaur_Dev
+    tracking: origin/Minotaur_Dev
+  - name: Monster_Dev
+    tracking: origin/Monster_Dev
+  - name: Platform_Dev
+    tracking: origin/Platform_Dev
+  - name: Platform_Update
+    tracking: origin/Platform_Update
+  - name: Take_Damage_Test
+    tracking: origin/Take_Damage_Test
   remoteBranches:
+  - name: origin/fightingAnim
+    tracking: '[None]'
+  - name: origin/gameActiveGUI
+    tracking: '[None]'
   - name: origin/HEAD
+    tracking: '[None]'
+  - name: origin/HealthBarAndMana_Dev
+    tracking: '[None]'
+  - name: origin/master
+    tracking: '[None]'
+  - name: origin/Monster_Dev
+    tracking: '[None]'
+  - name: origin/Platform_Dev
+    tracking: '[None]'
+  - name: origin/Platform_Update
+    tracking: '[None]'
+  - name: origin/Take_Damage_Test
     tracking: '[None]'
   remotes:
   - name: origin
@@ -31,22 +59,106 @@ MonoBehaviour:
     token: 
   localConfigBranches:
     keys:
+    - Josh-SecondAttempt
     - master
+    - Minotaur_Dev
+    - Monster_Dev
+    - Platform_Dev
+    - Platform_Update
+    - Take_Damage_Test
     values:
+    - name: Josh-SecondAttempt
+      remote:
+        name: 
+        url: 
+      trackingBranch: 
     - name: master
       remote:
         name: origin
         url: https://github.com/nigelph/Decisive-Moment.git
       trackingBranch: master
+    - name: Minotaur_Dev
+      remote:
+        name: origin
+        url: https://github.com/nigelph/Decisive-Moment.git
+      trackingBranch: Minotaur_Dev
+    - name: Monster_Dev
+      remote:
+        name: origin
+        url: https://github.com/nigelph/Decisive-Moment.git
+      trackingBranch: Monster_Dev
+    - name: Platform_Dev
+      remote:
+        name: origin
+        url: https://github.com/nigelph/Decisive-Moment.git
+      trackingBranch: Platform_Dev
+    - name: Platform_Update
+      remote:
+        name: origin
+        url: https://github.com/nigelph/Decisive-Moment.git
+      trackingBranch: Platform_Update
+    - name: Take_Damage_Test
+      remote:
+        name: origin
+        url: https://github.com/nigelph/Decisive-Moment.git
+      trackingBranch: Take_Damage_Test
   remoteConfigBranches:
     keys:
     - origin
     subKeys:
     - Values:
+      - fightingAnim
+      - gameActiveGUI
       - HEAD
+      - HealthBarAndMana_Dev
+      - master
+      - Monster_Dev
+      - Platform_Dev
+      - Platform_Update
+      - Take_Damage_Test
     subKeyValues:
     - Values:
+      - name: fightingAnim
+        remote:
+          name: origin
+          url: https://github.com/nigelph/Decisive-Moment.git
+        trackingBranch: 
+      - name: gameActiveGUI
+        remote:
+          name: origin
+          url: https://github.com/nigelph/Decisive-Moment.git
+        trackingBranch: 
       - name: HEAD
+        remote:
+          name: origin
+          url: https://github.com/nigelph/Decisive-Moment.git
+        trackingBranch: 
+      - name: HealthBarAndMana_Dev
+        remote:
+          name: origin
+          url: https://github.com/nigelph/Decisive-Moment.git
+        trackingBranch: 
+      - name: master
+        remote:
+          name: origin
+          url: https://github.com/nigelph/Decisive-Moment.git
+        trackingBranch: 
+      - name: Monster_Dev
+        remote:
+          name: origin
+          url: https://github.com/nigelph/Decisive-Moment.git
+        trackingBranch: 
+      - name: Platform_Dev
+        remote:
+          name: origin
+          url: https://github.com/nigelph/Decisive-Moment.git
+        trackingBranch: 
+      - name: Platform_Update
+        remote:
+          name: origin
+          url: https://github.com/nigelph/Decisive-Moment.git
+        trackingBranch: 
+      - name: Take_Damage_Test
         remote:
           name: origin
           url: https://github.com/nigelph/Decisive-Moment.git

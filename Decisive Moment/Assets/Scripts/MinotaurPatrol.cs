@@ -56,9 +56,17 @@ public class MinotaurPatrol : MonoBehaviour
         }
 
     }
-    void FixedUpdate()
+    private void OnTriggerEnter2D(Collider2D col)
     {
-
+        Debug.Log(col.tag);
+        //Checks that the box collider entered is the player's attack
+        if (col.tag == "Attack")
+        {
+            //transform.Translate(0, -0.1f, 0);
+            anim.SetBool("isAttacking", false);
+            anim.SetBool("flagDie", true);
+            Destroy(this.gameObject, 0.6f);
+        }
 
     }
 }
