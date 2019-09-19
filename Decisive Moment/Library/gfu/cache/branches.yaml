@@ -13,13 +13,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2019-09-17T10:38:29.558+12:00
-  initializedAtString: 2019-09-17T10:38:28.583+12:00
+  lastUpdatedAtString: 2019-09-19T18:03:42.939+12:00
+  initializedAtString: 2019-09-19T18:03:42.918+12:00
   localBranches:
+  - name: fightingAnim
+    tracking: origin/fightingAnim
+  - name: GUiupdates
+    tracking: 
   - name: master
     tracking: origin/master
+  - name: Platform_Dev
+    tracking: origin/Platform_Dev
   remoteBranches:
   - name: origin/HEAD
+    tracking: '[None]'
+  - name: origin/HealthBarAndMana_Dev
+    tracking: '[None]'
+  - name: origin/master
+    tracking: '[None]'
+  - name: origin/Monster_Dev
+    tracking: '[None]'
+  - name: origin/Platform_Update
+    tracking: '[None]'
+  - name: origin/Take_Damage_Test
     tracking: '[None]'
   remotes:
   - name: origin
@@ -31,22 +47,70 @@ MonoBehaviour:
     token: 
   localConfigBranches:
     keys:
+    - fightingAnim
+    - GUiupdates
     - master
+    - Platform_Dev
     values:
+    - name: fightingAnim
+      remote:
+        name: origin
+        url: https://github.com/nigelph/Decisive-Moment.git
+      trackingBranch: fightingAnim
+    - name: GUiupdates
+      remote:
+        name: 
+        url: 
+      trackingBranch: 
     - name: master
       remote:
         name: origin
         url: https://github.com/nigelph/Decisive-Moment.git
       trackingBranch: master
+    - name: Platform_Dev
+      remote:
+        name: origin
+        url: https://github.com/nigelph/Decisive-Moment.git
+      trackingBranch: Platform_Dev
   remoteConfigBranches:
     keys:
     - origin
     subKeys:
     - Values:
       - HEAD
+      - HealthBarAndMana_Dev
+      - master
+      - Monster_Dev
+      - Platform_Update
+      - Take_Damage_Test
     subKeyValues:
     - Values:
       - name: HEAD
+        remote:
+          name: origin
+          url: https://github.com/nigelph/Decisive-Moment.git
+        trackingBranch: 
+      - name: HealthBarAndMana_Dev
+        remote:
+          name: origin
+          url: https://github.com/nigelph/Decisive-Moment.git
+        trackingBranch: 
+      - name: master
+        remote:
+          name: origin
+          url: https://github.com/nigelph/Decisive-Moment.git
+        trackingBranch: 
+      - name: Monster_Dev
+        remote:
+          name: origin
+          url: https://github.com/nigelph/Decisive-Moment.git
+        trackingBranch: 
+      - name: Platform_Update
+        remote:
+          name: origin
+          url: https://github.com/nigelph/Decisive-Moment.git
+        trackingBranch: 
+      - name: Take_Damage_Test
         remote:
           name: origin
           url: https://github.com/nigelph/Decisive-Moment.git
