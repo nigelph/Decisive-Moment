@@ -62,8 +62,13 @@ public class MinotaurPatrol : MonoBehaviour
         //Checks that the box collider entered is the player's attack
         if (col.tag == "Attack")
         {
-            //transform.Translate(0, -0.1f, 0);
-            anim.SetBool("isAttacking", false);
+            transform.Translate(0, -0.26f, 0);
+            anim.SetBool("flagDie", true);
+            Destroy(this.gameObject, 0.6f);
+        }
+        if (col.tag == "Skill")
+        {
+            transform.Translate(0, -0.26f, 0);
             anim.SetBool("flagDie", true);
             Destroy(this.gameObject, 0.6f);
         }
