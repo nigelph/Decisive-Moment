@@ -34,9 +34,18 @@ public class PlayerMovement : MonoBehaviour
     private float hitpoint = 100;
     private float maxhitpoint = 100;
 
+    private float mana = 100;
+    private float maxMana = 100;
+    private float manaRegen = 1;
+    private float manaCost = 10;
+
+    private System.Timers.Timer timer;
+
     private void Start()
     {
         UpdateHealthBar();
+        UpdateManaBar();
+        ManaRegenTimer();
     }
 
     void Awake()
@@ -161,14 +170,19 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    private void Casting()
+    private void Casting() //Use special ability
     {
         if (Input.GetKeyDown(KeyCode.K))
         {
-            animator.SetBool("isCast", true);
-            skillPrefab.SetActive(true);
-            Instantiate(skillPrefab, transform.position, transform.rotation);//Quaternion.Euler(transform.eulerAngles)
-            time_val = 0;
+            if (mana > 0 && mana >= manaCost) //Must have enough mana to use special ability
+            {
+                animator.SetBool("isCast", true);
+                skillPrefab.SetActive(true);
+                Instantiate(skillPrefab, transform.position, transform.rotation);//Quaternion.Euler(transform.eulerAngles)
+                time_val = 0;
+                UseMana(manaCost);
+            }
+
         }
     }
 
@@ -210,5 +224,72 @@ public class PlayerMovement : MonoBehaviour
         UpdateHealthBar();
     }
 
+    //Mana Bar Functions
 
+    private void UpdateManaBar()
+    {
+        float ratio = mana / maxMana;
+        currentManaBar.rectTransform.localScale = new Vector3(ratio, 1, 1);
+
+    }
+
+    private void ManaRegen()
+    {
+        float ratio = mana += manaRegen;
+        currentManaBar.rectTransform.localScale = new Vector3(ratio, 1, 1);
+        if (mana == maxMana)
+        {
+            timer.Stop();
+            timer.Dispose();
+        }
+    }
+
+    private void UseMana(float useMana)
+    {
+        mana -= useMana;
+        if (mana < maxMana)
+        {
+            if (!timer.Enabled)
+            {
+                timer.Start();
+            }
+        }
+        if (mana < 0)
+        {
+            mana = 0;
+            //OOM out of mana
+        }
+        UpdateManaBar();
+
+    }
+
+    private void AddMana(float addMana)
+    {
+        mana += addMana;
+        ManaRegen();
+    }
+
+    private void ManaRegenTimer()
+    {
+        //Create the timer with a two second interval
+        timer = new System.Timers.Timer(1000);
+        //Attach the elapsed event for the timer
+        timer.Elapsed += SetTimer;
+        timer.Start();
+        timer.AutoReset = true;
+        timer.Enabled = true;
+    }
+
+    private void SetTimer(object sender, System.Timers.ElapsedEventArgs e)
+    {
+        if (mana < maxMana)
+        {
+            AddMana(manaRegen);
+        }
+        else if (mana > maxMana)
+        {
+            mana = maxMana;
+        }
+        throw new System.NotImplementedException();
+    }
 }

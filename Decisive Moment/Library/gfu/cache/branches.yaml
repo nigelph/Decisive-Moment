@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
+<<<<<<< HEAD
   lastUpdatedAtString: 2019-09-18T11:43:31.449+12:00
   initializedAtString: 2019-09-18T11:43:31.323+12:00
   localBranches:
@@ -30,6 +31,19 @@ MonoBehaviour:
     tracking: origin/Platform_Update
   - name: Take_Damage_Test
     tracking: origin/Take_Damage_Test
+=======
+  lastUpdatedAtString: 2019-09-19T18:03:42.939+12:00
+  initializedAtString: 2019-09-19T18:03:42.918+12:00
+  localBranches:
+  - name: fightingAnim
+    tracking: origin/fightingAnim
+  - name: GUiupdates
+    tracking: 
+  - name: master
+    tracking: origin/master
+  - name: Platform_Dev
+    tracking: origin/Platform_Dev
+>>>>>>> GUiupdates
   remoteBranches:
   - name: origin/fightingAnim
     tracking: '[None]'
@@ -43,8 +57,11 @@ MonoBehaviour:
     tracking: '[None]'
   - name: origin/Monster_Dev
     tracking: '[None]'
+<<<<<<< HEAD
   - name: origin/Platform_Dev
     tracking: '[None]'
+=======
+>>>>>>> GUiupdates
   - name: origin/Platform_Update
     tracking: '[None]'
   - name: origin/Take_Damage_Test
@@ -59,6 +76,7 @@ MonoBehaviour:
     token: 
   localConfigBranches:
     keys:
+<<<<<<< HEAD
     - Josh-SecondAttempt
     - master
     - Minotaur_Dev
@@ -68,6 +86,19 @@ MonoBehaviour:
     - Take_Damage_Test
     values:
     - name: Josh-SecondAttempt
+=======
+    - fightingAnim
+    - GUiupdates
+    - master
+    - Platform_Dev
+    values:
+    - name: fightingAnim
+      remote:
+        name: origin
+        url: https://github.com/nigelph/Decisive-Moment.git
+      trackingBranch: fightingAnim
+    - name: GUiupdates
+>>>>>>> GUiupdates
       remote:
         name: 
         url: 
@@ -77,6 +108,7 @@ MonoBehaviour:
         name: origin
         url: https://github.com/nigelph/Decisive-Moment.git
       trackingBranch: master
+<<<<<<< HEAD
     - name: Minotaur_Dev
       remote:
         name: origin
@@ -87,11 +119,14 @@ MonoBehaviour:
         name: origin
         url: https://github.com/nigelph/Decisive-Moment.git
       trackingBranch: Monster_Dev
+=======
+>>>>>>> GUiupdates
     - name: Platform_Dev
       remote:
         name: origin
         url: https://github.com/nigelph/Decisive-Moment.git
       trackingBranch: Platform_Dev
+<<<<<<< HEAD
     - name: Platform_Update
       remote:
         name: origin
@@ -102,6 +137,8 @@ MonoBehaviour:
         name: origin
         url: https://github.com/nigelph/Decisive-Moment.git
       trackingBranch: Take_Damage_Test
+=======
+>>>>>>> GUiupdates
   remoteConfigBranches:
     keys:
     - origin
@@ -113,7 +150,10 @@ MonoBehaviour:
       - HealthBarAndMana_Dev
       - master
       - Monster_Dev
+<<<<<<< HEAD
       - Platform_Dev
+=======
+>>>>>>> GUiupdates
       - Platform_Update
       - Take_Damage_Test
     subKeyValues:
@@ -148,11 +188,14 @@ MonoBehaviour:
           name: origin
           url: https://github.com/nigelph/Decisive-Moment.git
         trackingBranch: 
+<<<<<<< HEAD
       - name: Platform_Dev
         remote:
           name: origin
           url: https://github.com/nigelph/Decisive-Moment.git
         trackingBranch: 
+=======
+>>>>>>> GUiupdates
       - name: Platform_Update
         remote:
           name: origin
