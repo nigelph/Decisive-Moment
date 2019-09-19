@@ -13,62 +13,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-<<<<<<< HEAD
-  lastUpdatedAtString: 2019-09-18T11:43:31.449+12:00
-  initializedAtString: 2019-09-18T11:43:31.323+12:00
+  lastUpdatedAtString: 2019-09-19T20:04:13.298+12:00
+  initializedAtString: 2019-09-19T20:04:13.281+12:00
   localBranches:
-  - name: Josh-SecondAttempt
-    tracking: 
   - name: master
     tracking: origin/master
-  - name: Minotaur_Dev
-    tracking: origin/Minotaur_Dev
-  - name: Monster_Dev
-    tracking: origin/Monster_Dev
-  - name: Platform_Dev
-    tracking: origin/Platform_Dev
-  - name: Platform_Update
-    tracking: origin/Platform_Update
-  - name: Take_Damage_Test
-    tracking: origin/Take_Damage_Test
-=======
-  lastUpdatedAtString: 2019-09-19T18:03:42.939+12:00
-  initializedAtString: 2019-09-19T18:03:42.918+12:00
-  localBranches:
-  - name: fightingAnim
-    tracking: origin/fightingAnim
-  - name: GUiupdates
-    tracking: 
-  - name: master
-    tracking: origin/master
-  - name: Platform_Dev
-    tracking: origin/Platform_Dev
->>>>>>> GUiupdates
   remoteBranches:
-  - name: origin/fightingAnim
-    tracking: '[None]'
-  - name: origin/gameActiveGUI
-    tracking: '[None]'
   - name: origin/HEAD
-    tracking: '[None]'
-  - name: origin/HealthBarAndMana_Dev
-    tracking: '[None]'
-  - name: origin/master
-    tracking: '[None]'
-  - name: origin/Monster_Dev
-    tracking: '[None]'
-<<<<<<< HEAD
-  - name: origin/Platform_Dev
-    tracking: '[None]'
-=======
->>>>>>> GUiupdates
-  - name: origin/Platform_Update
-    tracking: '[None]'
-  - name: origin/Take_Damage_Test
     tracking: '[None]'
   remotes:
   - name: origin
-    url: https://github.com/nigelph/Decisive-Moment.git
+    url: https://github.com/trowa0304/Decisive-Moment.git
     login: 
     user: 
     host: 
@@ -76,139 +31,29 @@ MonoBehaviour:
     token: 
   localConfigBranches:
     keys:
-<<<<<<< HEAD
-    - Josh-SecondAttempt
     - master
-    - Minotaur_Dev
-    - Monster_Dev
-    - Platform_Dev
-    - Platform_Update
-    - Take_Damage_Test
     values:
-    - name: Josh-SecondAttempt
-=======
-    - fightingAnim
-    - GUiupdates
-    - master
-    - Platform_Dev
-    values:
-    - name: fightingAnim
-      remote:
-        name: origin
-        url: https://github.com/nigelph/Decisive-Moment.git
-      trackingBranch: fightingAnim
-    - name: GUiupdates
->>>>>>> GUiupdates
-      remote:
-        name: 
-        url: 
-      trackingBranch: 
     - name: master
       remote:
         name: origin
-        url: https://github.com/nigelph/Decisive-Moment.git
+        url: https://github.com/trowa0304/Decisive-Moment.git
       trackingBranch: master
-<<<<<<< HEAD
-    - name: Minotaur_Dev
-      remote:
-        name: origin
-        url: https://github.com/nigelph/Decisive-Moment.git
-      trackingBranch: Minotaur_Dev
-    - name: Monster_Dev
-      remote:
-        name: origin
-        url: https://github.com/nigelph/Decisive-Moment.git
-      trackingBranch: Monster_Dev
-=======
->>>>>>> GUiupdates
-    - name: Platform_Dev
-      remote:
-        name: origin
-        url: https://github.com/nigelph/Decisive-Moment.git
-      trackingBranch: Platform_Dev
-<<<<<<< HEAD
-    - name: Platform_Update
-      remote:
-        name: origin
-        url: https://github.com/nigelph/Decisive-Moment.git
-      trackingBranch: Platform_Update
-    - name: Take_Damage_Test
-      remote:
-        name: origin
-        url: https://github.com/nigelph/Decisive-Moment.git
-      trackingBranch: Take_Damage_Test
-=======
->>>>>>> GUiupdates
   remoteConfigBranches:
     keys:
     - origin
     subKeys:
     - Values:
-      - fightingAnim
-      - gameActiveGUI
       - HEAD
-      - HealthBarAndMana_Dev
-      - master
-      - Monster_Dev
-<<<<<<< HEAD
-      - Platform_Dev
-=======
->>>>>>> GUiupdates
-      - Platform_Update
-      - Take_Damage_Test
     subKeyValues:
     - Values:
-      - name: fightingAnim
-        remote:
-          name: origin
-          url: https://github.com/nigelph/Decisive-Moment.git
-        trackingBranch: 
-      - name: gameActiveGUI
-        remote:
-          name: origin
-          url: https://github.com/nigelph/Decisive-Moment.git
-        trackingBranch: 
       - name: HEAD
         remote:
           name: origin
-          url: https://github.com/nigelph/Decisive-Moment.git
-        trackingBranch: 
-      - name: HealthBarAndMana_Dev
-        remote:
-          name: origin
-          url: https://github.com/nigelph/Decisive-Moment.git
-        trackingBranch: 
-      - name: master
-        remote:
-          name: origin
-          url: https://github.com/nigelph/Decisive-Moment.git
-        trackingBranch: 
-      - name: Monster_Dev
-        remote:
-          name: origin
-          url: https://github.com/nigelph/Decisive-Moment.git
-        trackingBranch: 
-<<<<<<< HEAD
-      - name: Platform_Dev
-        remote:
-          name: origin
-          url: https://github.com/nigelph/Decisive-Moment.git
-        trackingBranch: 
-=======
->>>>>>> GUiupdates
-      - name: Platform_Update
-        remote:
-          name: origin
-          url: https://github.com/nigelph/Decisive-Moment.git
-        trackingBranch: 
-      - name: Take_Damage_Test
-        remote:
-          name: origin
-          url: https://github.com/nigelph/Decisive-Moment.git
+          url: https://github.com/trowa0304/Decisive-Moment.git
         trackingBranch: 
   configRemotes:
     keys:
     - origin
     values:
     - name: origin
-      url: https://github.com/nigelph/Decisive-Moment.git
+      url: https://github.com/trowa0304/Decisive-Moment.git
