@@ -13,214 +13,60 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-<<<<<<< HEAD
-  lastUpdatedAtString: 2019-09-19T15:47:48.366+12:00
-  initializedAtString: 2019-09-19T15:47:32.437+12:00
+  lastUpdatedAtString: 2019-09-19T18:33:14.723+12:00
+  initializedAtString: 2019-09-19T18:30:02.553+12:00
   entries:
-  - path: Decisive Moment\Assets\Minotaur_Model\Animations\Death.anim
-    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Assets\Minotaur_Model\Animations\Death.anim
-    projectPath: Assets\Minotaur_Model\Animations\Death.anim
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Decisive Moment\Assets\Prefabs\Effect\Fire_Ball.prefab
-    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Assets\Prefabs\Effect\Fire_Ball.prefab
-=======
-  lastUpdatedAtString: 2019-09-19T18:13:18.538+12:00
-  initializedAtString: 2019-09-19T18:13:13.393+12:00
-  entries:
-  - path: Decisive Moment\Assets\Prefabs\Effect\Fire_Ball.prefab
-    fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\Assets\Prefabs\Effect\Fire_Ball.prefab
->>>>>>> GUiupdates
-    projectPath: Assets\Prefabs\Effect\Fire_Ball.prefab
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-<<<<<<< HEAD
   - path: Decisive Moment\Assets\Prefabs\Effect\Hero_Attack_P1.prefab
-    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Assets\Prefabs\Effect\Hero_Attack_P1.prefab
+    fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\Assets\Prefabs\Effect\Hero_Attack_P1.prefab
     projectPath: Assets\Prefabs\Effect\Hero_Attack_P1.prefab
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Decisive Moment\Assets\Scenes\SampleScene.unity
-    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Assets\Scenes\SampleScene.unity
-    projectPath: Assets\Scenes\SampleScene.unity
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Decisive Moment\Assets\Scripts\MinotaurPatrol.cs
-    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Assets\Scripts\MinotaurPatrol.cs
-    projectPath: Assets\Scripts\MinotaurPatrol.cs
-=======
-  - path: Decisive Moment\Assets\Scenes\SampleScene.unity
-    fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\Assets\Scenes\SampleScene.unity
-    projectPath: Assets\Scenes\SampleScene.unity
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Decisive Moment\Assets\Scripts\ManaRegen.cs
-    fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\Assets\Scripts\ManaRegen.cs
-    projectPath: Assets\Scripts\ManaRegen.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Assets\Scripts\ManaRegen.cs.meta
-    fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\Assets\Scripts\ManaRegen.cs.meta
-    projectPath: Assets\Scripts\ManaRegen.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Assets\Scripts\PlayerMovement.cs
-    fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\Assets\Scripts\PlayerMovement.cs
-    projectPath: Assets\Scripts\PlayerMovement.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Decisive Moment\Assets\Terrain\Tiles\Assets\DecisiveMomentBackground.png
-    fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\Assets\Terrain\Tiles\Assets\DecisiveMomentBackground.png
-    projectPath: Assets\Terrain\Tiles\Assets\DecisiveMomentBackground.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Assets\Terrain\Tiles\Assets\DecisiveMomentBackground.png.meta
-    fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\Assets\Terrain\Tiles\Assets\DecisiveMomentBackground.png.meta
-    projectPath: Assets\Terrain\Tiles\Assets\DecisiveMomentBackground.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Decisive Moment\Library\APIUpdater\project-dependencies.graph
     fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\Library\APIUpdater\project-dependencies.graph
     projectPath: Library\APIUpdater\project-dependencies.graph
->>>>>>> GUiupdates
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Decisive Moment\Library\assetDatabase3
-<<<<<<< HEAD
-    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\assetDatabase3
-=======
     fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\Library\assetDatabase3
->>>>>>> GUiupdates
     projectPath: Library\assetDatabase3
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Decisive Moment\Library\CurrentLayout.dwlt
-<<<<<<< HEAD
-    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\CurrentLayout.dwlt
-=======
     fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\Library\CurrentLayout.dwlt
->>>>>>> GUiupdates
     projectPath: Library\CurrentLayout.dwlt
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Decisive Moment\Library\CurrentMaximizeLayout.dwlt
-<<<<<<< HEAD
-    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\CurrentMaximizeLayout.dwlt
-=======
     fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\Library\CurrentMaximizeLayout.dwlt
->>>>>>> GUiupdates
     projectPath: Library\CurrentMaximizeLayout.dwlt
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Decisive Moment\Library\EditorInstance.json
-<<<<<<< HEAD
-    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\EditorInstance.json
-=======
     fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\Library\EditorInstance.json
->>>>>>> GUiupdates
     projectPath: Library\EditorInstance.json
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-<<<<<<< HEAD
-  - path: Decisive Moment\Library\gfu\cache\gitstatusentries.yaml
-    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\gfu\cache\gitstatusentries.yaml
-=======
-  - path: Decisive Moment\Library\gfu\cache\branches.yaml
-    fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\Library\gfu\cache\branches.yaml
-    projectPath: Library\gfu\cache\branches.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Decisive Moment\Library\gfu\cache\gitlog.yaml
-    fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\Library\gfu\cache\gitlog.yaml
-    projectPath: Library\gfu\cache\gitlog.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Decisive Moment\Library\gfu\cache\gitstatusentries.yaml
     fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\Library\gfu\cache\gitstatusentries.yaml
->>>>>>> GUiupdates
     projectPath: Library\gfu\cache\gitstatusentries.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Decisive Moment\Library\gfu\cache\gittrackingstatus.yaml
-<<<<<<< HEAD
-    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\gfu\cache\gittrackingstatus.yaml
-=======
     fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\Library\gfu\cache\gittrackingstatus.yaml
->>>>>>> GUiupdates
     projectPath: Library\gfu\cache\gittrackingstatus.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Decisive Moment\Library\gfu\cache\repoinfo.yaml
-<<<<<<< HEAD
-    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\gfu\cache\repoinfo.yaml
-=======
     fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\Library\gfu\cache\repoinfo.yaml
->>>>>>> GUiupdates
     projectPath: Library\gfu\cache\repoinfo.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-<<<<<<< HEAD
-  - path: Decisive Moment\Library\GridBrush\UnityEditor.GridBrush.asset
-    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\GridBrush\UnityEditor.GridBrush.asset
-    projectPath: Library\GridBrush\UnityEditor.GridBrush.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Decisive Moment\Library\LastSceneManagerSetup.txt
-    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\LastSceneManagerSetup.txt
-    projectPath: Library\LastSceneManagerSetup.txt
-=======
-  - path: Decisive Moment\Library\InspectorExpandedItems.asset
-    fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\Library\InspectorExpandedItems.asset
-    projectPath: Library\InspectorExpandedItems.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Decisive Moment\Library\metadata\1a\1a0ff0ab3875e184a86b6ffa9efc6e21.info
-    fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\Library\metadata\1a\1a0ff0ab3875e184a86b6ffa9efc6e21.info
-    projectPath: Library\metadata\1a\1a0ff0ab3875e184a86b6ffa9efc6e21.info
->>>>>>> GUiupdates
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Decisive Moment\Library\metadata\27\27853f11c1702af48bb521eea204ed43.info
-<<<<<<< HEAD
-    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\metadata\27\27853f11c1702af48bb521eea204ed43.info
-=======
-    fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\Library\metadata\27\27853f11c1702af48bb521eea204ed43.info
->>>>>>> GUiupdates
-    projectPath: Library\metadata\27\27853f11c1702af48bb521eea204ed43.info
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-<<<<<<< HEAD
-  - path: Decisive Moment\Library\metadata\9c\9c57b1142918bc341ba62d8bb0a2babe
-    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\metadata\9c\9c57b1142918bc341ba62d8bb0a2babe
-    projectPath: Library\metadata\9c\9c57b1142918bc341ba62d8bb0a2babe
-=======
-  - path: Decisive Moment\Library\metadata\30\300829d7576481f4792a00dc02f40227
-    fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\Library\metadata\30\300829d7576481f4792a00dc02f40227
-    projectPath: Library\metadata\30\300829d7576481f4792a00dc02f40227
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -254,57 +100,54 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Decisive Moment\Library\metadata\68\6880f9b524783974ab662b5a7ca70557
-    fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\Library\metadata\68\6880f9b524783974ab662b5a7ca70557
-    projectPath: Library\metadata\68\6880f9b524783974ab662b5a7ca70557
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Library\metadata\68\6880f9b524783974ab662b5a7ca70557.info
-    fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\Library\metadata\68\6880f9b524783974ab662b5a7ca70557.info
-    projectPath: Library\metadata\68\6880f9b524783974ab662b5a7ca70557.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Decisive Moment\Library\metadata\80\80a3616ca19596e4da0f10f14d241e9f
     fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\Library\metadata\80\80a3616ca19596e4da0f10f14d241e9f
     projectPath: Library\metadata\80\80a3616ca19596e4da0f10f14d241e9f
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Decisive Moment\Library\metadata\99\998cad21eb6538e4b978625a6d6309b1.info
-    fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\Library\metadata\99\998cad21eb6538e4b978625a6d6309b1.info
-    projectPath: Library\metadata\99\998cad21eb6538e4b978625a6d6309b1.info
->>>>>>> GUiupdates
+  - path: Decisive Moment\Library\metadata\82\825effb804b09274ba93fee5a340cd86.info
+    fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\Library\metadata\82\825effb804b09274ba93fee5a340cd86.info
+    projectPath: Library\metadata\82\825effb804b09274ba93fee5a340cd86.info
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Decisive Moment\Library\metadata\b3\b35c891b52249284ca687325e3d00f32.info
-<<<<<<< HEAD
-    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\metadata\b3\b35c891b52249284ca687325e3d00f32.info
-=======
-    fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\Library\metadata\b3\b35c891b52249284ca687325e3d00f32.info
->>>>>>> GUiupdates
-    projectPath: Library\metadata\b3\b35c891b52249284ca687325e3d00f32.info
+  - path: Decisive Moment\Library\metadata\83\832746d583e039b479f5cbe4fac4743b.info
+    fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\Library\metadata\83\832746d583e039b479f5cbe4fac4743b.info
+    projectPath: Library\metadata\83\832746d583e039b479f5cbe4fac4743b.info
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-<<<<<<< HEAD
-  - path: Decisive Moment\Library\ScriptAssemblies\Assembly-CSharp.dll
-    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\ScriptAssemblies\Assembly-CSharp.dll
-=======
-  - path: Decisive Moment\Library\metadata\bc\bcc2e494d2320214d9ba818f00a10f48
-    fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\Library\metadata\bc\bcc2e494d2320214d9ba818f00a10f48
-    projectPath: Library\metadata\bc\bcc2e494d2320214d9ba818f00a10f48
+  - path: Decisive Moment\Library\metadata\8a\8a811463a086bd947868b5821deb61be.info
+    fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\Library\metadata\8a\8a811463a086bd947868b5821deb61be.info
+    projectPath: Library\metadata\8a\8a811463a086bd947868b5821deb61be.info
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Library\metadata\bc\bcc2e494d2320214d9ba818f00a10f48.info
-    fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\Library\metadata\bc\bcc2e494d2320214d9ba818f00a10f48.info
-    projectPath: Library\metadata\bc\bcc2e494d2320214d9ba818f00a10f48.info
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Decisive Moment\Library\metadata\8c\8c70544e86a181a4aa4312eb73523dc5.info
+    fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\Library\metadata\8c\8c70544e86a181a4aa4312eb73523dc5.info
+    projectPath: Library\metadata\8c\8c70544e86a181a4aa4312eb73523dc5.info
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Decisive Moment\Library\metadata\9d\9dec48be870a9ea4195fd86150f6a940.info
+    fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\Library\metadata\9d\9dec48be870a9ea4195fd86150f6a940.info
+    projectPath: Library\metadata\9d\9dec48be870a9ea4195fd86150f6a940.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Decisive Moment\Library\metadata\ad\adfc734ba48e8e3459d7b87e471efd2b.info
+    fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\Library\metadata\ad\adfc734ba48e8e3459d7b87e471efd2b.info
+    projectPath: Library\metadata\ad\adfc734ba48e8e3459d7b87e471efd2b.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Decisive Moment\Library\metadata\da\daa1b3ba0258db94785ade121b45f111.info
+    fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\Library\metadata\da\daa1b3ba0258db94785ade121b45f111.info
+    projectPath: Library\metadata\da\daa1b3ba0258db94785ade121b45f111.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Decisive Moment\Library\metadata\f5\f5f67c52d1564df4a8936ccd202a3bd8
     fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\Library\metadata\f5\f5f67c52d1564df4a8936ccd202a3bd8
     projectPath: Library\metadata\f5\f5f67c52d1564df4a8936ccd202a3bd8
@@ -319,15 +162,10 @@ MonoBehaviour:
     workTreeStatus: 3
   - path: Decisive Moment\Library\ScriptAssemblies\Assembly-CSharp.dll
     fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\Library\ScriptAssemblies\Assembly-CSharp.dll
->>>>>>> GUiupdates
     projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-<<<<<<< HEAD
-  - path: Decisive Moment\Library\shadercompiler-UnityShaderCompiler.exe0.log
-    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\shadercompiler-UnityShaderCompiler.exe0.log
-=======
   - path: Decisive Moment\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
     fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
     projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
@@ -372,139 +210,91 @@ MonoBehaviour:
     workTreeStatus: 3
   - path: Decisive Moment\Library\shadercompiler-UnityShaderCompiler.exe0.log
     fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\Library\shadercompiler-UnityShaderCompiler.exe0.log
->>>>>>> GUiupdates
     projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Decisive Moment\Library\StateCache\Hierarchy\088ff3-mainStage.json
-<<<<<<< HEAD
-    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\StateCache\Hierarchy\088ff3-mainStage.json
-=======
     fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\Library\StateCache\Hierarchy\088ff3-mainStage.json
->>>>>>> GUiupdates
     projectPath: Library\StateCache\Hierarchy\088ff3-mainStage.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Decisive Moment\Library\StateCache\Hierarchy\fd48c2-mainStage.json
+    fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\Library\StateCache\Hierarchy\fd48c2-mainStage.json
+    projectPath: Library\StateCache\Hierarchy\fd48c2-mainStage.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Decisive Moment\Library\StateCache\SceneView\489a3c-mainStage.json
-<<<<<<< HEAD
-    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\StateCache\SceneView\489a3c-mainStage.json
-=======
     fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\Library\StateCache\SceneView\489a3c-mainStage.json
->>>>>>> GUiupdates
     projectPath: Library\StateCache\SceneView\489a3c-mainStage.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Decisive Moment\Library\UIElements\EditorWindows\UnityEditor.InspectorWindow.pref
-<<<<<<< HEAD
-    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Library\UIElements\EditorWindows\UnityEditor.InspectorWindow.pref
-    projectPath: Library\UIElements\EditorWindows\UnityEditor.InspectorWindow.pref
-=======
-    fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\Library\UIElements\EditorWindows\UnityEditor.InspectorWindow.pref
-    projectPath: Library\UIElements\EditorWindows\UnityEditor.InspectorWindow.pref
+  - path: Decisive Moment\Library\StateCache\SceneView\667795-mainStage.json
+    fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\Library\StateCache\SceneView\667795-mainStage.json
+    projectPath: Library\StateCache\SceneView\667795-mainStage.json
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Decisive Moment\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-    fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-    projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Decisive Moment\obj\Debug\Assembly-CSharp.csproj.FileListAbsolute.txt
-    fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\obj\Debug\Assembly-CSharp.csproj.FileListAbsolute.txt
-    projectPath: obj\Debug\Assembly-CSharp.csproj.FileListAbsolute.txt
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Decisive Moment\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Decisive Moment\obj\Debug\Assembly-CSharp.dll
-    fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\obj\Debug\Assembly-CSharp.dll
-    projectPath: obj\Debug\Assembly-CSharp.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Decisive Moment\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
-    fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
-    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Decisive Moment\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.FileListAbsolute.txt
-    fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.FileListAbsolute.txt
-    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.FileListAbsolute.txt
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Decisive Moment\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Decisive Moment\obj\Debug\Assembly-CSharp-Editor-firstpass.dll
-    fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\obj\Debug\Assembly-CSharp-Editor-firstpass.dll
-    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Decisive Moment\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
-    fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
-    projectPath: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
->>>>>>> GUiupdates
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Decisive Moment\ProjectSettings\QualitySettings.asset
-<<<<<<< HEAD
-    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\ProjectSettings\QualitySettings.asset
-=======
-    fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\ProjectSettings\QualitySettings.asset
->>>>>>> GUiupdates
-    projectPath: ProjectSettings\QualitySettings.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Decisive Moment\ProjectSettings\UnityConnectSettings.asset
-<<<<<<< HEAD
-    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\ProjectSettings\UnityConnectSettings.asset
-=======
-    fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\ProjectSettings\UnityConnectSettings.asset
->>>>>>> GUiupdates
-    projectPath: ProjectSettings\UnityConnectSettings.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Decisive Moment\Temp\__Backupscenes\0.backup
-<<<<<<< HEAD
-    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Temp\__Backupscenes\0.backup
-=======
     fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\Temp\__Backupscenes\0.backup
->>>>>>> GUiupdates
     projectPath: Temp\__Backupscenes\0.backup
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: Decisive Moment\Temp\UnityLockfile
-<<<<<<< HEAD
-    fullPath: E:\SDP\GameProject\Decisive-Moment\Decisive Moment\Temp\UnityLockfile
-=======
     fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\Temp\UnityLockfile
->>>>>>> GUiupdates
     projectPath: Temp\UnityLockfile
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Decisive Moment\Temp\UnityTempFile-d9709bfd4f094c748b6b51c56986abb3
-    fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\Temp\UnityTempFile-d9709bfd4f094c748b6b51c56986abb3
-    projectPath: Temp\UnityTempFile-d9709bfd4f094c748b6b51c56986abb3
+  - path: Decisive Moment\Temp\UnityTempFile-0fb246ddedc188f42bb89a28c988c9cc
+    fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\Temp\UnityTempFile-0fb246ddedc188f42bb89a28c988c9cc
+    projectPath: Temp\UnityTempFile-0fb246ddedc188f42bb89a28c988c9cc
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Decisive Moment\Temp\UnityTempFile-166428214a8b3c245af9a552f0caeec7
+    fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\Temp\UnityTempFile-166428214a8b3c245af9a552f0caeec7
+    projectPath: Temp\UnityTempFile-166428214a8b3c245af9a552f0caeec7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Decisive Moment\Temp\UnityTempFile-2e80576a853dc2041b5e173f2571fda1
+    fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\Temp\UnityTempFile-2e80576a853dc2041b5e173f2571fda1
+    projectPath: Temp\UnityTempFile-2e80576a853dc2041b5e173f2571fda1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Decisive Moment\Temp\UnityTempFile-617fe1595c99a4d4dada3ae94145281d
+    fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\Temp\UnityTempFile-617fe1595c99a4d4dada3ae94145281d
+    projectPath: Temp\UnityTempFile-617fe1595c99a4d4dada3ae94145281d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Decisive Moment\Temp\UnityTempFile-7115b0971fdf8e844aade27ba675a987
+    fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\Temp\UnityTempFile-7115b0971fdf8e844aade27ba675a987
+    projectPath: Temp\UnityTempFile-7115b0971fdf8e844aade27ba675a987
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Decisive Moment\Temp\UnityTempFile-8a569fdb0445ec64484dbab5b1f17077
+    fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\Temp\UnityTempFile-8a569fdb0445ec64484dbab5b1f17077
+    projectPath: Temp\UnityTempFile-8a569fdb0445ec64484dbab5b1f17077
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Decisive Moment\Temp\UnityTempFile-8ca322ee26f589f438e0584767df0d0d
+    fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\Temp\UnityTempFile-8ca322ee26f589f438e0584767df0d0d
+    projectPath: Temp\UnityTempFile-8ca322ee26f589f438e0584767df0d0d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Decisive Moment\Temp\UnityTempFile-dfc5c588f9f6eb74ea9345c6f97404c4
+    fullPath: C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\Temp\UnityTempFile-dfc5c588f9f6eb74ea9345c6f97404c4
+    projectPath: Temp\UnityTempFile-dfc5c588f9f6eb74ea9345c6f97404c4
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
