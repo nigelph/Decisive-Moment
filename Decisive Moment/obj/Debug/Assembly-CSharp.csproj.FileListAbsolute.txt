@@ -266,9 +266,6 @@ E:\Unity\Decisive-Moment\Decisive Moment\obj\Debug\Assembly-CSharp.csproj.CoreCo
 E:\Unity\Decisive-Moment\Decisive Moment\obj\Debug\Assembly-CSharp.csproj.CopyComplete
 E:\Unity\Decisive-Moment\Decisive Moment\obj\Debug\Assembly-CSharp.dll
 E:\Unity\Decisive-Moment\Decisive Moment\obj\Debug\Assembly-CSharp.pdb
-E:\Unity\Decisive-Moment\Decisive Moment\Temp\bin\Debug\Boo.Lang.dll
-E:\Unity\Decisive-Moment\Decisive Moment\Temp\bin\Debug\UnityEditor.UI.dll
-E:\Unity\Decisive-Moment\Decisive Moment\Temp\bin\Debug\UnityEditor.UI.xml
 E:\Unity\Decisive-Moment\Decisive Moment\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
 E:\资料\Work\新建文件夹\Decisive-Moment\Decisive Moment\Temp\bin\Debug\Assembly-CSharp.dll
 E:\资料\Work\新建文件夹\Decisive-Moment\Decisive Moment\Temp\bin\Debug\Assembly-CSharp.pdb
