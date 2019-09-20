@@ -138,6 +138,29 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    ////For unit Test Hit Player
+    //public void OnTriggerEnter2D(string collision)
+    //{
+    //    //Debug.Log(collision.tag);
+    //    switch (collision)
+    //    {
+    //        case "Axe":
+    //            TakeDamage(20);
+    //            break;
+    //        case "Monster":
+    //            TakeDamage(5);
+    //            break;
+    //        case "Hero":
+    //            break;
+    //        case "Wall":
+    //            break;
+    //        case "Cliff":
+    //            break;
+    //        default:
+    //            break;
+    //    }
+    //}
+
     //Unit Test for Attack method
     //Attack(); at line 103 must be commented out to run this method
     /*
@@ -153,7 +176,7 @@ public class PlayerMovement : MonoBehaviour
     }
     */
 
-    
+
     private void Attack()
     {
         if (Input.GetKeyDown(KeyCode.J))
@@ -233,6 +256,21 @@ public class PlayerMovement : MonoBehaviour
     }
 
      * */
+
+    ////Unit Test for Hit Player
+    //public void TakeDamage(float dmg)
+    //{
+    //    hitpoint -= dmg;
+    //    if (hitpoint < 0)
+    //    {
+    //        hitpoint = 0;
+    //    }
+    //}
+
+    //public float getHitpoint()
+    //{
+    //    return hitpoint;
+    //}
 
     private void TakeDamage(float dmg)
     {
