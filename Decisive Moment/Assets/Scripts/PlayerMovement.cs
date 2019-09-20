@@ -138,6 +138,22 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    //Unit Test for Attack method
+    //Attack(); at line 103 must be commented out to run this method
+    /*
+    public char Attack(char userKey)
+    {
+        char keyPress = userKey;
+        char actualKey = 'j';
+        if (keyPress != actualKey)
+        {
+            return keyPress;
+        }
+        return actualKey;
+    }
+    */
+
+    
     private void Attack()
     {
         if (Input.GetKeyDown(KeyCode.J))
@@ -169,6 +185,7 @@ public class PlayerMovement : MonoBehaviour
 
         }
     }
+    
 
     private void Casting() //Use special ability
     {
