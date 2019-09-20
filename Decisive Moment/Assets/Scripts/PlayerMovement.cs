@@ -201,6 +201,21 @@ public class PlayerMovement : MonoBehaviour
         currentHealthBar.rectTransform.localScale = new Vector3(ratio, 1, 1);
 
     }
+    /*Unit Test for TakeDamage method
+     * 
+    public float TakeDamage(float dmg)
+    {
+        hitpoint -= dmg;
+        if(hitpoint<0)
+        {
+            hitpoint = 0;
+            //Die();
+        }
+        //UpdateHealthBar();
+        return hitpoint;
+    }
+
+     * */
 
     private void TakeDamage(float dmg)
     {
