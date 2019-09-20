@@ -13,8 +13,18 @@ public class MinotaurAttack : MonoBehaviour
             //Sets 'isAttacking' boolean variable within 'MinotaurPatrol' script to true, starting the attack animation
             MinotaurPatrol.isAttacking = true;
         }
-
     }
+
+    //for unit test AI attack
+    //public void OnTriggerEnter2D(string col)
+    //{
+    //    //Checks that the box collider entered is the player's
+    //    if (col.Equals("Player"))
+    //    {
+    //        //Sets 'isAttacking' boolean variable within 'MinotaurPatrol' script to true, starting the attack animation
+    //        MinotaurPatrol.isAttacking = true;
+    //    }
+    //}
     //Code is entered when the attack check object exits a collider
     void OnTriggerExit2D(Collider2D col)
     {

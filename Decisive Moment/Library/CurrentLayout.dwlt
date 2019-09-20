@@ -68,7 +68,7 @@ MonoBehaviour:
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
-  m_LastLoadedLayoutName: 2 by 3
+  m_LastLoadedLayoutName: 
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -95,7 +95,7 @@ MonoBehaviour:
   m_MinSize: {x: 917, y: 272}
   m_MaxSize: {x: 22012, y: 10022}
   vertical: 0
-  controlID: 257
+  controlID: 51
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -253,14 +253,14 @@ MonoBehaviour:
     m_KeySerializationHelper:
     - {fileID: 4247611840478456312, guid: d981becc4e90d95418b24879fec71059, type: 2}
     m_ValueSerializationHelper:
-    - e00: 0.3205771
+    - e00: 0.30769232
       e01: 0
       e02: 0
-      e03: 78.81305
+      e03: -0.3846283
       e10: 0
-      e11: 0.3205771
+      e11: 0.30769232
       e12: 0
-      e13: 150.15244
+      e13: 212.8077
       e20: 0
       e21: 0
       e22: 1
@@ -316,20 +316,20 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: ccaaffff3eabffff5cabffff8aacffffb8adffffe6aeffffb6afffff88b0ffff58b1ffff28b2ffff56b3ffff90b4ffff60b5ffff30b6ffff02b7ffff96b8ffffceb9ffffaebaffffe4bbffffbcbcffff9ebdffffdabeffff10c0ffffe8c0ffffc4c1ffff94c2ffff64c3ffff36c4ffff06c5ffffd6c5ffffa6c6ffff7ec7ffff76c9ffffaecaffff8acbffff5accffff88cdffffb8ceffff88cfffff58d0ffff28d1fffff8d1ffffc8d2fffff6d3ffff26d5fffff6d5ffffc6d6fffff4d7ffffc4d8fffff2d9ffff20dbfffff0dbffffc0dcffff90ddffffbedeffff9adfffff28e1fffff8e1ffff2ae3fffffae3fffff0e5ffffc0e6ffff90e7ffff22e9fffff2e9ffff
+      m_SelectedIDs: c0f3ffff
+      m_LastClickedID: -3136
+      m_ExpandedIDs: c0f3ffff32f4ffff4af4ffff1cfbffff8efbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Minotaur
-        m_OriginalName: Minotaur
+        m_Name: Axe
+        m_OriginalName: Axe
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -21812
+        m_UserData: -1276
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
         m_OriginalEventType: 0
@@ -416,20 +416,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Minotaur_Model/Animations
+    - Assets/Editor
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Minotaur_Model/Animations
+  - Assets/Editor
   m_LastFoldersGridSize: -1
   m_LastProjectPath: E:\Unity\Decisive-Moment\Decisive Moment
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 06350000
-    m_LastClickedID: 13574
-    m_ExpandedIDs: 000000005634000086340000e03400004a350000b2350000f03600001a37000000ca9a3b
+    m_SelectedIDs: 482b0000
+    m_LastClickedID: 11080
+    m_ExpandedIDs: 00000000d8290000142a00007a2a0000f22a0000722b0000982f0000ce2f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -457,7 +457,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000056340000863400004a350000b2350000f03600001a37000000ca9a3b
+    m_ExpandedIDs: 00000000d8290000142a00007a2a0000f22a0000722b0000982f0000ce2f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -501,7 +501,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 7}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -509,7 +509,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 47}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_DirectoriesAreaWidth: 112
 --- !u!114 &14

@@ -811,3 +811,6 @@ C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\obj\Debu
 C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\Temp\bin\Debug\Boo.Lang.dll
 C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\Temp\bin\Debug\UnityEditor.UI.dll
 C:\Users\user\Desktop\Master Zaneus\SDP\Decisive-Moment\Decisive Moment\Temp\bin\Debug\UnityEditor.UI.xml
+E:\Unity\Decisive-Moment\Decisive Moment\Temp\bin\Debug\Boo.Lang.dll
+E:\Unity\Decisive-Moment\Decisive Moment\Temp\bin\Debug\UnityEditor.UI.dll
+E:\Unity\Decisive-Moment\Decisive Moment\Temp\bin\Debug\UnityEditor.UI.xml

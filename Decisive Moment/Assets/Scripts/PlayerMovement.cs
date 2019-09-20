@@ -138,6 +138,29 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    //For unitTest of Monster can hit player
+    //public void OnTriggerEnter2D(string collision)
+    //{
+    //    //Debug.Log(collision.tag);
+    //    switch (collision)
+    //    {
+    //        case "Axe":
+    //            TakeDamage(20);
+    //            break;
+    //        case "Monster":
+    //            TakeDamage(5);
+    //            break;
+    //        case "Hero":
+    //            break;
+    //        case "Wall":
+    //            break;
+    //        case "Cliff":
+    //            break;
+    //        default:
+    //            break;
+    //    }
+    //}
+
     private void Attack()
     {
         if (Input.GetKeyDown(KeyCode.J))
@@ -201,26 +224,39 @@ public class PlayerMovement : MonoBehaviour
         currentHealthBar.rectTransform.localScale = new Vector3(ratio, 1, 1);
 
     }
-    /*Unit Test for TakeDamage method
-     * 
-    public float TakeDamage(float dmg)
-    {
-        hitpoint -= dmg;
-        if(hitpoint<0)
-        {
-            hitpoint = 0;
-            //Die();
-        }
-        //UpdateHealthBar();
-        return hitpoint;
-    }
 
-     * */
+    ////Unit Test for TakeDamage method
+    //public float TakeDamage(float dmg)
+    //{
+    //    hitpoint -= dmg;
+    //    if (hitpoint < 0)
+    //    {
+    //        hitpoint = 0;
+    //    }
+    //    return hitpoint;
+    //}
+
+
+    //Unit Test for Monster Hit Player
+    //public void TakeDamage(float dmg)
+    //{
+    //    hitpoint -= dmg;
+    //    if (hitpoint < 0)
+    //    {
+    //        hitpoint = 0;
+    //    }
+    //}
+    //public float getHitpoint()
+    //{
+    //    return hitpoint;
+    //}
+
+
 
     private void TakeDamage(float dmg)
     {
         hitpoint -= dmg;
-        if(hitpoint<0)
+        if (hitpoint < 0)
         {
             hitpoint = 0;
             Die();

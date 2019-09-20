@@ -215,8 +215,6 @@ E:\Unity\Decisive-Moment\Decisive Moment\Temp\bin\Debug\Boo.Lang.PatternMatching
 E:\Unity\Decisive-Moment\Decisive Moment\Temp\bin\Debug\Boo.Lang.Parser.dll
 E:\Unity\Decisive-Moment\Decisive Moment\Temp\bin\Debug\Boo.Lang.Useful.dll
 E:\Unity\Decisive-Moment\Decisive Moment\Temp\bin\Debug\Unity.CecilTools.dll
-E:\Unity\Decisive-Moment\Decisive Moment\Temp\bin\Debug\Assembly-CSharp.pdb
-E:\Unity\Decisive-Moment\Decisive Moment\Temp\bin\Debug\Assembly-CSharp-Editor-firstpass.pdb
 E:\Unity\Decisive-Moment\Decisive Moment\Temp\bin\Debug\UnityEngine.xml
 E:\Unity\Decisive-Moment\Decisive Moment\Temp\bin\Debug\UnityEditor.xml
 E:\Unity\Decisive-Moment\Decisive Moment\Temp\bin\Debug\Unity.Timeline.Editor.pdb
