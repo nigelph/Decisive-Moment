@@ -14,6 +14,10 @@ public class MinotaurPatrol : MonoBehaviour
     Animator anim;
 
     public Transform groundDetection;
+
+    //The varable for unitTest
+    //public bool flagDie = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -80,4 +84,21 @@ public class MinotaurPatrol : MonoBehaviour
         }
 
     }
+
+    //public void OnTriggerEnter2D(string col)
+    //{
+
+    //    //Checks that the box collider entered is the player's attack
+    //    if (col.Equals("Attack"))
+    //    {
+    //        //Sets parameter within the minotaur's animator component to "true", triggering the death animation
+    //        flagDie = true;
+    //    }
+    //    //Checks if the box collider entered is the player's skill
+    //    if (col.Equals("Skill"))
+    //    {
+    //        flagDie = true;
+    //    }
+
+    //}
 }
