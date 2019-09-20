@@ -8,7 +8,7 @@ public class HealDamageTest
     [Test]
     public void HealDamage_Tests()
     {
-        //ARRANGE
+        /*//ARRANGE
         PlayerMovement healDmg = new PlayerMovement();
         var hitpoint = 40;
         var heal = 10;
@@ -19,5 +19,6 @@ public class HealDamageTest
 
         //ASSERT
         Assert.That(testValue, Is.EqualTo(expectedValue));
+        */
     }
 }
