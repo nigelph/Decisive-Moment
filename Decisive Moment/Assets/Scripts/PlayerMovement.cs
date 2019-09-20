@@ -224,8 +224,25 @@ public class PlayerMovement : MonoBehaviour
         UpdateHealthBar();
     }
 
-    //Mana Bar Functions
+    /*UnitTest for HealDamage method
+     * 
+     * The HealDamage method is modified to return a float value.
+     * 
+     * "hitpoint" variable should be modified to a lower value
+     
+    private float HealDamage(float heal)
+    {
+        hitpoint += heal;
+        if (hitpoint > maxhitpoint)
+        {
+            hitpoint = maxhitpoint;
+        }
+        //UpdateHealthBar();
+        return hitpoint;
+    }
+    */
 
+    //Mana Bar Functions
     private void UpdateManaBar()
     {
         float ratio = mana / maxMana;
