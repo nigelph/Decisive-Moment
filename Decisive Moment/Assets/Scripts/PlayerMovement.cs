@@ -39,7 +39,6 @@ public class PlayerMovement : MonoBehaviour
     private float manaCost = 10;
 
     private float moveInput;
-    public int directionCheck = 0;
 
     private System.Timers.Timer timer;
 
@@ -88,13 +87,11 @@ public class PlayerMovement : MonoBehaviour
         {
             transform.eulerAngles = new Vector3(0, 180, 0);
             //rightFlg = false;
-            directionCheck = -1;
         }
         else if (moveInput > 0)
         {
             transform.eulerAngles = new Vector3(0, 0, 0);
             //rightFlg = true;
-            directionCheck = 1;
         }
 
         //Check if grounded
