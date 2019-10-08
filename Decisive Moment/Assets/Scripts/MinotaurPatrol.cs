@@ -38,10 +38,6 @@ public class MinotaurPatrol : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //Get the player's position and store it in the variable
-        playerPosition = GameObject.Find("Player").transform.position.x;
-        //Get the monster's position and store it in the variable
-        xPosition = transform.position.x;
         //Moves the monster by a set speed
         transform.Translate(Vector2.right * speed * Time.deltaTime);
         //Sends a ray downward from the groundInfo object to check if there is ground underneath where the monster is heading
@@ -163,10 +159,8 @@ public class MinotaurPatrol : MonoBehaviour
                 transform.Translate(0, -0.26f, 0);
                 anim.SetBool("flagDie", true);
                 Destroy(this.gameObject, 0.6f);
-            }
-    
+            }   
         }
- 
     }
 
     //public void OnTriggerEnter2D(string col)
