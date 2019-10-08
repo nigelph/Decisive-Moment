@@ -12,7 +12,6 @@ public class PlayerMovement : MonoBehaviour
 
 
     private AnimatorStateInfo mStateInfo;
-    //private bool rightFlg = true;
 
     public float moveSpeed = 5f;
     private float time_val = 0.4f;
@@ -38,6 +37,9 @@ public class PlayerMovement : MonoBehaviour
     private float maxMana = 100;
     private float manaRegen = 1;
     private float manaCost = 10;
+
+    private float moveInput;
+    public int directionCheck = 0;
 
     private System.Timers.Timer timer;
 
@@ -67,7 +69,7 @@ public class PlayerMovement : MonoBehaviour
     void FixedUpdate()
     {
         //Retrieve keyboard input and calculate run speed
-        float moveInput = Input.GetAxisRaw("Horizontal");
+        moveInput = Input.GetAxisRaw("Horizontal");
         rb.velocity = new Vector2(moveInput * moveSpeed, rb.velocity.y);
 
 
@@ -86,11 +88,13 @@ public class PlayerMovement : MonoBehaviour
         {
             transform.eulerAngles = new Vector3(0, 180, 0);
             //rightFlg = false;
+            directionCheck = -1;
         }
         else if (moveInput > 0)
         {
             transform.eulerAngles = new Vector3(0, 0, 0);
             //rightFlg = true;
+            directionCheck = 1;
         }
 
         //Check if grounded
