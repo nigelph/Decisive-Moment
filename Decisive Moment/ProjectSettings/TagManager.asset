@@ -48,6 +48,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: HP&MP
+  - name: Background
     uniqueID: 1344096549
+    locked: 0
+  - name: Foreground
+    uniqueID: 2765081739
+    locked: 0
+  - name: New Layer
+    uniqueID: 2160478403
     locked: 0
