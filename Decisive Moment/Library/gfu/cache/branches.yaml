@@ -13,31 +13,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2019-10-08T19:44:54.769+13:00
-  initializedAtString: 2019-10-08T19:44:54.732+13:00
+  lastUpdatedAtString: 2019-10-11T21:16:12.370+13:00
+  initializedAtString: 2019-10-11T12:46:12.209+13:00
   localBranches:
-  - name: Josh-SecondAttempt
+  - name: Boss_monster_branch
+    tracking: origin/Boss_monster_branch
+  - name: fightingAnim
+    tracking: origin/fightingAnim
+  - name: Game_level_Branch
     tracking: 
   - name: master
     tracking: origin/master
   - name: Minotaur_Dev
     tracking: origin/Minotaur_Dev
-  - name: Monster_Dev
-    tracking: origin/Monster_Dev
-  - name: Platform_Dev
-    tracking: origin/Platform_Dev
-  - name: Platform_Update
-    tracking: origin/Platform_Update
-  - name: Player_Damage_Test
-    tracking: origin/Player_Damage_Test
+  - name: myWorkBranch
+    tracking: origin/myWorkBranch
+  - name: Nigel-Unit-Test
+    tracking: origin/Nigel-Unit-Test
   remoteBranches:
   - name: origin/Boss_monster_branch
     tracking: '[None]'
   - name: origin/fightingAnim
     tracking: '[None]'
   - name: origin/GUiupdates
-    tracking: '[None]'
-  - name: origin/HEAD
     tracking: '[None]'
   - name: origin/HealthBarAndMana_Dev
     tracking: '[None]'
@@ -61,15 +59,25 @@ MonoBehaviour:
     token: 
   localConfigBranches:
     keys:
-    - Josh-SecondAttempt
+    - Boss_monster_branch
+    - fightingAnim
+    - Game_level_Branch
     - master
     - Minotaur_Dev
-    - Monster_Dev
-    - Platform_Dev
-    - Platform_Update
-    - Player_Damage_Test
+    - myWorkBranch
+    - Nigel-Unit-Test
     values:
-    - name: Josh-SecondAttempt
+    - name: Boss_monster_branch
+      remote:
+        name: origin
+        url: https://github.com/nigelph/Decisive-Moment.git
+      trackingBranch: Boss_monster_branch
+    - name: fightingAnim
+      remote:
+        name: origin
+        url: https://github.com/nigelph/Decisive-Moment.git
+      trackingBranch: fightingAnim
+    - name: Game_level_Branch
       remote:
         name: 
         url: 
@@ -84,26 +92,16 @@ MonoBehaviour:
         name: origin
         url: https://github.com/nigelph/Decisive-Moment.git
       trackingBranch: Minotaur_Dev
-    - name: Monster_Dev
+    - name: myWorkBranch
       remote:
         name: origin
         url: https://github.com/nigelph/Decisive-Moment.git
-      trackingBranch: Monster_Dev
-    - name: Platform_Dev
+      trackingBranch: myWorkBranch
+    - name: Nigel-Unit-Test
       remote:
         name: origin
         url: https://github.com/nigelph/Decisive-Moment.git
-      trackingBranch: Platform_Dev
-    - name: Platform_Update
-      remote:
-        name: origin
-        url: https://github.com/nigelph/Decisive-Moment.git
-      trackingBranch: Platform_Update
-    - name: Player_Damage_Test
-      remote:
-        name: origin
-        url: https://github.com/nigelph/Decisive-Moment.git
-      trackingBranch: Player_Damage_Test
+      trackingBranch: Nigel-Unit-Test
   remoteConfigBranches:
     keys:
     - origin
@@ -112,7 +110,6 @@ MonoBehaviour:
       - Boss_monster_branch
       - fightingAnim
       - GUiupdates
-      - HEAD
       - HealthBarAndMana_Dev
       - master
       - Monster_Dev
@@ -132,11 +129,6 @@ MonoBehaviour:
           url: https://github.com/nigelph/Decisive-Moment.git
         trackingBranch: 
       - name: GUiupdates
-        remote:
-          name: origin
-          url: https://github.com/nigelph/Decisive-Moment.git
-        trackingBranch: 
-      - name: HEAD
         remote:
           name: origin
           url: https://github.com/nigelph/Decisive-Moment.git
