@@ -42,17 +42,11 @@ public class PlayerMovement : MonoBehaviour
 
     private System.Timers.Timer timer;
 
-    //Represents the location that the player will respawn at when they die
-    public Vector3 respawnPoint;
-    public int livesRemaining = 3;
-
     private void Start()
     {
         UpdateHealthBar();
         UpdateManaBar();
         ManaRegenTimer();
-        //Set initial respawn point to where the player is first loaded into the game
-        respawnPoint = transform.position;
     }
 
     void Awake()
@@ -139,10 +133,6 @@ public class PlayerMovement : MonoBehaviour
                 break;
             case "Cliff":
                 Die();
-                break;
-            case "Checkpoint":
-                //If the player reaches a checkpoint, set the respawn point to the location of that checkpoint
-                respawnPoint = collision.transform.position;
                 break;
             default:
                 break;
@@ -288,29 +278,8 @@ public class PlayerMovement : MonoBehaviour
         hitpoint -= dmg;
         if(hitpoint<0)
         {
-            //checks that the player still has lives remaining
-            if(livesRemaining > 0)
-            {
-                diePrefab.SetActive(true);
-                Instantiate(diePrefab, transform.position, transform.rotation);
-                //decrease the amount of lives left by 1
-                livesRemaining--;
-                //places the player wherever the last respawnPoint was set
-                transform.position = respawnPoint;
-                //reset hitpoints and mana to max
-                hitpoint = maxhitpoint;
-                mana = maxMana;
-                //update the health and mana bars to maximum
-                UpdateHealthBar();
-                UpdateManaBar();
-            }
-            //if the player has no lives left it is game over
-            else
-            {
-                hitpoint = 0;
-                Die();
-            }
- 
+            hitpoint = 0;
+            Die();
         }
         UpdateHealthBar();
 
