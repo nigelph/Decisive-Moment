@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2019-10-13T13:29:00.804+13:00
-  initializedAtString: 2019-10-13T13:29:00.804+13:00
+  lastUpdatedAtString: 2019-10-15T15:27:26.237+13:00
+  initializedAtString: 2019-10-15T14:26:51.370+13:00
   currentGitRemote:
     name: origin
     url: https://github.com/nigelph/Decisive-Moment.git
@@ -24,14 +24,14 @@ MonoBehaviour:
     function: 0
     token: 
   currentGitBranch:
-    name: Game_level_Branch
-    tracking: 
+    name: Boss_monster_branch
+    tracking: origin/Boss_monster_branch
   currentConfigBranch:
-    name: Game_level_Branch
+    name: Boss_monster_branch
     remote:
-      name: 
-      url: 
-    trackingBranch: 
+      name: origin
+      url: https://github.com/nigelph/Decisive-Moment.git
+    trackingBranch: Boss_monster_branch
   currentConfigRemote:
     name: origin
     url: https://github.com/nigelph/Decisive-Moment.git
