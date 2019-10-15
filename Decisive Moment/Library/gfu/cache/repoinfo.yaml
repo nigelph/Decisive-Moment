@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2019-10-15T21:20:56.970+13:00
-  initializedAtString: 2019-10-15T21:20:56.970+13:00
+  lastUpdatedAtString: 2019-10-16T10:09:19.579+13:00
+  initializedAtString: 2019-10-16T10:09:19.579+13:00
   currentGitRemote:
     name: origin
     url: https://github.com/nigelph/Decisive-Moment.git
@@ -24,14 +24,14 @@ MonoBehaviour:
     function: 0
     token: 
   currentGitBranch:
-    name: Minotaur_Update
-    tracking: origin/Minotaur_Update
+    name: master
+    tracking: origin/master
   currentConfigBranch:
-    name: Minotaur_Update
+    name: master
     remote:
       name: origin
       url: https://github.com/nigelph/Decisive-Moment.git
-    trackingBranch: Minotaur_Update
+    trackingBranch: master
   currentConfigRemote:
     name: origin
     url: https://github.com/nigelph/Decisive-Moment.git
