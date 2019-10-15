@@ -44,7 +44,10 @@ public class PlayerMovement : MonoBehaviour
 
     //Represents the location that the player will respawn at when they die
     public Vector3 respawnPoint;
+    //Represents the number of lives the player has before reaching a game over state
     public int livesRemaining = 3;
+    //Creating an instance of LevelManager which controls respawns
+    public LevelManager levelManager;
 
     private void Start()
     {
@@ -53,6 +56,8 @@ public class PlayerMovement : MonoBehaviour
         ManaRegenTimer();
         //Set initial respawn point to where the player is first loaded into the game
         respawnPoint = transform.position;
+        //Instantiate the LevelManager object
+        levelManager = FindObjectOfType<LevelManager>();
     }
 
     void Awake()
@@ -296,7 +301,7 @@ public class PlayerMovement : MonoBehaviour
                 //decrease the amount of lives left by 1
                 livesRemaining--;
                 //places the player wherever the last respawnPoint was set
-                transform.position = respawnPoint;
+                levelManager.Respawn();
                 //reset hitpoints and mana to max
                 hitpoint = maxhitpoint;
                 mana = maxMana;
