@@ -13,11 +13,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2019-10-15T15:29:54.552+13:00
-  initializedAtString: 2019-10-15T15:29:54.478+13:00
+  lastUpdatedAtString: 2019-10-15T17:28:49.206+13:00
+  initializedAtString: 2019-10-15T17:28:49.190+13:00
   localBranches:
   - name: Checkpoint_Dev
     tracking: origin/Checkpoint_Dev
+  - name: Checkpoint_Dev_Reverted
+    tracking: origin/Checkpoint_Dev_Reverted
+  - name: checkpoint_dev_v2
+    tracking: origin/checkpoint_dev_v2
   - name: Josh-SecondAttempt
     tracking: 
   - name: master
@@ -36,6 +40,10 @@ MonoBehaviour:
   - name: origin/Boss_monster_branch
     tracking: '[None]'
   - name: origin/Checkpoint_Dev
+    tracking: '[None]'
+  - name: origin/Checkpoint_Dev_Reverted
+    tracking: '[None]'
+  - name: origin/checkpoint_dev_v2
     tracking: '[None]'
   - name: origin/fightingAnim
     tracking: '[None]'
@@ -66,6 +74,8 @@ MonoBehaviour:
   localConfigBranches:
     keys:
     - Checkpoint_Dev
+    - Checkpoint_Dev_Reverted
+    - checkpoint_dev_v2
     - Josh-SecondAttempt
     - master
     - Minotaur_Dev
@@ -79,6 +89,16 @@ MonoBehaviour:
         name: origin
         url: https://github.com/nigelph/Decisive-Moment.git
       trackingBranch: Checkpoint_Dev
+    - name: Checkpoint_Dev_Reverted
+      remote:
+        name: origin
+        url: https://github.com/nigelph/Decisive-Moment.git
+      trackingBranch: Checkpoint_Dev_Reverted
+    - name: checkpoint_dev_v2
+      remote:
+        name: origin
+        url: https://github.com/nigelph/Decisive-Moment.git
+      trackingBranch: checkpoint_dev_v2
     - name: Josh-SecondAttempt
       remote:
         name: 
@@ -121,6 +141,8 @@ MonoBehaviour:
     - Values:
       - Boss_monster_branch
       - Checkpoint_Dev
+      - Checkpoint_Dev_Reverted
+      - checkpoint_dev_v2
       - fightingAnim
       - GUiupdates
       - HEAD
@@ -138,6 +160,16 @@ MonoBehaviour:
           url: https://github.com/nigelph/Decisive-Moment.git
         trackingBranch: 
       - name: Checkpoint_Dev
+        remote:
+          name: origin
+          url: https://github.com/nigelph/Decisive-Moment.git
+        trackingBranch: 
+      - name: Checkpoint_Dev_Reverted
+        remote:
+          name: origin
+          url: https://github.com/nigelph/Decisive-Moment.git
+        trackingBranch: 
+      - name: checkpoint_dev_v2
         remote:
           name: origin
           url: https://github.com/nigelph/Decisive-Moment.git
