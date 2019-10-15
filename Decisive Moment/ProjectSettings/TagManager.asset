@@ -11,6 +11,7 @@ TagManager:
   - Skill
   - Attack
   - Axe
+  - Checkpoint
   layers:
   - Default
   - TransparentFX
