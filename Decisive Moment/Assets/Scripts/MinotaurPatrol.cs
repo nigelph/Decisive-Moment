@@ -14,16 +14,17 @@ public class MinotaurPatrol : MonoBehaviour
     public int hitPoints;
     //Checks whether the monster is currently being attacked
     public bool recievingDamage;
-    //Used to access the player object's components
-    public GameObject player;
     //Records position of player character
     private float playerPosition;
     //Records position of this monster
     private float xPosition;
+    //Boolean variable recording whether the minotaur is in the process of dying. Important to avoid a glitch where the raycast frontInfo gets stuck in the ground as it dies
+    private bool isDying = false;
     //This monster's animator component will be accessed throught this variable
     Animator anim;
 
     public Transform groundDetection;
+    public Transform frontDetection;
 
     //The varable for unitTest
     //public bool flagDie = false;
@@ -41,8 +42,9 @@ public class MinotaurPatrol : MonoBehaviour
         //Moves the monster by a set speed
         transform.Translate(Vector2.right * speed * Time.deltaTime);
         //Sends a ray downward from the groundInfo object to check if there is ground underneath where the monster is heading
-        RaycastHit2D groundInfo = Physics2D.Raycast(groundDetection.position, Vector2.down, 2f);
-
+        RaycastHit2D groundInfo = Physics2D.Raycast(groundDetection.position, Vector2.down, 1f);
+        //Sends a ray to the right of the frontInfo object slightly to check if there is an obstacle in the way
+        RaycastHit2D frontInfo = Physics2D.Raycast(frontDetection.position, Vector2.right, 0.01f);
         //If there is no ground ahead
         if (groundInfo.collider == false)
         {
@@ -58,6 +60,28 @@ public class MinotaurPatrol : MonoBehaviour
                 transform.eulerAngles = new Vector3(0, 0, 0);
                 movingRight = true;
             }
+        }
+        //If there is something in front of the minotaur and the minotaur is also not dying already 
+        if (frontInfo.collider == true && !isDying)
+        {
+            //Checks that the object in front of the minotaur is a tile (the environment)
+            if(frontInfo.collider.tag == "Tile")
+            {
+                //Change direction to face left
+                if (movingRight)
+                {
+                    transform.eulerAngles = new Vector3(0, -180, 0);
+                    movingRight = false;
+                }
+                //Change direction to face right
+                else
+                {
+                    transform.eulerAngles = new Vector3(0, 0, 0);
+                    movingRight = true;
+                }
+
+            }
+
         }
         //Sets the boolean condition 'isAttacking' within the monster's animator component
         if (isAttacking)
@@ -79,6 +103,7 @@ public class MinotaurPatrol : MonoBehaviour
         }
         
     }
+
     //Entered when an object enters the minotaur's box collider
     private void OnTriggerEnter2D(Collider2D col)
     {
@@ -119,6 +144,8 @@ public class MinotaurPatrol : MonoBehaviour
             }
             else
             {
+                //Reports that the minotaur is now dying
+                isDying = true;
                 //Moves the minotaur down to avoid the death animation causing the minotaur to float above the ground
                 transform.Translate(0, -0.26f, 0);
                 //Sets parameter within the minotaur's animator component to "true", triggering the death animation
@@ -136,26 +163,29 @@ public class MinotaurPatrol : MonoBehaviour
                 recievingDamage = true;
                 hitPoints--;
 
+                //Removed knockback from fireball attack as it is too glitchy
+                /*
                 if (xPosition > playerPosition && !movingRight)
                 {
-                    transform.Translate(-0.25f, 0, 0);
+                    transform.Translate(-0.35f, 0, 0);
                 }
                 else if (xPosition > playerPosition && movingRight)
                 {
-                    transform.Translate(0.25f, 0, 0);
+                    //transform.Translate(0.35f, 0, 0);
                 }
                 else if (xPosition < playerPosition && !movingRight)
                 {
-                    transform.Translate(0.25f, 0, 0);
+                    //transform.Translate(0.35f, 0, 0);
                 }
                 else if (xPosition < playerPosition && movingRight)
                 {
-                    transform.Translate(-0.25f, 0, 0);
-                }
+                    transform.Translate(-0.35f, 0, 0);
+                }*/
                
             }
             else
             {
+                isDying = true;
                 transform.Translate(0, -0.26f, 0);
                 anim.SetBool("flagDie", true);
                 Destroy(this.gameObject, 0.6f);

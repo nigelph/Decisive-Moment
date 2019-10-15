@@ -12,6 +12,8 @@ TagManager:
   - Attack
   - Axe
   - Checkpoint
+  - Grid
+  - Tile
   layers:
   - Default
   - TransparentFX
