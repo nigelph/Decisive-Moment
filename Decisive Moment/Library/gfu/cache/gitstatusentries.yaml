@@ -13,9 +13,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2019-10-13T13:56:46.462+13:00
-  initializedAtString: 2019-10-13T13:29:00.971+13:00
+  lastUpdatedAtString: 2019-10-16T20:22:09.491+13:00
+  initializedAtString: 2019-10-16T20:10:42.453+13:00
   entries:
+  - path: Decisive Moment\Assets\Prefabs\Effect\Hero_Die.prefab
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\Assets\Prefabs\Effect\Hero_Die.prefab
+    projectPath: Assets\Prefabs\Effect\Hero_Die.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Decisive Moment\Assets\Scenes\SampleScene.unity
     fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
       Moment\Assets\Scenes\SampleScene.unity
@@ -23,10 +30,31 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Decisive Moment\Library\APIUpdater\project-dependencies.graph
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\Library\APIUpdater\project-dependencies.graph
+    projectPath: Library\APIUpdater\project-dependencies.graph
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Decisive Moment\Library\assetDatabase3
     fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
       Moment\Library\assetDatabase3
     projectPath: Library\assetDatabase3
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Decisive Moment\Library\CrashedAssetImports.txt
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\Library\CrashedAssetImports.txt
+    projectPath: Library\CrashedAssetImports.txt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Decisive Moment\Library\CurrentMaximizeLayout.dwlt
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\Library\CurrentMaximizeLayout.dwlt
+    projectPath: Library\CurrentMaximizeLayout.dwlt
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -72,6 +100,265 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Decisive Moment\Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9
+    projectPath: Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Decisive Moment\Library\metadata\11\1186e0491049e40ba8e7e19e418d9e8e
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\Library\metadata\11\1186e0491049e40ba8e7e19e418d9e8e
+    projectPath: Library\metadata\11\1186e0491049e40ba8e7e19e418d9e8e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Decisive Moment\Library\metadata\11\1186e0491049e40ba8e7e19e418d9e8e.info
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\Library\metadata\11\1186e0491049e40ba8e7e19e418d9e8e.info
+    projectPath: Library\metadata\11\1186e0491049e40ba8e7e19e418d9e8e.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Decisive Moment\Library\metadata\13\136dc24f151211d438acee17aff4e934
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\Library\metadata\13\136dc24f151211d438acee17aff4e934
+    projectPath: Library\metadata\13\136dc24f151211d438acee17aff4e934
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Decisive Moment\Library\metadata\18\181f65fb096cedd4493bc9971257d8b1
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\Library\metadata\18\181f65fb096cedd4493bc9971257d8b1
+    projectPath: Library\metadata\18\181f65fb096cedd4493bc9971257d8b1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Decisive Moment\Library\metadata\18\181f65fb096cedd4493bc9971257d8b1.info
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\Library\metadata\18\181f65fb096cedd4493bc9971257d8b1.info
+    projectPath: Library\metadata\18\181f65fb096cedd4493bc9971257d8b1.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Decisive Moment\Library\metadata\23\23c8bee69b591054094d32918f98facd
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\Library\metadata\23\23c8bee69b591054094d32918f98facd
+    projectPath: Library\metadata\23\23c8bee69b591054094d32918f98facd
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Decisive Moment\Library\metadata\23\23c8bee69b591054094d32918f98facd.info
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\Library\metadata\23\23c8bee69b591054094d32918f98facd.info
+    projectPath: Library\metadata\23\23c8bee69b591054094d32918f98facd.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Decisive Moment\Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6
+    projectPath: Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Decisive Moment\Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6.info
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6.info
+    projectPath: Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Decisive Moment\Library\metadata\27\27853f11c1702af48bb521eea204ed43.info
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\Library\metadata\27\27853f11c1702af48bb521eea204ed43.info
+    projectPath: Library\metadata\27\27853f11c1702af48bb521eea204ed43.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Decisive Moment\Library\metadata\40\405b9b51bb344a128608d968297df79c
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\Library\metadata\40\405b9b51bb344a128608d968297df79c
+    projectPath: Library\metadata\40\405b9b51bb344a128608d968297df79c
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Decisive Moment\Library\metadata\41\4113173d5e95493ab8765d7b08371de4
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\Library\metadata\41\4113173d5e95493ab8765d7b08371de4
+    projectPath: Library\metadata\41\4113173d5e95493ab8765d7b08371de4
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Decisive Moment\Library\metadata\4b\4b3fa4bde7f1451a8218c03ee6a8ded8
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\Library\metadata\4b\4b3fa4bde7f1451a8218c03ee6a8ded8
+    projectPath: Library\metadata\4b\4b3fa4bde7f1451a8218c03ee6a8ded8
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Decisive Moment\Library\metadata\4b\4ba2329b63d54f0187bcaa12486b1b0f
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\Library\metadata\4b\4ba2329b63d54f0187bcaa12486b1b0f
+    projectPath: Library\metadata\4b\4ba2329b63d54f0187bcaa12486b1b0f
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Decisive Moment\Library\metadata\53\53ebcfaa2e1e4e2dbc85882cd5a73fa1
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\Library\metadata\53\53ebcfaa2e1e4e2dbc85882cd5a73fa1
+    projectPath: Library\metadata\53\53ebcfaa2e1e4e2dbc85882cd5a73fa1
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Decisive Moment\Library\metadata\55\555cd6f54c03341b1970d950df1a5ee5
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\Library\metadata\55\555cd6f54c03341b1970d950df1a5ee5
+    projectPath: Library\metadata\55\555cd6f54c03341b1970d950df1a5ee5
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Decisive Moment\Library\metadata\80\80a3616ca19596e4da0f10f14d241e9f
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\Library\metadata\80\80a3616ca19596e4da0f10f14d241e9f
+    projectPath: Library\metadata\80\80a3616ca19596e4da0f10f14d241e9f
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Decisive Moment\Library\metadata\87\877ef3585573ce44eab899298be23158
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\Library\metadata\87\877ef3585573ce44eab899298be23158
+    projectPath: Library\metadata\87\877ef3585573ce44eab899298be23158
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Decisive Moment\Library\metadata\87\877ef3585573ce44eab899298be23158.info
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\Library\metadata\87\877ef3585573ce44eab899298be23158.info
+    projectPath: Library\metadata\87\877ef3585573ce44eab899298be23158.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Decisive Moment\Library\metadata\8a\8a811463a086bd947868b5821deb61be.info
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\Library\metadata\8a\8a811463a086bd947868b5821deb61be.info
+    projectPath: Library\metadata\8a\8a811463a086bd947868b5821deb61be.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Decisive Moment\Library\metadata\b3\b35c891b52249284ca687325e3d00f32.info
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\Library\metadata\b3\b35c891b52249284ca687325e3d00f32.info
+    projectPath: Library\metadata\b3\b35c891b52249284ca687325e3d00f32.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Decisive Moment\Library\metadata\c5\c5c83d14802e712408f23409f3c59e26
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\Library\metadata\c5\c5c83d14802e712408f23409f3c59e26
+    projectPath: Library\metadata\c5\c5c83d14802e712408f23409f3c59e26
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Decisive Moment\Library\metadata\c5\c5c83d14802e712408f23409f3c59e26.info
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\Library\metadata\c5\c5c83d14802e712408f23409f3c59e26.info
+    projectPath: Library\metadata\c5\c5c83d14802e712408f23409f3c59e26.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Decisive Moment\Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8.info
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8.info
+    projectPath: Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Decisive Moment\Library\metadata\da\dae2ecee8a704dd59797e26554ff8606
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\Library\metadata\da\dae2ecee8a704dd59797e26554ff8606
+    projectPath: Library\metadata\da\dae2ecee8a704dd59797e26554ff8606
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Decisive Moment\Library\metadata\f5\f5f67c52d1564df4a8936ccd202a3bd8
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\Library\metadata\f5\f5f67c52d1564df4a8936ccd202a3bd8
+    projectPath: Library\metadata\f5\f5f67c52d1564df4a8936ccd202a3bd8
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Decisive Moment\Library\metadata\f7\f70555f144d8491a825f0804e09c671c
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\Library\metadata\f7\f70555f144d8491a825f0804e09c671c
+    projectPath: Library\metadata\f7\f70555f144d8491a825f0804e09c671c
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Decisive Moment\Library\ScriptAssemblies\Assembly-CSharp.dll
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\Library\ScriptAssemblies\Assembly-CSharp.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Decisive Moment\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Decisive Moment\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Decisive Moment\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+    projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Decisive Moment\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Decisive Moment\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Decisive Moment\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Decisive Moment\Library\ScriptAssemblies\Unity.Timeline.dll
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\Library\ScriptAssemblies\Unity.Timeline.dll
+    projectPath: Library\ScriptAssemblies\Unity.Timeline.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Decisive Moment\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Decisive Moment\Library\shadercompiler-UnityShaderCompiler.exe0.log
     fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
       Moment\Library\shadercompiler-UnityShaderCompiler.exe0.log
@@ -79,27 +366,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Decisive Moment\Library\StateCache\Hierarchy\c5a5ec-27853f11c1702af48b.json
-    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
-      Moment\Library\StateCache\Hierarchy\c5a5ec-27853f11c1702af48b.json
-    projectPath: Library\StateCache\Hierarchy\c5a5ec-27853f11c1702af48b.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Library\StateCache\Hierarchy\c5a5ec-97dd4fc1aac2bff429.json
-    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
-      Moment\Library\StateCache\Hierarchy\c5a5ec-97dd4fc1aac2bff429.json
-    projectPath: Library\StateCache\Hierarchy\c5a5ec-97dd4fc1aac2bff429.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Library\StateCache\Hierarchy\c5a5ec-998cad21eb6538e4b9.json
-    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
-      Moment\Library\StateCache\Hierarchy\c5a5ec-998cad21eb6538e4b9.json
-    projectPath: Library\StateCache\Hierarchy\c5a5ec-998cad21eb6538e4b9.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Decisive Moment\Library\StateCache\Hierarchy\c5a5ec-mainStage.json
     fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
       Moment\Library\StateCache\Hierarchy\c5a5ec-mainStage.json
@@ -107,27 +373,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Decisive Moment\Library\StateCache\SceneView\3679f5-27853f11c1702af48b.json
-    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
-      Moment\Library\StateCache\SceneView\3679f5-27853f11c1702af48b.json
-    projectPath: Library\StateCache\SceneView\3679f5-27853f11c1702af48b.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Library\StateCache\SceneView\3679f5-97dd4fc1aac2bff429.json
-    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
-      Moment\Library\StateCache\SceneView\3679f5-97dd4fc1aac2bff429.json
-    projectPath: Library\StateCache\SceneView\3679f5-97dd4fc1aac2bff429.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Decisive Moment\Library\StateCache\SceneView\3679f5-998cad21eb6538e4b9.json
-    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
-      Moment\Library\StateCache\SceneView\3679f5-998cad21eb6538e4b9.json
-    projectPath: Library\StateCache\SceneView\3679f5-998cad21eb6538e4b9.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Decisive Moment\Library\StateCache\SceneView\3679f5-mainStage.json
     fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
       Moment\Library\StateCache\SceneView\3679f5-mainStage.json
@@ -135,10 +380,87 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Decisive Moment\Library\TilemapEditorUserSettings.asset
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\Library\TilemapEditorUserSettings.asset
+    projectPath: Library\TilemapEditorUserSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Decisive Moment\Temp\__Backupscenes\0.backup
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\Temp\__Backupscenes\0.backup
+    projectPath: Temp\__Backupscenes\0.backup
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Decisive Moment\Temp\UnityLockfile
     fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
       Moment\Temp\UnityLockfile
     projectPath: Temp\UnityLockfile
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Decisive Moment\Temp\UnityTempFile-29491a9bfe1ccee4593eabb93b70a712
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\Temp\UnityTempFile-29491a9bfe1ccee4593eabb93b70a712
+    projectPath: Temp\UnityTempFile-29491a9bfe1ccee4593eabb93b70a712
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Decisive Moment\Temp\UnityTempFile-2a60b0afc4f6b70488522af9021f0928
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\Temp\UnityTempFile-2a60b0afc4f6b70488522af9021f0928
+    projectPath: Temp\UnityTempFile-2a60b0afc4f6b70488522af9021f0928
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Decisive Moment\Temp\UnityTempFile-39498059cede0c842b9f284cae434d13
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\Temp\UnityTempFile-39498059cede0c842b9f284cae434d13
+    projectPath: Temp\UnityTempFile-39498059cede0c842b9f284cae434d13
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Decisive Moment\Temp\UnityTempFile-43968a64a71a6ab459881c3072eb80a3
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\Temp\UnityTempFile-43968a64a71a6ab459881c3072eb80a3
+    projectPath: Temp\UnityTempFile-43968a64a71a6ab459881c3072eb80a3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Decisive Moment\Temp\UnityTempFile-54ebee292f02119459654cbf74800aac
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\Temp\UnityTempFile-54ebee292f02119459654cbf74800aac
+    projectPath: Temp\UnityTempFile-54ebee292f02119459654cbf74800aac
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Decisive Moment\Temp\UnityTempFile-941d48f9433a11c4e94be71ace0089e3
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\Temp\UnityTempFile-941d48f9433a11c4e94be71ace0089e3
+    projectPath: Temp\UnityTempFile-941d48f9433a11c4e94be71ace0089e3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Decisive Moment\Temp\UnityTempFile-9d0bf4c7921252943892fdc9becf4f29
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\Temp\UnityTempFile-9d0bf4c7921252943892fdc9becf4f29
+    projectPath: Temp\UnityTempFile-9d0bf4c7921252943892fdc9becf4f29
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Decisive Moment\Temp\UnityTempFile-cbc9168daa42ccb4f926fa06f685d71a
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\Temp\UnityTempFile-cbc9168daa42ccb4f926fa06f685d71a
+    projectPath: Temp\UnityTempFile-cbc9168daa42ccb4f926fa06f685d71a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Decisive Moment\Temp\UnityTempFile-f5de294adce578d4280682b61e497184
+    fullPath: E:\Downloads\Software Development Practice\Decisive-Moment\Decisive
+      Moment\Temp\UnityTempFile-f5de294adce578d4280682b61e497184
+    projectPath: Temp\UnityTempFile-f5de294adce578d4280682b61e497184
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
