@@ -644,6 +644,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
+  hitPoints: 0
+  recievingDamage: 0
 --- !u!61 &349337415
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -937,6 +939,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
+  hitPoints: 0
+  recievingDamage: 0
 --- !u!61 &505894015
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1087,6 +1091,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
+  hitPoints: 0
+  recievingDamage: 0
 --- !u!61 &522344152
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1483,6 +1489,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
+  hitPoints: 0
+  recievingDamage: 0
 --- !u!61 &636830223
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1633,6 +1641,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
+  hitPoints: 0
+  recievingDamage: 0
 --- !u!61 &643143108
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5231,6 +5241,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
+  hitPoints: 0
+  recievingDamage: 0
 --- !u!61 &820219037
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5522,6 +5534,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
+  hitPoints: 0
+  recievingDamage: 0
 --- !u!61 &1267801326
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5672,6 +5686,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
+  hitPoints: 0
+  recievingDamage: 0
 --- !u!61 &1307647296
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5828,6 +5844,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
+  hitPoints: 3
+  recievingDamage: 0
 --- !u!61 &1388366766
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15585,6 +15603,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
+  hitPoints: 0
+  recievingDamage: 0
 --- !u!61 &1463148334
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15781,6 +15801,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
+  hitPoints: 0
+  recievingDamage: 0
 --- !u!61 &1632813020
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -85023,6 +85045,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
+  hitPoints: 0
+  recievingDamage: 0
 --- !u!61 &1724178012
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -85173,6 +85197,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
+  hitPoints: 0
+  recievingDamage: 0
 --- !u!61 &1803521417
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -85323,6 +85349,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
+  hitPoints: 0
+  recievingDamage: 0
 --- !u!61 &1859644729
 BoxCollider2D:
   m_ObjectHideFlags: 0

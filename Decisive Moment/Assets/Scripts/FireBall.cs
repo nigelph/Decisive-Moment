@@ -25,10 +25,10 @@ public class FireBall : MonoBehaviour
             case "Hero":
                 break;
             case "Wall":
-                Destroy(gameObject,0.15f);
+                Destroy(gameObject);
                 break;
             case "Monster":
-                Destroy(gameObject,0.15f);
+                Destroy(gameObject);
                 break;
             case "Cliff":
                 break;
