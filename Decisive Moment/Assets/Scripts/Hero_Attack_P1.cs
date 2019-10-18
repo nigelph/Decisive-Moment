@@ -9,7 +9,7 @@ public class Hero_Attack_P1 : MonoBehaviour
     void Start()
     {
         //Invoke("InitialHero",0.333f);
-        Destroy(gameObject, 0.333f);
+        Destroy(gameObject, 0.3f);
     }
 
     // Update is called once per frame

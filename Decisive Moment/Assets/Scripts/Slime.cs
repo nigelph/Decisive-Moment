@@ -9,6 +9,11 @@ public class Slime : MonoBehaviour
 
     private float timeValChangeDirection = 0;
     private int horizontal = -1;
+
+    public int hitPoints;
+    //Checks whether the monster is currently being attacked
+    public bool recievingDamage;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -17,7 +22,15 @@ public class Slime : MonoBehaviour
 
     void Update()
     {
-
+        //Sets the boolean condition 'isDamaged' within the monster's animator component 
+        if (recievingDamage)
+        {
+            animator.SetBool("takeDamage", true);
+        }
+        else
+        {
+            animator.SetBool("takeDamage", false);
+        }
     }
 
     // Update is called once per frame
@@ -36,12 +49,34 @@ public class Slime : MonoBehaviour
                 transform.eulerAngles = new Vector3(0, transform.position.y + 180, 0);
                 break;
             case "Attack":
-                animator.SetBool("dieFlag", true);
-                Destroy(gameObject, 0.483f);
+                if (hitPoints > 0)
+                {
+                    //Set this boolean variable to true to activate the damage animation in the next frame
+                    recievingDamage = true;
+                    //Decrease the amount of hitpoints remaining by 1
+                    hitPoints--;
+                }
+                else
+                {
+                    animator.SetBool("dieFlag", true);
+                    Destroy(gameObject, 0.483f);
+                }
+                recievingDamage = false;
                 break;
             case "Skill":
-                animator.SetBool("dieFlag", true);
-                Destroy(gameObject, 0.483f);
+                if (hitPoints > 0)
+                {
+                    //Set this boolean variable to true to activate the damage animation in the next frame
+                    recievingDamage = true;
+                    //Decrease the amount of hitpoints remaining by 1
+                    hitPoints = hitPoints -3;
+                }
+                else
+                {
+                    animator.SetBool("dieFlag", true);
+                    Destroy(gameObject, 0.483f);
+                }
+                recievingDamage = false;
                 break;
             default:
                 break;
