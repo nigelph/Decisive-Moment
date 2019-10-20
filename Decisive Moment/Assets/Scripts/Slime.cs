@@ -11,13 +11,17 @@ public class Slime : MonoBehaviour
     private int horizontal = -1;
 
     public int hitPoints;
+
+    public Vector3 initialPosition;
     //Checks whether the monster is currently being attacked
     public bool recievingDamage;
+    public bool dead = false;
 
     // Start is called before the first frame update
     void Start()
     {
         animator = GetComponent<Animator>();
+        initialPosition = transform.position;
     }
 
     void Update()
@@ -59,7 +63,9 @@ public class Slime : MonoBehaviour
                 else
                 {
                     animator.SetBool("dieFlag", true);
-                    Destroy(gameObject, 0.483f);
+                    // Destroy(gameObject, 0.483f);
+                    StartCoroutine("ExecuteAfterTime");
+                    dead = true;
                 }
                 recievingDamage = false;
                 break;
@@ -74,7 +80,9 @@ public class Slime : MonoBehaviour
                 else
                 {
                     animator.SetBool("dieFlag", true);
-                    Destroy(gameObject, 0.483f);
+                    // Destroy(gameObject, 0.483f);
+                    StartCoroutine("ExecuteAfterTime");
+                    dead = true;
                 }
                 recievingDamage = false;
                 break;
@@ -107,4 +115,14 @@ public class Slime : MonoBehaviour
         transform.Translate(transform.right * move_speed * Time.fixedDeltaTime * horizontal, Space.World);
 
     }
+    IEnumerator ExecuteAfterTime()
+    {
+
+        yield return new WaitForSeconds(1);
+
+        // Code to execute after the delay
+
+        gameObject.SetActive(false);
+    }
+
 }

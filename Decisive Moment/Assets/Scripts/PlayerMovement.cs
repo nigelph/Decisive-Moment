@@ -37,10 +37,11 @@ public class PlayerMovement : MonoBehaviour
     private float maxMana = 100;
     private float manaRegen = 1;
     private float manaCost = 10;
-
+    public Vector3 startPoint;
     private float moveInput;
 
     private System.Timers.Timer timer;
+    public RespawnLogic respawnPlayer;
 
     //Represents the location that the player will respawn at when they die
     public Vector3 respawnPoint;
@@ -51,9 +52,11 @@ public class PlayerMovement : MonoBehaviour
 
     private void Start()
     {
+        respawnPlayer = FindObjectOfType<RespawnLogic>();
         UpdateHealthBar();
         UpdateManaBar();
         ManaRegenTimer();
+        startPoint = transform.position;
         //Set initial respawn point to where the player is first loaded into the game
         respawnPoint = transform.position;
         //Instantiate the LevelManager object
@@ -245,8 +248,9 @@ public class PlayerMovement : MonoBehaviour
     private void Die()
     {
         diePrefab.SetActive(true);
-        Instantiate(diePrefab, transform.position, transform.rotation);
-        Destroy(gameObject);
+        //Instantiate(diePrefab, transform.position, transform.rotation); 
+        //Destroy(gameObject); Commenting for testing purpose (This destroys the object) 
+       
     }
 
     //Health Bar Functions
@@ -312,8 +316,13 @@ public class PlayerMovement : MonoBehaviour
             //if the player has no lives left it is game over
             else
             {
-                hitpoint = 0;
-                Die();
+                diePrefab.SetActive(true);
+                Instantiate(diePrefab, transform.position, transform.rotation);
+                respawnPlayer.respawn();
+                hitpoint = maxhitpoint;
+                mana = maxMana;
+                UpdateHealthBar();
+                UpdateManaBar();
             }
  
         }
