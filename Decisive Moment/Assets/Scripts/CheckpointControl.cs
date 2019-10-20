@@ -6,7 +6,7 @@ public class CheckpointControl : MonoBehaviour
 {
     public Sprite redFlag;
     public Sprite greenFlag;
-    private SpriteRenderer checkpointRenderer;
+    public SpriteRenderer checkpointRenderer;
     public bool reachedCheckpoint;
     // Start is called before the first frame update
     void Start()
@@ -27,5 +27,21 @@ public class CheckpointControl : MonoBehaviour
             checkpointRenderer.sprite = greenFlag;
             reachedCheckpoint = true;
         }
+    }
+
+    public void changeColor(bool reset)
+    {
+        Debug.Log("Enters");
+        if(reset)
+        {
+            checkpointRenderer.sprite = redFlag;
+            reachedCheckpoint = false;
+        }
+        else
+        {
+            checkpointRenderer.sprite = greenFlag;
+            reachedCheckpoint = true;
+        }
+
     }
 }

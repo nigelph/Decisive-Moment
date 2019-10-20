@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2019-10-19T04:42:01.599+13:00
-  initializedAtString: 2019-10-19T04:34:03.581+13:00
+  lastUpdatedAtString: 2019-10-19T11:40:07.705+13:00
+  initializedAtString: 2019-10-19T10:37:50.537+13:00
   currentGitRemote:
     name: origin
     url: https://github.com/nigelph/Decisive-Moment.git
@@ -24,14 +24,14 @@ MonoBehaviour:
     function: 0
     token: 
   currentGitBranch:
-    name: master
-    tracking: origin/master
+    name: RespawnLogic_Dev
+    tracking: origin/RespawnLogic_Dev
   currentConfigBranch:
-    name: master
+    name: RespawnLogic_Dev
     remote:
       name: origin
       url: https://github.com/nigelph/Decisive-Moment.git
-    trackingBranch: master
+    trackingBranch: RespawnLogic_Dev
   currentConfigRemote:
     name: origin
     url: https://github.com/nigelph/Decisive-Moment.git

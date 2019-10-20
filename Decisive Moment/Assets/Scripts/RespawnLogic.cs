@@ -5,6 +5,8 @@ using UnityEngine;
 public class RespawnLogic : MonoBehaviour
 {
     public PlayerMovement gamePlayer;
+    public GameObject checkPoint1;
+    public GameObject checkPoint2;
     
     public IList<GameObject> slimes = new List<GameObject>();
     public IList<GameObject> minotaurs = new List<GameObject>();
@@ -15,6 +17,9 @@ public class RespawnLogic : MonoBehaviour
         anim = GetComponent<Animator>();
         //instantiate object
         gamePlayer = FindObjectOfType<PlayerMovement>();
+        checkPoint1 = GameObject.Find("Checkpoint (1)");
+        checkPoint2 = GameObject.Find("Checkpoint");
+
         for (int i = 0;i<13;i++)
         {
             slimes.Add(GameObject.Find("Slime (" + (i + 1) + ")"));
@@ -53,6 +58,8 @@ public class RespawnLogic : MonoBehaviour
         {
             if (minotaurs[i].GetComponent<MinotaurPatrol>().dead)
             {
+               
+
                 minotaurs[i] = (GameObject)Instantiate(minotaurs[i], minotaurs[i].GetComponent<MinotaurPatrol>().initialPosition, Quaternion.identity);
                 minotaurs[i].GetComponent<MinotaurPatrol>().speed = 3.0f;
                 minotaurs[i].gameObject.SetActive(true);
@@ -65,7 +72,9 @@ public class RespawnLogic : MonoBehaviour
 
             }
         }
-        
+        checkPoint1.GetComponent<CheckpointControl>().changeColor(true);
+        checkPoint2.GetComponent<CheckpointControl>().changeColor(true);
+
 
 
     }

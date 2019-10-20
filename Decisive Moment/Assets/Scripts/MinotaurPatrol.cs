@@ -207,7 +207,7 @@ public class MinotaurPatrol : MonoBehaviour
     IEnumerator ExecuteAfterTime()
     {
 
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(0.60f);
 
         // Code to execute after the delay
 
