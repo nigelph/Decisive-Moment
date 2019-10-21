@@ -19,13 +19,16 @@ public class MinotaurPatrol : MonoBehaviour
     //Records position of this monster
     private float xPosition;
     //Boolean variable recording whether the minotaur is in the process of dying. Important to avoid a glitch where the raycast frontInfo gets stuck in the ground as it dies
-    private bool isDying = false;
+    public bool isDying = false;
     //This monster's animator component will be accessed throught this variable
     Animator anim;
+
+    public bool dead = false;
 
     public Transform groundDetection;
     public Transform frontDetection;
 
+    public Vector3 initialPosition;
     //The varable for unitTest
     //public bool flagDie = false;
 
@@ -34,6 +37,7 @@ public class MinotaurPatrol : MonoBehaviour
     {
         //Gets the monster's animator component
         anim = GetComponent<Animator>();
+        initialPosition = transform.position;
     }
 
     // Update is called once per frame
@@ -83,6 +87,7 @@ public class MinotaurPatrol : MonoBehaviour
             }
 
         }
+        
         //Sets the boolean condition 'isAttacking' within the monster's animator component
         if (isAttacking)
         {
@@ -144,6 +149,7 @@ public class MinotaurPatrol : MonoBehaviour
             }
             else
             {
+              
                 //Reports that the minotaur is now dying
                 isDying = true;
                 //Moves the minotaur down to avoid the death animation causing the minotaur to float above the ground
@@ -151,7 +157,10 @@ public class MinotaurPatrol : MonoBehaviour
                 //Sets parameter within the minotaur's animator component to "true", triggering the death animation
                 anim.SetBool("flagDie", true);
                 //Destroys the minotaur object after 0.6 seconds (long enough for death animation to play)
-                Destroy(this.gameObject, 0.6f);
+                //Destroy(this.gameObject, 0.6f);
+                StartCoroutine("ExecuteAfterTime");
+                dead = true;
+
             }
             
         }
@@ -185,12 +194,24 @@ public class MinotaurPatrol : MonoBehaviour
             }
             else
             {
+                
                 isDying = true;
                 transform.Translate(0, -0.26f, 0);
                 anim.SetBool("flagDie", true);
-                Destroy(this.gameObject, 0.6f);
+                StartCoroutine("ExecuteAfterTime");
+                dead = true;
             }   
         }
+    }
+
+    IEnumerator ExecuteAfterTime()
+    {
+
+        yield return new WaitForSeconds(0.60f);
+
+        // Code to execute after the delay
+
+        gameObject.SetActive(false);
     }
 
     //public void OnTriggerEnter2D(string col)
