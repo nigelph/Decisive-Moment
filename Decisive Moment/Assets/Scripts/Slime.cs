@@ -17,6 +17,9 @@ public class Slime : MonoBehaviour
     public bool recievingDamage;
     public bool dead = false;
 
+    //
+    PlayerMovement playerHealth = new PlayerMovement();
+
     // Start is called before the first frame update
     void Start()
     {
@@ -66,6 +69,9 @@ public class Slime : MonoBehaviour
                     // Destroy(gameObject, 0.483f);
                     StartCoroutine("ExecuteAfterTime");
                     dead = true;
+                    //TODO
+                    playerHealth.HealDamage(30);
+                    playerHealth.UpdateHealthBar();
                 }
                 recievingDamage = false;
                 break;
@@ -83,6 +89,9 @@ public class Slime : MonoBehaviour
                     // Destroy(gameObject, 0.483f);
                     StartCoroutine("ExecuteAfterTime");
                     dead = true;
+                    //TODO
+                    playerHealth.HealDamage(30);
+                    playerHealth.UpdateHealthBar();
                 }
                 recievingDamage = false;
                 break;

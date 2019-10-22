@@ -251,8 +251,7 @@ public class PlayerMovement : MonoBehaviour
     }
 
     //Health Bar Functions
-
-    private void UpdateHealthBar()
+    public void UpdateHealthBar()
     {
         float ratio = hitpoint / maxhitpoint;
         currentHealthBar.rectTransform.localScale = new Vector3(ratio, 1, 1);

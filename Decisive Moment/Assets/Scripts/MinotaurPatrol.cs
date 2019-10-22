@@ -164,7 +164,8 @@ public class MinotaurPatrol : MonoBehaviour
                 StartCoroutine("ExecuteAfterTime");
                 dead = true;
                 //upon monster death, heal player
-                playerHealth.HealDamage(20);
+                playerHealth.HealDamage(30);
+                playerHealth.UpdateHealthBar();
             }
             
         }
@@ -205,7 +206,8 @@ public class MinotaurPatrol : MonoBehaviour
                 StartCoroutine("ExecuteAfterTime");
                 dead = true;
                 //upon monster death, heal player
-                playerHealth.HealDamage(20);
+                playerHealth.HealDamage(30);
+                playerHealth.UpdateHealthBar();
             }   
         }
     }
