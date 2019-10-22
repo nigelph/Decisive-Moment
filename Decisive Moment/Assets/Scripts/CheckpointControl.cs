@@ -32,7 +32,7 @@ public class CheckpointControl : MonoBehaviour
     public void changeColor(bool reset)
     {
         Debug.Log("Enters");
-        if(reset)
+        if (reset)
         {
             checkpointRenderer.sprite = redFlag;
             reachedCheckpoint = false;
@@ -42,6 +42,25 @@ public class CheckpointControl : MonoBehaviour
             checkpointRenderer.sprite = greenFlag;
             reachedCheckpoint = true;
         }
-
     }
+
+    //Unit Test for changeColor
+    //public bool changeColor(bool reset)
+    //{
+    //    Debug.Log("Enters");
+    //    if (reset)
+    //    {
+    //        checkpointRenderer.sprite = redFlag;
+    //        reachedCheckpoint = false;
+    //        return false;
+    //    }
+    //    else
+    //    {
+    //        checkpointRenderer.sprite = greenFlag;
+    //        reachedCheckpoint = true;
+    //        return true;
+    //    }
+
+    //}
+
 }
