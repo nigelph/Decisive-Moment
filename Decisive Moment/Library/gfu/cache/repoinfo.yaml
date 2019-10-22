@@ -13,26 +13,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2019-10-22T17:13:21.520+13:00
-  initializedAtString: 2019-10-22T17:13:21.520+13:00
+  lastUpdatedAtString: 2019-10-22T18:50:08.232+13:00
+  initializedAtString: 2019-10-22T18:50:08.232+13:00
   currentGitRemote:
     name: origin
-    url: https://github.com/nigelph/Decisive-Moment.git
+    url: https://github.com/trowa0304/Decisive-Moment.git
     login: 
     user: 
     host: 
     function: 0
     token: 
   currentGitBranch:
-    name: Monster_Damage_Test
-    tracking: origin/Monster_Damage_Test
+    name: master
+    tracking: origin/master
   currentConfigBranch:
-    name: Monster_Damage_Test
+    name: master
     remote:
       name: origin
-      url: https://github.com/nigelph/Decisive-Moment.git
-    trackingBranch: Monster_Damage_Test
+      url: https://github.com/trowa0304/Decisive-Moment.git
+    trackingBranch: master
   currentConfigRemote:
     name: origin
-    url: https://github.com/nigelph/Decisive-Moment.git
+    url: https://github.com/trowa0304/Decisive-Moment.git
   currentHead: 
