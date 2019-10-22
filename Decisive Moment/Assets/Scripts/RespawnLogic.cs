@@ -78,4 +78,16 @@ public class RespawnLogic : MonoBehaviour
 
 
     }
+
+    /* For Unit Test
+    public void killMonster(GameObject gameObject)
+    {
+        gameObject.GetComponent<MinotaurPatrol>().dead = true;
+    }
+
+    public void respawnMonster(GameObject gameObject)
+    {
+        gameObject.GetComponent<MinotaurPatrol>().dead = false;
+    }
+    */
 }

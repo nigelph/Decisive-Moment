@@ -13,49 +13,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2019-10-21T16:39:35.148+13:00
-  initializedAtString: 2019-10-21T16:39:34.218+13:00
+  lastUpdatedAtString: 2019-10-22T22:09:16.111+13:00
+  initializedAtString: 2019-10-22T22:06:55.628+13:00
   localBranches:
-  - name: fightingAnim
-    tracking: origin/fightingAnim
-  - name: GUiupdates
-    tracking: origin/GUiupdates
+  - name: kennethUnitTest
+    tracking: 
   - name: master
     tracking: origin/master
-  - name: Platform_Dev
-    tracking: origin/Platform_Dev
-  - name: Sprint2UpdateZad
-    tracking: origin/Sprint2UpdateZad
+  - name: sprint2UnitTestKenneth
+    tracking: 
   remoteBranches:
-  - name: origin/BackgroundMusic_Dev
-    tracking: '[None]'
-  - name: origin/Boss_monster_branch
-    tracking: '[None]'
-  - name: origin/Checkpoint_Dev
-    tracking: '[None]'
-  - name: origin/Checkpoint_Dev_Reverted
-    tracking: '[None]'
-  - name: origin/checkpoint_dev_v2
-    tracking: '[None]'
-  - name: origin/GUiupdates
+  - name: origin/Game_level_Branch
     tracking: '[None]'
   - name: origin/HEAD
     tracking: '[None]'
-  - name: origin/HealthBarAndMana_Dev
+  - name: origin/kennethUnitTest
     tracking: '[None]'
   - name: origin/master
     tracking: '[None]'
-  - name: origin/Minotaur_Update
+  - name: origin/Monster_Damage_Test
     tracking: '[None]'
-  - name: origin/Monster_Dev
+  - name: origin/Release
     tracking: '[None]'
-  - name: origin/Platform_Update
-    tracking: '[None]'
-  - name: origin/Player_Damage_Test
-    tracking: '[None]'
-  - name: origin/RespawnLogic_Dev
+  - name: origin/Sprint2UnitTestZane
     tracking: '[None]'
   - name: origin/Sprint2UpdateZad
+    tracking: '[None]'
+  - name: origin/Zane_Unit_test
     tracking: '[None]'
   remotes:
   - name: origin
@@ -67,85 +51,42 @@ MonoBehaviour:
     token: 
   localConfigBranches:
     keys:
-    - fightingAnim
-    - GUiupdates
+    - kennethUnitTest
     - master
-    - Platform_Dev
-    - Sprint2UpdateZad
+    - sprint2UnitTestKenneth
     values:
-    - name: fightingAnim
+    - name: kennethUnitTest
       remote:
-        name: origin
-        url: https://github.com/nigelph/Decisive-Moment.git
-      trackingBranch: fightingAnim
-    - name: GUiupdates
-      remote:
-        name: origin
-        url: https://github.com/nigelph/Decisive-Moment.git
-      trackingBranch: GUiupdates
+        name: 
+        url: 
+      trackingBranch: 
     - name: master
       remote:
         name: origin
         url: https://github.com/nigelph/Decisive-Moment.git
       trackingBranch: master
-    - name: Platform_Dev
+    - name: sprint2UnitTestKenneth
       remote:
-        name: origin
-        url: https://github.com/nigelph/Decisive-Moment.git
-      trackingBranch: Platform_Dev
-    - name: Sprint2UpdateZad
-      remote:
-        name: origin
-        url: https://github.com/nigelph/Decisive-Moment.git
-      trackingBranch: Sprint2UpdateZad
+        name: 
+        url: 
+      trackingBranch: 
   remoteConfigBranches:
     keys:
     - origin
     subKeys:
     - Values:
-      - BackgroundMusic_Dev
-      - Boss_monster_branch
-      - Checkpoint_Dev
-      - Checkpoint_Dev_Reverted
-      - checkpoint_dev_v2
-      - GUiupdates
+      - Game_level_Branch
       - HEAD
-      - HealthBarAndMana_Dev
+      - kennethUnitTest
       - master
-      - Minotaur_Update
-      - Monster_Dev
-      - Platform_Update
-      - Player_Damage_Test
-      - RespawnLogic_Dev
+      - Monster_Damage_Test
+      - Release
+      - Sprint2UnitTestZane
       - Sprint2UpdateZad
+      - Zane_Unit_test
     subKeyValues:
     - Values:
-      - name: BackgroundMusic_Dev
-        remote:
-          name: origin
-          url: https://github.com/nigelph/Decisive-Moment.git
-        trackingBranch: 
-      - name: Boss_monster_branch
-        remote:
-          name: origin
-          url: https://github.com/nigelph/Decisive-Moment.git
-        trackingBranch: 
-      - name: Checkpoint_Dev
-        remote:
-          name: origin
-          url: https://github.com/nigelph/Decisive-Moment.git
-        trackingBranch: 
-      - name: Checkpoint_Dev_Reverted
-        remote:
-          name: origin
-          url: https://github.com/nigelph/Decisive-Moment.git
-        trackingBranch: 
-      - name: checkpoint_dev_v2
-        remote:
-          name: origin
-          url: https://github.com/nigelph/Decisive-Moment.git
-        trackingBranch: 
-      - name: GUiupdates
+      - name: Game_level_Branch
         remote:
           name: origin
           url: https://github.com/nigelph/Decisive-Moment.git
@@ -155,7 +96,7 @@ MonoBehaviour:
           name: origin
           url: https://github.com/nigelph/Decisive-Moment.git
         trackingBranch: 
-      - name: HealthBarAndMana_Dev
+      - name: kennethUnitTest
         remote:
           name: origin
           url: https://github.com/nigelph/Decisive-Moment.git
@@ -165,32 +106,27 @@ MonoBehaviour:
           name: origin
           url: https://github.com/nigelph/Decisive-Moment.git
         trackingBranch: 
-      - name: Minotaur_Update
+      - name: Monster_Damage_Test
         remote:
           name: origin
           url: https://github.com/nigelph/Decisive-Moment.git
         trackingBranch: 
-      - name: Monster_Dev
+      - name: Release
         remote:
           name: origin
           url: https://github.com/nigelph/Decisive-Moment.git
         trackingBranch: 
-      - name: Platform_Update
-        remote:
-          name: origin
-          url: https://github.com/nigelph/Decisive-Moment.git
-        trackingBranch: 
-      - name: Player_Damage_Test
-        remote:
-          name: origin
-          url: https://github.com/nigelph/Decisive-Moment.git
-        trackingBranch: 
-      - name: RespawnLogic_Dev
+      - name: Sprint2UnitTestZane
         remote:
           name: origin
           url: https://github.com/nigelph/Decisive-Moment.git
         trackingBranch: 
       - name: Sprint2UpdateZad
+        remote:
+          name: origin
+          url: https://github.com/nigelph/Decisive-Moment.git
+        trackingBranch: 
+      - name: Zane_Unit_test
         remote:
           name: origin
           url: https://github.com/nigelph/Decisive-Moment.git

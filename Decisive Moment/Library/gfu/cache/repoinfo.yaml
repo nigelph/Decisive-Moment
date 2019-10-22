@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2019-10-22T16:12:50.687+13:00
-  initializedAtString: 2019-10-22T16:12:50.687+13:00
+  lastUpdatedAtString: 2019-10-22T22:09:16.129+13:00
+  initializedAtString: 2019-10-22T21:13:56.631+13:00
   currentGitRemote:
     name: origin
     url: https://github.com/nigelph/Decisive-Moment.git
@@ -24,14 +24,14 @@ MonoBehaviour:
     function: 0
     token: 
   currentGitBranch:
-    name: Sprint2UpdateZad
-    tracking: origin/Sprint2UpdateZad
+    name: sprint2UnitTestKenneth
+    tracking: 
   currentConfigBranch:
-    name: Sprint2UpdateZad
+    name: sprint2UnitTestKenneth
     remote:
-      name: origin
-      url: https://github.com/nigelph/Decisive-Moment.git
-    trackingBranch: Sprint2UpdateZad
+      name: 
+      url: 
+    trackingBranch: 
   currentConfigRemote:
     name: origin
     url: https://github.com/nigelph/Decisive-Moment.git
