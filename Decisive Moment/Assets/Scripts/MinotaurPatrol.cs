@@ -236,4 +236,26 @@ public class MinotaurPatrol : MonoBehaviour
     //    }
 
     //}
+    //
+    //Class for the MonsterDamageTest unit test
+    //Commented out to avoid conflicts with the real class
+    /*public int MinotaurHitPoints(int dmg, int initialHitpoints)
+    {
+        int hitPointsTest = initialHitpoints;
+
+        if(hitPointsTest > 0)
+        {
+            //Minotaur survives here
+            hitPointsTest--;
+            return hitPointsTest;
+        }
+        else
+        {
+            //Minotaur would die in this class
+            //If hitPointsTest returns 0 to the test class, this means the minotaur would die in the real method
+            hitPointsTest = 0;
+            return hitPointsTest;
+        }
+
+    }*/
 }
