@@ -13,19 +13,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2019-10-22T16:54:41.226+13:00
-  initializedAtString: 2019-10-22T16:37:35.932+13:00
+  lastUpdatedAtString: 2019-10-22T17:58:17.026+13:00
+  initializedAtString: 2019-10-22T17:44:08.435+13:00
   localBranches:
-  - name: Boss_monster_branch
-    tracking: origin/Boss_monster_branch
   - name: Checkpoint_Dev
     tracking: origin/Checkpoint_Dev
-  - name: Game_level_Branch
-    tracking: origin/Game_level_Branch
+  - name: Checkpoint_Dev_Reverted
+    tracking: origin/Checkpoint_Dev_Reverted
+  - name: checkpoint_dev_v2
+    tracking: origin/checkpoint_dev_v2
+  - name: Josh-SecondAttempt
+    tracking: 
   - name: master
     tracking: origin/master
-  - name: Nigel-Unit-Test
-    tracking: origin/Nigel-Unit-Test
+  - name: Minotaur_Dev
+    tracking: origin/Minotaur_Dev
+  - name: Minotaur_Update
+    tracking: origin/Minotaur_Update
+  - name: Monster_Damage_Test
+    tracking: origin/Monster_Damage_Test
+  - name: Monster_Dev
+    tracking: origin/Monster_Dev
+  - name: Platform_Dev
+    tracking: origin/Platform_Dev
+  - name: Platform_Update
+    tracking: origin/Platform_Update
+  - name: Player_Damage_Test
+    tracking: origin/Player_Damage_Test
   remoteBranches:
   - name: origin/BackgroundMusic_Dev
     tracking: '[None]'
@@ -37,13 +51,33 @@ MonoBehaviour:
     tracking: '[None]'
   - name: origin/checkpoint_dev_v2
     tracking: '[None]'
+  - name: origin/fightingAnim
+    tracking: '[None]'
   - name: origin/Game_level_Branch
+    tracking: '[None]'
+  - name: origin/GUiupdates
+    tracking: '[None]'
+  - name: origin/HEAD
+    tracking: '[None]'
+  - name: origin/HealthBarAndMana_Dev
     tracking: '[None]'
   - name: origin/master
     tracking: '[None]'
   - name: origin/Minotaur_Update
     tracking: '[None]'
+  - name: origin/Monster_Damage_Test
+    tracking: '[None]'
+  - name: origin/Monster_Dev
+    tracking: '[None]'
+  - name: origin/Platform_Dev
+    tracking: '[None]'
+  - name: origin/Platform_Update
+    tracking: '[None]'
+  - name: origin/Player_Damage_Test
+    tracking: '[None]'
   - name: origin/RespawnLogic_Dev
+    tracking: '[None]'
+  - name: origin/Sprint2UnitTestZane
     tracking: '[None]'
   - name: origin/Sprint2UpdateZad
     tracking: '[None]'
@@ -57,37 +91,79 @@ MonoBehaviour:
     token: 
   localConfigBranches:
     keys:
-    - Boss_monster_branch
     - Checkpoint_Dev
-    - Game_level_Branch
+    - Checkpoint_Dev_Reverted
+    - checkpoint_dev_v2
+    - Josh-SecondAttempt
     - master
-    - Nigel-Unit-Test
+    - Minotaur_Dev
+    - Minotaur_Update
+    - Monster_Damage_Test
+    - Monster_Dev
+    - Platform_Dev
+    - Platform_Update
+    - Player_Damage_Test
     values:
-    - name: Boss_monster_branch
-      remote:
-        name: origin
-        url: https://github.com/nigelph/Decisive-Moment.git
-      trackingBranch: Boss_monster_branch
     - name: Checkpoint_Dev
       remote:
         name: origin
         url: https://github.com/nigelph/Decisive-Moment.git
       trackingBranch: Checkpoint_Dev
-    - name: Game_level_Branch
+    - name: Checkpoint_Dev_Reverted
       remote:
         name: origin
         url: https://github.com/nigelph/Decisive-Moment.git
-      trackingBranch: Game_level_Branch
+      trackingBranch: Checkpoint_Dev_Reverted
+    - name: checkpoint_dev_v2
+      remote:
+        name: origin
+        url: https://github.com/nigelph/Decisive-Moment.git
+      trackingBranch: checkpoint_dev_v2
+    - name: Josh-SecondAttempt
+      remote:
+        name: 
+        url: 
+      trackingBranch: 
     - name: master
       remote:
         name: origin
         url: https://github.com/nigelph/Decisive-Moment.git
       trackingBranch: master
-    - name: Nigel-Unit-Test
+    - name: Minotaur_Dev
       remote:
         name: origin
         url: https://github.com/nigelph/Decisive-Moment.git
-      trackingBranch: Nigel-Unit-Test
+      trackingBranch: Minotaur_Dev
+    - name: Minotaur_Update
+      remote:
+        name: origin
+        url: https://github.com/nigelph/Decisive-Moment.git
+      trackingBranch: Minotaur_Update
+    - name: Monster_Damage_Test
+      remote:
+        name: origin
+        url: https://github.com/nigelph/Decisive-Moment.git
+      trackingBranch: Monster_Damage_Test
+    - name: Monster_Dev
+      remote:
+        name: origin
+        url: https://github.com/nigelph/Decisive-Moment.git
+      trackingBranch: Monster_Dev
+    - name: Platform_Dev
+      remote:
+        name: origin
+        url: https://github.com/nigelph/Decisive-Moment.git
+      trackingBranch: Platform_Dev
+    - name: Platform_Update
+      remote:
+        name: origin
+        url: https://github.com/nigelph/Decisive-Moment.git
+      trackingBranch: Platform_Update
+    - name: Player_Damage_Test
+      remote:
+        name: origin
+        url: https://github.com/nigelph/Decisive-Moment.git
+      trackingBranch: Player_Damage_Test
   remoteConfigBranches:
     keys:
     - origin
@@ -98,10 +174,20 @@ MonoBehaviour:
       - Checkpoint_Dev
       - Checkpoint_Dev_Reverted
       - checkpoint_dev_v2
+      - fightingAnim
       - Game_level_Branch
+      - GUiupdates
+      - HEAD
+      - HealthBarAndMana_Dev
       - master
       - Minotaur_Update
+      - Monster_Damage_Test
+      - Monster_Dev
+      - Platform_Dev
+      - Platform_Update
+      - Player_Damage_Test
       - RespawnLogic_Dev
+      - Sprint2UnitTestZane
       - Sprint2UpdateZad
     subKeyValues:
     - Values:
@@ -130,7 +216,27 @@ MonoBehaviour:
           name: origin
           url: https://github.com/nigelph/Decisive-Moment.git
         trackingBranch: 
+      - name: fightingAnim
+        remote:
+          name: origin
+          url: https://github.com/nigelph/Decisive-Moment.git
+        trackingBranch: 
       - name: Game_level_Branch
+        remote:
+          name: origin
+          url: https://github.com/nigelph/Decisive-Moment.git
+        trackingBranch: 
+      - name: GUiupdates
+        remote:
+          name: origin
+          url: https://github.com/nigelph/Decisive-Moment.git
+        trackingBranch: 
+      - name: HEAD
+        remote:
+          name: origin
+          url: https://github.com/nigelph/Decisive-Moment.git
+        trackingBranch: 
+      - name: HealthBarAndMana_Dev
         remote:
           name: origin
           url: https://github.com/nigelph/Decisive-Moment.git
@@ -145,7 +251,37 @@ MonoBehaviour:
           name: origin
           url: https://github.com/nigelph/Decisive-Moment.git
         trackingBranch: 
+      - name: Monster_Damage_Test
+        remote:
+          name: origin
+          url: https://github.com/nigelph/Decisive-Moment.git
+        trackingBranch: 
+      - name: Monster_Dev
+        remote:
+          name: origin
+          url: https://github.com/nigelph/Decisive-Moment.git
+        trackingBranch: 
+      - name: Platform_Dev
+        remote:
+          name: origin
+          url: https://github.com/nigelph/Decisive-Moment.git
+        trackingBranch: 
+      - name: Platform_Update
+        remote:
+          name: origin
+          url: https://github.com/nigelph/Decisive-Moment.git
+        trackingBranch: 
+      - name: Player_Damage_Test
+        remote:
+          name: origin
+          url: https://github.com/nigelph/Decisive-Moment.git
+        trackingBranch: 
       - name: RespawnLogic_Dev
+        remote:
+          name: origin
+          url: https://github.com/nigelph/Decisive-Moment.git
+        trackingBranch: 
+      - name: Sprint2UnitTestZane
         remote:
           name: origin
           url: https://github.com/nigelph/Decisive-Moment.git
