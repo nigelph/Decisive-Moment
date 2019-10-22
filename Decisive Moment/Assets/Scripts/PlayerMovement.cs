@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -9,7 +10,6 @@ public class PlayerMovement : MonoBehaviour
     public GameObject attackPrefab;
     public GameObject slimeDiePrefab;
     public GameObject skillPrefab;
-
 
     private AnimatorStateInfo mStateInfo;
 
@@ -32,11 +32,12 @@ public class PlayerMovement : MonoBehaviour
 
     private float hitpoint = 100;
     private float maxhitpoint = 100;
+    private float healthRegen = 1;
 
     private float mana = 100;
     private float maxMana = 100;
     private float manaRegen = 1;
-    private float manaCost = 10;
+    private float manaCost = 20;
     public Vector3 startPoint;
     private float moveInput;
 
@@ -55,7 +56,7 @@ public class PlayerMovement : MonoBehaviour
         respawnPlayer = FindObjectOfType<RespawnLogic>();
         UpdateHealthBar();
         UpdateManaBar();
-        ManaRegenTimer();
+        RegenTimer();
         startPoint = transform.position;
         //Set initial respawn point to where the player is first loaded into the game
         respawnPoint = transform.position;
@@ -77,6 +78,9 @@ public class PlayerMovement : MonoBehaviour
             animator.SetBool("isGrounded", grounded);
             rb.AddForce(new Vector2(0, jumpForce));
         }
+
+        UpdateHealthBar();
+        UpdateManaBar();
     }
 
     void FixedUpdate()
@@ -125,10 +129,7 @@ public class PlayerMovement : MonoBehaviour
             time_val += Time.deltaTime;
             //transform.tag = "Hero";
         }
-
     }
-
-
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -195,7 +196,6 @@ public class PlayerMovement : MonoBehaviour
     }
     */
 
-
     private void Attack()
     {
         if (Input.GetKeyDown(KeyCode.J))
@@ -224,7 +224,6 @@ public class PlayerMovement : MonoBehaviour
             //    slimeDiePrefab.SetActive(true);
             //    Instantiate(slimeDiePrefab, hit.collider.gameObject.transform.position, hit.collider.gameObject.transform.rotation);
             //}
-
         }
     }
     
@@ -241,7 +240,6 @@ public class PlayerMovement : MonoBehaviour
                 time_val = 0;
                 UseMana(manaCost);
             }
-
         }
     }
 
@@ -250,7 +248,6 @@ public class PlayerMovement : MonoBehaviour
         diePrefab.SetActive(true);
         //Instantiate(diePrefab, transform.position, transform.rotation); 
         //Destroy(gameObject); Commenting for testing purpose (This destroys the object) 
-       
     }
 
     //Health Bar Functions
@@ -261,6 +258,7 @@ public class PlayerMovement : MonoBehaviour
         currentHealthBar.rectTransform.localScale = new Vector3(ratio, 1, 1);
 
     }
+
     /*Unit Test for TakeDamage method
      * 
     public float TakeDamage(float dmg)
@@ -274,7 +272,6 @@ public class PlayerMovement : MonoBehaviour
         //UpdateHealthBar();
         return hitpoint;
     }
-
      * */
 
     ////Unit Test for Hit Player
@@ -292,10 +289,16 @@ public class PlayerMovement : MonoBehaviour
     //    return hitpoint;
     //}
 
+    private void UpdateLives()
+    {
+        
+    }
+
     private void TakeDamage(float dmg)
     {
         hitpoint -= dmg;
-        if(hitpoint<0)
+
+        if (hitpoint<0)
         {
             //checks that the player still has lives remaining
             if(livesRemaining > 0)
@@ -323,16 +326,23 @@ public class PlayerMovement : MonoBehaviour
                 mana = maxMana;
                 UpdateHealthBar();
                 UpdateManaBar();
+                //game over scene
+                SceneManager.LoadScene(2);
             }
- 
         }
-        UpdateHealthBar();
 
+        if (hitpoint > maxhitpoint)
+        {
+            hitpoint = maxhitpoint;
+        }
+
+        UpdateHealthBar();
     }
 
-    private void HealDamage(float heal)
+    public void HealDamage(float heal)
     {
         hitpoint += heal;
+        //if hp > 100, set back to 100
         if (hitpoint > maxhitpoint)
         {
             hitpoint = maxhitpoint;
@@ -361,51 +371,60 @@ public class PlayerMovement : MonoBehaviour
     //Mana Bar Functions
     private void UpdateManaBar()
     {
+        if (mana > maxMana)
+        {
+            mana = maxMana;
+        }
         float ratio = mana / maxMana;
         currentManaBar.rectTransform.localScale = new Vector3(ratio, 1, 1);
-
     }
 
-    private void ManaRegen()
+    private void BarRegen()
     {
         float ratio = mana += manaRegen;
         currentManaBar.rectTransform.localScale = new Vector3(ratio, 1, 1);
-        if (mana == maxMana)
+
+        float ratio2 = hitpoint += healthRegen;
+        currentHealthBar.rectTransform.localScale = new Vector3(ratio2, 1, 1);
+
+        if (hitpoint > maxhitpoint)
         {
-            timer.Stop();
-            timer.Dispose();
+            hitpoint = maxhitpoint;
+        }
+        if (mana > maxMana)
+        {
+            mana = maxMana;
         }
     }
 
     private void UseMana(float useMana)
     {
         mana -= useMana;
-        if (mana < maxMana)
-        {
-            if (!timer.Enabled)
-            {
-                timer.Start();
-            }
-        }
         if (mana < 0)
         {
             mana = 0;
-            //OOM out of mana
         }
         UpdateManaBar();
-
     }
 
     private void AddMana(float addMana)
     {
         mana += addMana;
-        ManaRegen();
+        BarRegen();
+        UpdateManaBar();
     }
 
-    private void ManaRegenTimer()
+    private void AddHealth(float addHealth)
+    {
+        hitpoint += addHealth;
+        BarRegen();
+        UpdateHealthBar();
+    }
+
+    private void RegenTimer()
     {
         //Create the timer with a two second interval
-        timer = new System.Timers.Timer(1000);
+        timer = new System.Timers.Timer(2000);
         //Attach the elapsed event for the timer
         timer.Elapsed += SetTimer;
         timer.Start();
@@ -415,13 +434,13 @@ public class PlayerMovement : MonoBehaviour
 
     private void SetTimer(object sender, System.Timers.ElapsedEventArgs e)
     {
+        if (hitpoint < maxhitpoint)
+        {
+            AddHealth(healthRegen);
+        }
         if (mana < maxMana)
         {
             AddMana(manaRegen);
-        }
-        else if (mana > maxMana)
-        {
-            mana = maxMana;
         }
         throw new System.NotImplementedException();
     }

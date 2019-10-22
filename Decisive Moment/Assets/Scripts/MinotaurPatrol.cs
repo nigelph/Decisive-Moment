@@ -32,6 +32,9 @@ public class MinotaurPatrol : MonoBehaviour
     //The varable for unitTest
     //public bool flagDie = false;
 
+    //
+    PlayerMovement playerHealth = new PlayerMovement();
+
     // Start is called before the first frame update
     void Start()
     {
@@ -160,7 +163,8 @@ public class MinotaurPatrol : MonoBehaviour
                 //Destroy(this.gameObject, 0.6f);
                 StartCoroutine("ExecuteAfterTime");
                 dead = true;
-
+                //upon monster death, heal player
+                playerHealth.HealDamage(20);
             }
             
         }
@@ -200,6 +204,8 @@ public class MinotaurPatrol : MonoBehaviour
                 anim.SetBool("flagDie", true);
                 StartCoroutine("ExecuteAfterTime");
                 dead = true;
+                //upon monster death, heal player
+                playerHealth.HealDamage(20);
             }   
         }
     }
